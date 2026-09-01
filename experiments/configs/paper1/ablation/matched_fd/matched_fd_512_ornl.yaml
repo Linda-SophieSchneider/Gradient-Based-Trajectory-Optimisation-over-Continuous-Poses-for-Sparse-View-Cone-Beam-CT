@@ -1,0 +1,32 @@
+# REV-P0-01/REV-P1-08 matched arms on the ORNL nozzle (see the milp files
+# in this directory for the design rationale).
+
+name: matched_fd_512_ornl
+description: "Matched FD/analytic/CMA-ES bundle selectors (ORNL 512^3)"
+experiment_type: method_grid
+output: experiments/results/matched_fd_512_ornl.csv
+
+phantom:
+  type: ornl_nozzle
+  path: data/ornl_nozzle.h5
+  section: L
+  resolution: 512
+
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+
+k_values: [40, 80]
+
+methods:
+  - name: vcls
+  - name: vcls_adam_bundle
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}
+  - name: vcls_adam_bundle_fd
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true,
+             derivative_fd_step: 0.5}
+  - name: vcls_cmaes_bundle
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}

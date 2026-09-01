@@ -1,0 +1,3 @@
+method,k,psnr,ssim,nrmse,hfen,cache_s,sel_s,rec_s,total_s,roi_type,roi_center_x_mm,roi_center_y_mm,roi_center_z_mm,roi_radius_mm,roi_role,seed
+greedy_adam_composite,40,29.90460,0.78874,0.13137,10.65254,0.00000,81.38729,45.19336,126.58064,none,0.00000,0.00000,0.00000,,optimization+evaluation,0
+greedy_adam_composite,80,32.77188,0.85749,0.09443,8.04581,0.00000,117.33133,84.54626,201.87759,none,0.00000,0.00000,0.00000,,optimization+evaluation,0

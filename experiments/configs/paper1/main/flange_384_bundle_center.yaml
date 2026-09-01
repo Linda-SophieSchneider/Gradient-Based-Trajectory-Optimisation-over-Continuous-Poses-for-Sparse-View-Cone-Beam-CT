@@ -1,0 +1,24 @@
+# Centreline-limit bundle (n_u=n_v=1) against the 5x9 bundle, current
+# protocol, cold start. Supplementary quadrature study.
+name: flange_384_bundle_center
+description: "centreline-limit bundle, Defrise flange sphere selectors, current protocol, cold start"
+experiment_type: method_grid
+output: experiments/results/lof_plate_20260825/flange_384_bundle_center.csv
+
+phantom:
+  type: milp_npy
+  path: data/lof_flange_v3.npy
+  resolution: 384
+
+geometry: milp
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+
+k_values: [40, 80]
+
+methods:
+  - name: greedy_adam_bundle_center   # cov + 1-ray bundle, cold
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}

@@ -1,0 +1,32 @@
+# P7 — finer view-budget grid, hard phantom (see mild config).
+
+name: noise_kgrid_lof_v3
+description: "Photon-noise robustness at k in {20, 60} (MILP moderate 384^3)"
+experiment_type: noise_robustness
+output: experiments/results/lof_plate_20260825/noise_kgrid_lof_v3.csv
+
+phantom:
+  type: milp_npy
+  path: data/lof_flange_v3.npy
+  resolution: 384
+
+geometry: milp
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+# REV-P1-02/03 rerun protocol (2026-08-11): three pre-declared
+# selection seeds; paired raw/summary outputs vs the baseline.
+selection_seeds: [0, 1, 2]
+paired_baseline: vcls
+force_rebuild_cache: false
+
+photon_levels: [1.0e4, 1.0e5]
+noise_seeds: [0, 1, 2, 3, 4]
+k_values: [20, 60]
+
+methods:
+  - name: vcls
+  - name: greedy_adam
+  - name: greedy_adam_bundle
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}

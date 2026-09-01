@@ -1,0 +1,51 @@
+# P5 — sensitivity of the bundle-weight calibration constant.
+# The paper fixes lambda_bundle = 0.2 / median(tau) (auto-calibration).
+# Here the constant is swept over a 16x range with the same auto-scaling
+# (lambda_bundle_auto_scale: true divides the given constant by the
+# probe-median tau inside the selector), under the same photon-noise
+# protocol as tab:noise, on the higher-attenuation moderate phantom
+# where the bundle term matters most.
+
+name: lambda_bundle_sweep_lof_v4a
+description: "Bundle calibration-constant sweep under photon noise (MILP moderate 192^3)"
+experiment_type: noise_robustness
+output: experiments/results/basin_v4a_20260829/lambda_bundle_sweep_lof_v4a.csv
+
+phantom:
+  type: milp_npy
+  path: data/lof_flange_v4a.npy
+  resolution: 384
+
+geometry: milp
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+force_rebuild_cache: false
+
+photon_levels: [1.0e4]
+noise_seeds: [0, 1, 2]
+k_values: [40, 80]
+
+methods:
+  - name: greedy_adam_bundle
+    label: bundle_c0005
+    kwargs: {lambda_bundle: 0.005, lambda_bundle_auto_scale: true}
+  - name: greedy_adam_bundle
+    label: bundle_c002
+    kwargs: {lambda_bundle: 0.02, lambda_bundle_auto_scale: true}
+  - name: greedy_adam_bundle
+    label: bundle_c005
+    kwargs: {lambda_bundle: 0.05, lambda_bundle_auto_scale: true}
+  - name: greedy_adam_bundle
+    label: bundle_c010
+    kwargs: {lambda_bundle: 0.1, lambda_bundle_auto_scale: true}
+  - name: greedy_adam_bundle
+    label: bundle_c020
+    kwargs: {lambda_bundle: 0.2, lambda_bundle_auto_scale: true}
+  - name: greedy_adam_bundle
+    label: bundle_c040
+    kwargs: {lambda_bundle: 0.4, lambda_bundle_auto_scale: true}
+  - name: greedy_adam_bundle
+    label: bundle_c080
+    kwargs: {lambda_bundle: 0.8, lambda_bundle_auto_scale: true}

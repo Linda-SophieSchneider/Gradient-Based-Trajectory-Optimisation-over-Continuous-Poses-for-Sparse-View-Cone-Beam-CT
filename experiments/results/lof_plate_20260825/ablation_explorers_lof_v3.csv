@@ -1,0 +1,5 @@
+method,k,psnr,ssim,nrmse,hfen,cache_s,sel_s,rec_s,total_s,roi_type,roi_center_x_mm,roi_center_y_mm,roi_center_z_mm,roi_radius_mm,roi_role,seed
+greedy_adam_vcl,40,40.16162,0.94958,0.18056,4.23783,0.00000,20.43696,10.08819,30.52515,none,0.00000,0.00000,0.00000,,optimization+evaluation,0
+greedy_adam_vcl_anneal,40,40.94839,0.95009,0.16492,3.81664,0.00000,4.74411,9.91490,14.65902,none,0.00000,0.00000,0.00000,,optimization+evaluation,0
+greedy_adam_vcl_langevin,40,40.84132,0.95008,0.16697,3.88368,0.00000,21.77020,9.92162,31.69182,none,0.00000,0.00000,0.00000,,optimization+evaluation,0
+greedy_adam_vcl_ensemble,40,40.19377,0.95152,0.17989,4.27925,0.00000,80.00976,9.98584,89.99560,none,0.00000,0.00000,0.00000,,optimization+evaluation,0

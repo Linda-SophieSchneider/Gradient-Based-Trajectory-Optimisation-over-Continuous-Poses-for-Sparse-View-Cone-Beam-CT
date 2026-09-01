@@ -1,0 +1,157 @@
+{
+  "config": {
+    "phantom": "lof_flange_v4b",
+    "resolution": 384,
+    "kmax": 360,
+    "photon": null,
+    "noisefree": true,
+    "k_values": [
+      40,
+      80
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "methods": [
+      "greedy_adam_bundle_carm"
+    ],
+    "roi_specs": [
+      {
+        "center_mm": [
+          0.0,
+          0.0,
+          24.0
+        ],
+        "radius_mm": 8.0
+      },
+      {
+        "center_mm": [
+          0.0,
+          0.0,
+          -24.0
+        ],
+        "radius_mm": 8.0
+      },
+      {
+        "center_mm": [
+          0.8,
+          0.8,
+          8.2
+        ],
+        "radius_mm": 6.0
+      },
+      {
+        "center_mm": [
+          -10.5,
+          8.0,
+          22.5
+        ],
+        "radius_mm": 5.0
+      },
+      {
+        "center_mm": [
+          0.0,
+          -0.5,
+          -9.0
+        ],
+        "radius_mm": 5.0
+      }
+    ]
+  },
+  "results": [
+    {
+      "phantom": "lof_flange_v4b",
+      "method": "greedy_adam_bundle_carm",
+      "regime": "limited-carm",
+      "family": "ours",
+      "k": 40,
+      "n_seeds": 3,
+      "psnr_mean": 33.1215,
+      "psnr_std": 0.7774,
+      "ssim_mean": 0.8427,
+      "ssim_std": 0.0068,
+      "nrmse_mean": 0.1968,
+      "nrmse_std": 0.0172,
+      "hfen_mean": 8.7982,
+      "hfen_std": 0.8367,
+      "roi0_psnr_mean": 20.3426,
+      "roi0_psnr_std": 0.7205,
+      "roi0_ssim_mean": 0.4321,
+      "roi0_ssim_std": 0.0942,
+      "roi0_hfen_mean": 1.8686,
+      "roi0_hfen_std": 0.1663,
+      "roi1_psnr_mean": 20.7842,
+      "roi1_psnr_std": 1.4131,
+      "roi1_ssim_mean": 0.4586,
+      "roi1_ssim_std": 0.1771,
+      "roi1_hfen_mean": 1.7734,
+      "roi1_hfen_std": 0.3166,
+      "roi2_psnr_mean": 24.7483,
+      "roi2_psnr_std": 1.344,
+      "roi2_ssim_mean": 0.4566,
+      "roi2_ssim_std": 0.0323,
+      "roi2_hfen_mean": 0.5534,
+      "roi2_hfen_std": 0.0653,
+      "roi3_psnr_mean": 24.5406,
+      "roi3_psnr_std": 0.6066,
+      "roi3_ssim_mean": 0.4205,
+      "roi3_ssim_std": 0.0392,
+      "roi3_hfen_mean": 0.5094,
+      "roi3_hfen_std": 0.0484,
+      "roi4_psnr_mean": 26.7571,
+      "roi4_psnr_std": 1.0899,
+      "roi4_ssim_mean": 0.2954,
+      "roi4_ssim_std": 0.0009,
+      "roi4_hfen_mean": 0.3546,
+      "roi4_hfen_std": 0.0331
+    },
+    {
+      "phantom": "lof_flange_v4b",
+      "method": "greedy_adam_bundle_carm",
+      "regime": "limited-carm",
+      "family": "ours",
+      "k": 80,
+      "n_seeds": 3,
+      "psnr_mean": 37.8874,
+      "psnr_std": 0.6685,
+      "ssim_mean": 0.8972,
+      "ssim_std": 0.0053,
+      "nrmse_mean": 0.1136,
+      "nrmse_std": 0.0086,
+      "hfen_mean": 4.7222,
+      "hfen_std": 0.4933,
+      "roi0_psnr_mean": 26.0159,
+      "roi0_psnr_std": 1.9602,
+      "roi0_ssim_mean": 0.7746,
+      "roi0_ssim_std": 0.0528,
+      "roi0_hfen_mean": 0.8688,
+      "roi0_hfen_std": 0.2127,
+      "roi1_psnr_mean": 24.9532,
+      "roi1_psnr_std": 1.8466,
+      "roi1_ssim_mean": 0.742,
+      "roi1_ssim_std": 0.0725,
+      "roi1_hfen_mean": 1.0085,
+      "roi1_hfen_std": 0.3125,
+      "roi2_psnr_mean": 29.8644,
+      "roi2_psnr_std": 0.788,
+      "roi2_ssim_mean": 0.6302,
+      "roi2_ssim_std": 0.0094,
+      "roi2_hfen_mean": 0.2878,
+      "roi2_hfen_std": 0.0455,
+      "roi3_psnr_mean": 28.2597,
+      "roi3_psnr_std": 1.5471,
+      "roi3_ssim_mean": 0.5745,
+      "roi3_ssim_std": 0.0646,
+      "roi3_hfen_mean": 0.3324,
+      "roi3_hfen_std": 0.085,
+      "roi4_psnr_mean": 32.8874,
+      "roi4_psnr_std": 0.306,
+      "roi4_ssim_mean": 0.4894,
+      "roi4_ssim_std": 0.0041,
+      "roi4_hfen_mean": 0.167,
+      "roi4_hfen_std": 0.0063
+    }
+  ]
+}

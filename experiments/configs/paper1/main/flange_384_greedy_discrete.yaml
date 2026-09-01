@@ -1,0 +1,23 @@
+# Discrete soft-Tuy greedy selector on the Defrise flange, same protocol as
+# flange_384_sphere_current.yaml, so the row joins tab:ornl_runs.
+name: flange_384_greedy_discrete
+description: "Defrise flange, discrete soft-Tuy greedy on the 720-point sphere"
+experiment_type: method_grid
+output: experiments/results/lof_plate_20260825/flange_384_greedy_discrete.csv
+
+phantom:
+  type: milp_npy
+  path: data/lof_flange_v3.npy
+  resolution: 384
+
+geometry: milp
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+
+k_values: [40, 80]
+
+methods:
+  - name: greedy_discrete        # fixed-grid predecessor and cold-start init

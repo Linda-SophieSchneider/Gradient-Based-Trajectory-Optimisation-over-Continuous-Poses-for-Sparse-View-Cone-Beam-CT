@@ -1,0 +1,34 @@
+# tab:noise rows for the Defrise flange (replaces the mild/moderate rows).
+# Protocol as noise_robustness_milp_*.yaml (REV-P1-02/03: three pre-declared
+# selection seeds, paired outputs vs vcls), but with the REDUCED-noise fluence
+# pair I0 = {1e5, 1e6} (user decision 2026-08-26); the nozzle companion
+# noise_robustness_ornl_512_hiI0.yaml is rerun at the same levels.
+
+name: noise_robustness_lof_v3
+description: "Photon-noise robustness: continuous vs noise-blind VCLS (Defrise flange)"
+experiment_type: noise_robustness
+output: experiments/results/lof_plate_20260825/noise_robustness_lof_v3.csv
+
+phantom:
+  type: milp_npy
+  path: data/lof_flange_v3.npy
+  resolution: 384
+
+geometry: milp
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+selection_seeds: [0, 1, 2]
+paired_baseline: vcls
+force_rebuild_cache: true
+
+photon_levels: [1.0e4, 1.0e5]
+noise_seeds: [0, 1, 2, 3, 4]
+k_values: [40, 80]
+
+methods:
+  - name: vcls
+  - name: greedy_adam
+  - name: greedy_adam_bundle
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}

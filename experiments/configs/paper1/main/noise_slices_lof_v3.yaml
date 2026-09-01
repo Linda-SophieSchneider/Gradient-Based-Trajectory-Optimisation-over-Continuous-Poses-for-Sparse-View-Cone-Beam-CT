@@ -1,0 +1,41 @@
+# Qualitative photon-noise plate on the Defrise flange (replaces the
+# mild/moderate plate).  Quantitative values remain in tab:noise.
+
+name: noise_slices_lof_v3
+description: "Photon-noise reconstruction plate on the Defrise flange"
+experiment_type: figure_milp_slices
+output_slices: paper/figures/noise_recon_slices.pdf
+output_diff:   paper/figures/noise_recon_diff.pdf
+output_plate:  paper/figures/noise_recon_plate.pdf
+
+phantoms:
+  - tag: flange
+    type: milp_npy
+    path: data/lof_flange_v3.npy
+    resolution: 384
+
+geometry: milp
+sart_iterations: 15
+k_max: 360
+voxel_subsample_r1: 0.001
+seed: 0
+k: 40
+photon_count: 10000
+noise_seed: 0
+
+display_gamma: 0.32
+display_black_percentile: 0.0
+display_white_percentile: 99.5
+display_highlight_headroom: 2.0
+
+methods:
+  - name: vcls
+    label: "VCLS"
+  - name: greedy_adam
+    label: "Coverage"
+  - name: greedy_adam_bundle
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}
+    label: "Coverage + bundle"
+
+inset_center: [0.5, 0.5]
+inset_fraction: 0.25

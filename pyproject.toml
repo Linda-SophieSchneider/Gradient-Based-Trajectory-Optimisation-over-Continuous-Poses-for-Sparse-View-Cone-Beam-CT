@@ -1,0 +1,50 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "differentiable-coverage"
+version = "0.1.0"
+description = "Gradient-based trajectory optimisation over continuous poses for sparse-view cone-beam CT"
+authors = [
+    { name = "Linda-Sophie Schneider" },
+    { name = "Simon Wittl" },
+    { name = "Gabriel Herl" },
+    { name = "Andreas Maier" },
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mlx>=0.22",
+    "diffct-mlx>=1.0.0.dev0",
+    "numpy>=1.26",
+    "scipy>=1.10",
+    "scikit-image>=0.21",
+    "h5py>=3.9",
+]
+
+[project.optional-dependencies]
+experiments = [
+    "pyyaml>=6.0",
+    "matplotlib>=3.7",
+    "cma>=4.0",
+]
+dev = [
+    "pytest>=8.0",
+    "pyyaml>=6.0",
+    "matplotlib>=3.7",
+    "cma>=4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Linda-SophieSchneider/Gradient-Based-Trajectory-Optimisation-over-Continuous-Poses-for-Sparse-View-Cone-Beam-CT"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "slow: marks tests as slow (run with -m slow)",
+    "integration: marks end-to-end integration tests",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["differentiable_coverage"]

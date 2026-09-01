@@ -1,0 +1,5 @@
+method,k,psnr,ssim,nrmse,hfen,cache_s,sel_s,rec_s,total_s,roi_type,roi_center_x_mm,roi_center_y_mm,roi_center_z_mm,roi_radius_mm,roi_role,seed
+vcls,40,26.36281,0.67439,0.19751,13.29546,262.14184,1.16766,4.65035,267.95985,none,0.00000,0.00000,0.00000,,evaluation_only,0
+vcls,80,29.75370,0.74658,0.13367,10.70578,262.14184,3.62732,8.89098,274.66013,none,0.00000,0.00000,0.00000,,evaluation_only,0
+greedy_adam_bundle,40,26.36623,0.67055,0.19743,12.69639,0.00000,5.64428,4.66430,10.30859,none,0.00000,0.00000,0.00000,,optimization+evaluation,0
+greedy_adam_bundle,80,29.27511,0.74954,0.14124,10.77627,0.00000,13.00045,9.28917,22.28962,none,0.00000,0.00000,0.00000,,optimization+evaluation,0

@@ -1,0 +1,34 @@
+# R1 — statistical uncertainty on ORNL 512^3.
+# Three seeds (instead of five) because each cell takes ~10 min SART
+# and the VCL (R, gamma) precompute is ~22 min at K_max = 720.
+# Suggested invocation:
+#     python experiments/run.py --config experiments/configs/paper1/ablation/seeds_ornl.yaml \
+#                               --seeds 0,1,2
+# Total wall-clock: roughly 7-9 hours.
+
+name: seeds_ornl
+description: "ORNL nozzle, 3-seed uncertainty"
+experiment_type: method_grid
+output: experiments/results/seeds_ornl.csv
+
+phantom:
+  type: ornl_nozzle
+  path: data/ornl_nozzle.h5
+  section: L
+  resolution: 512
+
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+k_values: [40, 80]
+
+methods:
+  # Trim to the four headline configurations to keep the multi-seed
+  # ORNL run inside the overnight budget.
+  - name: vcls
+  - name: vcls_adam_vcl
+  - name: greedy_adam_vcl
+  - name: greedy_adam_bundle

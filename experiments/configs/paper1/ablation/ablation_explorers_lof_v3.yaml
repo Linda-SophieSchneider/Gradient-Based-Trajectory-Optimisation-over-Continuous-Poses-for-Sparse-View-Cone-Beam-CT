@@ -1,0 +1,32 @@
+# Reproduces Table VI (Exploration mechanisms) of the paper.
+# Cold-start Adam on MILP-mild 192^3 k = 40 with three exploration
+# variants: sigma annealing of the Tuy kernel, Riemannian SGLD, and
+# repulsive ensemble.  Reference is plain Adam at lr = 0.05.
+
+name: ablation_explorers_lof_v3
+description: "Table VI — cold-start explorer mechanisms, MILP mild 192^3 k=40"
+experiment_type: method_grid
+output: experiments/results/lof_plate_20260825/ablation_explorers_lof_v3.csv
+
+phantom:
+  type: milp_npy
+  path: data/lof_flange_v3.npy
+  resolution: 384
+
+geometry: milp
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+
+k_values: [40]
+
+methods:
+  # Reference: plain Adam from greedy_tuy init, no exploration.
+  - name: greedy_adam_vcl
+  # All three variants use the same greedy_tuy cold start and the same
+  # coverage+VCL objective (lambda_path=lambda_bundle=0).
+  - name: greedy_adam_vcl_anneal
+  - name: greedy_adam_vcl_langevin
+  - name: greedy_adam_vcl_ensemble

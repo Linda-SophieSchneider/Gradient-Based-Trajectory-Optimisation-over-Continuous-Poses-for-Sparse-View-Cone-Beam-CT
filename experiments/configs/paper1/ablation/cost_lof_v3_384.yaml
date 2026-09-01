@@ -1,0 +1,38 @@
+# RQ-cost (MILP moderate): wall-clock comparison on the off-centre phantom.
+#
+# Companion to cost_ornl_512.yaml.  Here the object-specific VCL surrogate
+# genuinely helps, so the cold-start path trades some quality for its
+# precompute-free cost.  The table reports that trade honestly:
+#   - vcls               : R precompute (cache_s) + swap search (sel_s)
+#   - vcls_adam_bundle    : R precompute (cache_s) + Adam (sel_s)  -> matches vcls
+#   - greedy_adam_bundle  : no R precompute (cache_s = 0) + Adam (sel_s)
+#
+# force_rebuild_cache bypasses disk memoisation so cache_s is the true
+# per-object precompute cost.
+#
+# Wall-clock: approximately 50 minutes on Apple Silicon with 48 GB RAM.
+
+name: cost_lof_v3_384
+description: "Runtime/cost: VCLS precompute vs precompute-free cold-start bundle (MILP moderate)"
+experiment_type: method_grid
+output: experiments/results/lof_plate_20260825/cost_lof_v3_384.csv
+
+phantom:
+  type: milp_npy
+  path: data/lof_flange_v3.npy
+  resolution: 384
+
+geometry: milp
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+force_rebuild_cache: true       # measure the true R build, not a disk load
+metrics: [psnr, ssim, nrmse, hfen]
+
+k_values: [40, 80]
+
+methods:
+  - name: vcls                  # discrete: R precompute + swap search
+  - name: vcls_adam_bundle      # warm start: R precompute + Adam
+  - name: greedy_adam_bundle    # cold start: no R precompute + Adam

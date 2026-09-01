@@ -1,0 +1,42 @@
+# Reproduces the ORNL hexagonal fuel nozzle bridge benchmark.
+# This is the direct comparison to Lin et al./VCLS.  ORNL is
+# approximately axisymmetric, so it is intentionally treated as a
+# bridge benchmark rather than the strongest test of object-aware
+# off-grid gains.
+#
+# Phantom: ORNL nozzle of Lin et al. TPAMI 2025 (see README for download).
+# Wall-clock: approximately 3 hours on Apple Silicon with 48 GB RAM,
+# dominated by SART and the K_max=720 (R, gamma) precompute.
+
+name: ornl_512_bridge
+description: "ORNL bridge benchmark: VCLS vs continuous off-grid methods"
+experiment_type: method_grid
+output: experiments/results/ornl_512.csv
+
+phantom:
+  type: ornl_nozzle
+  path: data/ornl_nozzle.h5     # HDF5 from Lin et al. release (see README)
+  section: L                    # lower section
+  resolution: 512
+
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+
+k_values: [40, 80]
+
+methods:
+  # Lin et al. TPAMI 2025 discrete baselines.
+  - name: vcls_circle
+  - name: vcls
+  # Continuous Adam refinement, no absorption term.
+  - name: vcls_adam_vcl                  # warm start (VCLS)
+  - name: greedy_adam_vcl                # cold start (Tuy-greedy)
+  # Continuous + proposed analytic bundle absorption.
+  - name: vcls_adam_bundle_center        # warm start, 1-ray bundle
+  - name: vcls_adam_bundle               # warm start, 5x9 bundle
+  - name: greedy_adam_bundle_center      # cold start, 1-ray bundle
+  - name: greedy_adam_bundle             # cold start, 5x9 bundle

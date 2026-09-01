@@ -1,0 +1,7 @@
+method,k,psnr,ssim,nrmse,hfen,cache_s,sel_s,rec_s,total_s,roi_type,roi_center_x_mm,roi_center_y_mm,roi_center_z_mm,roi_radius_mm,roi_role,seed
+greedy_adam_bundle_center,40,28.72104,0.76986,0.15055,11.63543,0.00000,3.86455,42.48969,46.35424,none,0.00000,0.00000,0.00000,,optimization+evaluation,0
+greedy_adam_bundle_center,80,32.95769,0.85961,0.09244,8.41286,0.00000,7.81541,84.10901,91.92442,none,0.00000,0.00000,0.00000,,optimization+evaluation,0
+greedy_adam_bundle_center,40,28.87916,0.77671,0.14783,11.49901,0.00000,3.91478,41.90221,45.81699,none,0.00000,0.00000,0.00000,,optimization+evaluation,1
+greedy_adam_bundle_center,80,31.22414,0.83596,0.11285,9.91314,0.00000,7.76203,84.91682,92.67885,none,0.00000,0.00000,0.00000,,optimization+evaluation,1
+greedy_adam_bundle_center,40,28.98367,0.78375,0.14606,11.06322,0.00000,4.13418,42.50590,46.64007,none,0.00000,0.00000,0.00000,,optimization+evaluation,2
+greedy_adam_bundle_center,80,32.95492,0.85717,0.09246,8.16260,0.00000,7.94214,84.60378,92.54591,none,0.00000,0.00000,0.00000,,optimization+evaluation,2

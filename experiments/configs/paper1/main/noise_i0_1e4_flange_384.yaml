@@ -1,0 +1,35 @@
+# Photon-noise rerun at the stronger fluence I0 = 1e4 (2026-08-29), requested to
+# test whether the absorption term earns its photon-starvation framing once
+# counting statistics bite harder. Row-matched to noise_i0_1e5_*.yaml; only the
+# fluence differs.
+name: noise_i0_1e4_flange_384
+description: "Photon-noise robustness: continuous vs noise-blind VCLS (Defrise flange)"
+experiment_type: noise_robustness
+output: experiments/results/lof_plate_20260825/noise_i0_1e4_flange_384.csv
+
+phantom:
+  type: milp_npy
+  path: data/lof_flange_v3.npy
+  resolution: 384
+
+geometry: milp
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+selection_seeds: [0, 1, 2]
+paired_baseline: vcls
+force_rebuild_cache: true
+
+photon_levels: [1.0e4]
+noise_seeds: [0, 1, 2, 3, 4]
+k_values: [40, 80]
+
+methods:
+  - name: vcls
+  - name: greedy_discrete
+  - name: greedy_adam_bundle
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}
+  - name: greedy_adam_vcl
+  - name: greedy_adam_composite
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}

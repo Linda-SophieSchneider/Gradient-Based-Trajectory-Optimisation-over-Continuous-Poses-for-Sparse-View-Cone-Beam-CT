@@ -1,0 +1,39 @@
+# Matched derivative and optimiser ablation, COLD-START variant (2026-08-27).
+# The paper moved to cold-start-only continuous selection (no VCLS warm start,
+# no candidate-basis precompute), so this ablation now compares the three
+# estimators on the Tuy-greedy start: analytic bundle gradient, matched
+# central finite differences at eps = 0.5 mm, and derivative-free CMA-ES at
+# the FD arm's evaluation budget. All arms share init, objective, quadrature
+# (clip@256), schedule, and reconstruction; discrete VCLS is kept as the
+# reference column. Learning rate follows the chart-consistency rule
+# (lr_cartesian = sid * 0.05), injected by build_baseline_sources.
+
+name: matched_fd_512_ornl_cold
+description: "Matched FD/analytic/CMA-ES bundle selectors, cold start (nozzle 512^3)"
+experiment_type: method_grid
+output: experiments/results/lof_plate_20260825/matched_fd_512_ornl_cold.csv
+
+phantom:
+  type: ornl_nozzle
+  section: L
+  path: data/ornl_nozzle.h5
+  resolution: 512
+
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+
+k_values: [40, 80]
+
+methods:
+  - name: vcls                       # discrete reference
+  - name: greedy_adam_bundle         # analytic gradient (proposed), cold
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}
+  - name: greedy_adam_bundle_fd      # ONLY difference: central FD gradient
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true,
+             derivative_fd_step: 0.5}
+  - name: greedy_cmaes_bundle        # ONLY difference: derivative-free CMA-ES
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}

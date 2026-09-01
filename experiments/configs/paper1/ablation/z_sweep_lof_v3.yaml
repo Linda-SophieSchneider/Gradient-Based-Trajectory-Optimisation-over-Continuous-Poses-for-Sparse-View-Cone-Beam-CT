@@ -1,0 +1,38 @@
+# P2 — Radon-normal discretisation ablation for the coverage term.
+# Defends the paper's fixed z = 300 (Sec. setup, Sec. ablation TODO):
+# sweep the Fibonacci-lattice size n_normals on the pure cold coverage
+# selector and report reconstruction quality and selection wall-clock.
+# 150 is included below the paper value to show the degradation floor.
+# Noise-free, 192^3, k = 40 (the easy cell; moderate is the hard one).
+
+name: z_sweep_lof_v3
+description: "Radon-normal count sweep for the coverage term (MILP mild 192^3, k=40)"
+experiment_type: param_sweep
+output: experiments/results/lof_plate_20260825/z_sweep_decision.csv
+
+phantom:
+  type: milp_npy
+  path: data/lof_flange_v3.npy
+  resolution: 384
+
+geometry: milp
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+
+k_values: [40, 80]
+
+methods:
+  - name: greedy_adam_cov_cold
+    base_kwargs:
+      lambda_cov: 1.0
+      lambda_vcl: 0.0
+      lambda_path: 0.0
+      init_method: greedy_tuy
+      n_steps: 100
+
+sweep:
+  param: n_normals
+  values: [150, 300, 600, 1200, 2000, 3000]

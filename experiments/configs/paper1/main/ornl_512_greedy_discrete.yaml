@@ -1,0 +1,24 @@
+# Discrete soft-Tuy greedy selector on the ORNL nozzle, same protocol as
+# ornl_512_sphere_current.yaml, so the row joins tab:ornl_runs.
+name: ornl_512_greedy_discrete
+description: "ORNL nozzle, discrete soft-Tuy greedy on the 720-point sphere"
+experiment_type: method_grid
+output: experiments/results/lof_plate_20260825/ornl_512_greedy_discrete.csv
+
+phantom:
+  type: ornl_nozzle
+  path: data/ornl_nozzle.h5
+  section: L
+  resolution: 512
+
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+
+k_values: [40, 80]
+
+methods:
+  - name: greedy_discrete        # fixed-grid predecessor and cold-start init

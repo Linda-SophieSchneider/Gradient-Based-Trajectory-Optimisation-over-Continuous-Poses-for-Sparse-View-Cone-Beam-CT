@@ -1,0 +1,43 @@
+# RQ-noise on the Lin et al. ORNL bridge phantom at native 512^3.
+#
+# The strongest form of the claim: even on Lin's own phantom, once realistic
+# photon noise enters, the precompute-free continuous selector beats the
+# noise-blind discrete VCLS -- on quality, noise, and wall-clock.  (Noise-free,
+# greedy continuous already beats vcls-sphere here by ~1.2 dB.)
+#
+# Heavy: each method selects once, then 5 noise realisations x 2 photon levels
+# x 2 k are reconstructed at 512^3.  Plan for an overnight slot.
+
+name: noise_robustness_ornl_512
+description: "Photon-noise robustness: continuous vs noise-blind VCLS (ORNL 512)"
+experiment_type: noise_robustness
+output: experiments/results/noise_robustness_ornl_512.csv
+
+phantom:
+  type: ornl_nozzle
+  path: data/ornl_nozzle.h5
+  section: L
+  resolution: 512
+
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+# REV-P1-02/03 rerun protocol (2026-08-11): three pre-declared
+# selection seeds; paired raw/summary outputs vs the baseline.
+selection_seeds: [0, 1, 2]
+paired_baseline: vcls
+force_rebuild_cache: true
+
+photon_levels: [1.0e4, 1.0e5]
+noise_seeds: [0, 1, 2, 3, 4]
+k_values: [40, 80]
+
+methods:
+  - name: vcls
+  - name: greedy_adam
+  # OED arm moved to the Fully3D paper; tab:noise prints the bundle arm.
+  - name: greedy_adam_bundle
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}

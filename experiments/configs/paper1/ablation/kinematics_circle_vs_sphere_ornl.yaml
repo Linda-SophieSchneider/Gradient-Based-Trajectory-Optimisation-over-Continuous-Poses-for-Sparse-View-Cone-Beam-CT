@@ -1,0 +1,30 @@
+# R7 — circle vs sphere on ORNL.
+# Companion to r7_circle_vs_sphere_milp.yaml; expected to show circle
+# winning on PSNR (axial-symmetry advantage) but sphere holding on
+# structural metrics.  This is the regime the paper headline discusses.
+
+name: kinematics_circle_vs_sphere_ornl
+description: "circle vs sphere kinematics on ORNL, k = {40, 80}"
+experiment_type: method_grid
+output: experiments/results/kinematics_circle_vs_sphere_ornl.csv
+
+phantom:
+  type: ornl_nozzle
+  path: data/ornl_nozzle.h5
+  section: L
+  resolution: 512
+
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+k_values: [40, 80]
+
+methods:
+  - name: vcls_circle
+  - name: greedy_adam_circle
+  - name: greedy_adam_path_div_circle
+  - name: vcls
+  - name: greedy_adam_bundle

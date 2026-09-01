@@ -1,0 +1,21 @@
+# Clean wall-clock: VCLS precompute + swap vs cold continuous selection.
+# Reconstruction is excluded from the reported figures, so sart_iterations=1.
+name: timing_flange
+description: "selection wall-clock, idle machine, flange"
+experiment_type: method_grid
+output: /tmp/claude-1002/-home-schneider-TrajectoryOptimization/4a99df21-b027-416f-bcfb-57b4a8ced4a8/scratchpad/timing_flange.csv
+phantom:
+  type: milp_npy
+  path: data/lof_flange_v3.npy
+  resolution: 384
+geometry: milp
+sart_iterations: 1
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+force_rebuild_cache: true
+metrics: [psnr, ssim, nrmse, hfen]
+k_values: [40, 80]
+methods:
+  - name: vcls
+  - name: greedy_adam_bundle

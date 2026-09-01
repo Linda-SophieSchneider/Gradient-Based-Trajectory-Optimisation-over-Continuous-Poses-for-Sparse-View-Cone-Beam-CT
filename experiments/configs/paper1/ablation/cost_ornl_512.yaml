@@ -1,0 +1,43 @@
+# RQ-cost (ORNL): wall-clock comparison at production resolution.
+#
+# Question: does the cold-start bundle path match VCLS reconstruction
+# quality while avoiding the object-specific O(K_max^2) (R, gamma)
+# precompute that the discrete swap search requires?
+#
+# The three methods isolate where the cost goes:
+#   - vcls               : builds the K_max x K_max R (cache_s) + swap search (sel_s)
+#   - vcls_adam_bundle    : same R build (cache_s) + Adam refinement (sel_s)
+#   - greedy_adam_bundle  : Tuy-greedy init, NO discrete R (cache_s = 0) + Adam (sel_s)
+#
+# force_rebuild_cache bypasses the disk memoisation so cache_s reflects
+# the true per-object precompute VCLS pays on every new scan.
+#
+# Output columns of interest: cache_s, sel_s, rec_s, total_s, psnr.
+# Wall-clock: approximately 3 hours on Apple Silicon with 48 GB RAM,
+# dominated by SART and the (rebuilt) K_max=720 precompute.
+
+name: cost_ornl_512
+description: "Runtime/cost: VCLS precompute vs precompute-free cold-start bundle (ORNL)"
+experiment_type: method_grid
+output: experiments/results/cost_ornl_512.csv
+
+phantom:
+  type: ornl_nozzle
+  path: data/ornl_nozzle.h5     # resolved by the ORNL loader (see README)
+  section: L
+  resolution: 512
+
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+force_rebuild_cache: true       # measure the true R build, not a disk load
+metrics: [psnr, ssim, nrmse, hfen]
+
+k_values: [40, 80]
+
+methods:
+  - name: vcls                  # discrete: R precompute + swap search
+  - name: vcls_adam_bundle      # warm start: R precompute + Adam
+  - name: greedy_adam_bundle    # cold start: no R precompute + Adam

@@ -1,0 +1,13 @@
+diffct-mlx>=1.0.0.dev0
+torch>=2.13
+numba>=0.66
+numpy>=1.26
+scipy>=1.10
+scikit-image>=0.21
+h5py>=3.9
+
+# dev/experiments extras
+pyyaml>=6.0
+matplotlib>=3.7
+pytest>=8.0
+cma>=4.0

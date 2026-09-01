@@ -1,0 +1,36 @@
+# Sphere-based selectors on the ORNL nozzle under the CURRENT protocol.
+#
+# tab:ornl_runs was still carrying the 2026-07-24 run, which used z=300 and the
+# historical 32-sample full-segment bundle quadrature, so its continuous rows
+# were not protocol-matched with the rest of the paper and contradicted the
+# nozzle rows of the estimator ablation. This config reproduces the same three
+# arms with z=2000, the frozen volume-clipped 256-sample quadrature, and the
+# cold Tuy-greedy start.
+name: ornl_512_sphere_current
+description: "ORNL nozzle sphere selectors, current protocol, cold start"
+experiment_type: method_grid
+output: experiments/results/lof_plate_20260825/ornl_512_sphere_current.csv
+
+phantom:
+  type: ornl_nozzle
+  path: data/ornl_nozzle.h5
+  section: L
+  resolution: 512
+
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+
+k_values: [40, 80]
+
+methods:
+  - name: vcls                    # discrete anchor
+  - name: greedy_adam_vcl         # cov + VCL, cold (no bundle term, so no
+                                  # bundle quadrature keywords)
+  - name: greedy_adam_bundle      # cov + bundle, cold
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}
+  - name: greedy_adam_composite   # cov + VCL + bundle, cold, the paper's arm
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}

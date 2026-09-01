@@ -1,0 +1,39 @@
+# Reproduces Figure 3 (Riemannian SGLD temperature sweep) of the paper.
+# Cold-start Adam with Langevin tangent noise at MILP-mild 192^3 k = 40.
+# Output CSV is plotted by experiments/plot_langevin_T.py to produce
+# paper/figures/langevin_T_sweep.pdf.
+
+name: ablation_langevin_T_lof_v3
+description: "Figure 3 — Langevin T sweep, cold-start, MILP mild 192^3 k=40"
+experiment_type: param_sweep
+output: experiments/results/lof_plate_20260825/ablation_langevin_T_lof_v3.csv
+
+phantom:
+  type: milp_npy
+  path: data/lof_flange_v3.npy
+  resolution: 384
+
+geometry: milp
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+
+k_values: [40]
+
+methods:
+  - name: greedy_adam_langevin
+    base_kwargs:
+      lambda_cov: 1.0
+      lambda_vcl: 0.2
+      lambda_path: 0.0
+      init_method: greedy_tuy
+      lr: 0.05
+      n_steps: 100
+      noise_schedule: langevin_cosine
+      noise_seed: 0
+
+sweep:
+  param: noise_temp
+  values: [0.0, 0.05, 0.1, 0.3, 0.5, 1.0, 2.0, 5.0, 10.0]

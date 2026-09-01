@@ -1,0 +1,32 @@
+# Flange phantom (lof_flange_v3): fixed-grid vs continuous off-grid, native 384^3.
+# Successor of milp_384{,_moderate}.yaml after the mild/moderate phantoms were
+# replaced by the LoF flange (Defrise layer stacks in both flange disks,
+# tilted control cracks, steel inserts, pore clusters; gate-passed 2026-08-26).
+
+name: lof_v3_384
+description: "LoF flange: fixed-grid vs continuous off-grid, k = {40, 80}"
+experiment_type: method_grid
+output: experiments/results/lof_plate_20260825/lof_v3_384.csv
+
+phantom:
+  type: milp_npy
+  path: data/lof_flange_v3.npy
+  resolution: 384
+
+geometry: milp
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+vcl:
+  prefer_sparse_backprojection: true
+
+k_values: [40, 80]
+
+methods:
+  - name: vcls
+  - name: greedy_adam_path_div
+  - name: vcls_adam_bundle
+  - name: greedy_discrete
+  - name: vcls_adam_vcl

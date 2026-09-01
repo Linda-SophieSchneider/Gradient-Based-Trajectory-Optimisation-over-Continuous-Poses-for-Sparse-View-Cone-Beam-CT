@@ -1,0 +1,35 @@
+# Objective term-contribution ablation on the Defrise flange (replaces the
+# moderate version; native 384^3 per the no-downsampling decision 2026-08-25).
+# Leave-one-in sequence, all cold continuous, under photon noise at the revised
+# fluence I0 = 1e5 (matches the reduced-noise tab:noise protocol 2026-08-26).
+# OED arm removed: it belongs to the Fully3D paper (decision 2026-08).
+
+name: term_contribution_lof_v3
+description: "Objective term-contribution ablation (Defrise flange, under noise)"
+experiment_type: noise_robustness
+output: experiments/results/lof_plate_20260825/term_contribution_lof_v3.csv
+
+phantom:
+  type: milp_npy
+  path: data/lof_flange_v3.npy
+  resolution: 384
+
+geometry: milp
+sart_iterations: 15
+k_max: 360
+voxel_subsample_r1: 0.001
+seed: 0
+selection_seeds: [0, 1, 2]
+paired_baseline: greedy_adam
+force_rebuild_cache: true
+
+photon_levels: [1.0e4]
+noise_seeds: [0, 1, 2]
+k_values: [40, 80]
+
+methods:
+  - name: vcls
+  - name: greedy_adam
+  - name: greedy_adam_vcl
+  - name: greedy_adam_bundle
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}

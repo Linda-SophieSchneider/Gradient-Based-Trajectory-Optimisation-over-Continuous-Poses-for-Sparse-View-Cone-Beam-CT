@@ -1,0 +1,9 @@
+arm,k,path,ls_scale,psnr,ssim,nrmse,hfen
+circular,400,circular_final_k0400/reconstruction.rek,1.9177,51.495,0.9795,0.1961,12.109
+circular,100,circular_final_k0100/reconstruction.rek,1.9724,50.018,0.9785,0.2325,16.927
+all3,400,all3_final_k0400/reconstruction.rek,1.7367,45.064,0.9558,0.4112,28.837
+all3,100,all3_final_k0100/reconstruction.rek,1.7696,44.085,0.951,0.4603,32.947
+bundle,400,bundle_final_k0400/reconstruction.rek,1.6998,43.706,0.9485,0.4808,32.451
+bundle,100,bundle_final_k0100/reconstruction.rek,1.7596,44.222,0.9495,0.4531,31.306
+uniform,400,uniform_final_k0400/reconstruction.rek,1.7511,45.088,0.9523,0.4101,27.58
+uniform,100,uniform_final_k0100/reconstruction.rek,1.8556,45.528,0.9552,0.3899,27.213

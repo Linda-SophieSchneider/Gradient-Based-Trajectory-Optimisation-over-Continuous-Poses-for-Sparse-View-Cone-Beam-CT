@@ -1,0 +1,34 @@
+# tab:noise nozzle rows at the REDUCED-noise fluence pair I0 = {1e5, 1e6}
+# (user decision 2026-08-26, matching noise_robustness_lof_v3.yaml so all
+# rows of tab:noise share one protocol). Supersedes the {1e4, 1e5} rows of
+# noise_robustness_ornl_512.yaml for the revised table.
+
+name: noise_robustness_ornl_512_hiI0
+description: "Photon-noise robustness at reduced noise (ORNL nozzle, I0=1e5/1e6)"
+experiment_type: noise_robustness
+output: experiments/results/lof_plate_20260825/noise_robustness_ornl_512_hiI0.csv
+
+phantom:
+  type: ornl_nozzle
+  path: data/ornl_nozzle.h5
+  section: L
+  resolution: 512
+
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+selection_seeds: [0, 1, 2]
+paired_baseline: vcls
+force_rebuild_cache: true
+
+photon_levels: [1.0e5, 1.0e6]
+noise_seeds: [0, 1, 2, 3, 4]
+k_values: [40, 80]
+
+methods:
+  - name: vcls
+  - name: greedy_adam
+  - name: greedy_adam_bundle
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}

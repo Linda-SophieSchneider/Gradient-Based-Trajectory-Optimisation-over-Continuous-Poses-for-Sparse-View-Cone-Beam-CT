@@ -1,0 +1,28 @@
+# R1 — statistical uncertainty on MILP moderate at native 384^3.
+# Companion to r1_milp_mild.yaml.
+
+name: seeds_lof_v3
+description: "MILP moderate, 5-seed uncertainty"
+experiment_type: method_grid
+output: experiments/results/lof_plate_20260825/seeds_lof_v3.csv
+
+phantom:
+  type: milp_npy
+  path: data/lof_flange_v3.npy
+  resolution: 384
+
+geometry: milp
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+k_values: [40, 80]
+
+methods:
+  - name: vcls
+  - name: greedy_adam_path_div
+  - name: vcls_adam_bundle_center
+  - name: vcls_adam_bundle
+  - name: greedy_adam_bundle_center
+  - name: greedy_adam_bundle

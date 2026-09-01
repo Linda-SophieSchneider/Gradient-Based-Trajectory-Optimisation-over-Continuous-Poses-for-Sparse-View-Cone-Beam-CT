@@ -1,0 +1,34 @@
+# Objective term-contribution ablation on the collar flange v4b (2026-08-29).
+# Identical to term_contribution_lof_v3.yaml except for the phantom. v4b adds an
+# equatorial absorber so that the directional-absorption minimum no longer sits
+# in the plane; this ablation asks whether cov+bundle stops being the weakest arm.
+
+name: term_contribution_lof_v4b
+description: "Objective term-contribution ablation (Defrise flange, under noise)"
+experiment_type: noise_robustness
+output: experiments/results/flange_collar_20260829/term_contribution_lof_v4b.csv
+
+phantom:
+  type: milp_npy
+  path: data/lof_flange_v4b.npy
+  resolution: 384
+
+geometry: milp
+sart_iterations: 15
+k_max: 360
+voxel_subsample_r1: 0.001
+seed: 0
+selection_seeds: [0, 1, 2]
+paired_baseline: greedy_adam
+force_rebuild_cache: true
+
+photon_levels: [1.0e4]
+noise_seeds: [0, 1, 2]
+k_values: [40, 80]
+
+methods:
+  - name: vcls
+  - name: greedy_adam
+  - name: greedy_adam_vcl
+  - name: greedy_adam_bundle
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}

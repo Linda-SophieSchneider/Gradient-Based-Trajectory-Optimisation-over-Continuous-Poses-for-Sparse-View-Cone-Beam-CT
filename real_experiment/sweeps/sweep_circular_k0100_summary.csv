@@ -1,0 +1,4 @@
+alpha,fractional_data_residual,tv_norm_x1e3,reference_psnr_diagnostic,selected
+0.15,0.11986568,0.57329613,50.017779,1
+0.2,0.11999765,0.57235498,49.992558,0
+0.3,0.12034933,0.57052586,49.927425,0

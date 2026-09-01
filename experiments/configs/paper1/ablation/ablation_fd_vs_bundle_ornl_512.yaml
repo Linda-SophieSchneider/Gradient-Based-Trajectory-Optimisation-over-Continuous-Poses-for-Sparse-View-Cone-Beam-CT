@@ -1,0 +1,24 @@
+# Native-resolution ORNL cells for Table tab:fd_vs_bundle.
+
+name: ablation_fd_vs_bundle_ornl_512
+description: "FD versus analytic bundle on the ORNL nozzle at 512^3"
+experiment_type: method_grid
+output: experiments/results/ablation_fd_vs_bundle_ornl_512.csv
+
+phantom:
+  type: ornl_nozzle
+  path: data/ornl_nozzle.h5
+  section: L
+  resolution: 512
+
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+k_values: [40, 80]
+
+methods:
+  - name: greedy_adam_path_div
+  - name: vcls_adam_bundle

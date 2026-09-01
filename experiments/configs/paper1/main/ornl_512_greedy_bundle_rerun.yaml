@@ -1,0 +1,23 @@
+name: ornl_512_greedy_bundle_rerun
+description: "Greedy bundle rerun after lambda_vcl=0.0 fix (vcls_adam_bundle already done)"
+experiment_type: method_grid
+output: experiments/results/ornl_512_greedy_bundle_rerun.csv
+
+phantom:
+  type: ornl_nozzle
+  path: data/ornl_nozzle.h5
+  section: L
+  resolution: 512
+
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+
+k_values: [40, 80]
+
+methods:
+  - name: greedy_adam_bundle_center
+  - name: greedy_adam_bundle

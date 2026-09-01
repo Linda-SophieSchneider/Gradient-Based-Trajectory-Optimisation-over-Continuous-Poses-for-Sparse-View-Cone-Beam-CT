@@ -1,0 +1,4399 @@
+=== view 0000 ===
+theta_deg = 9.9896
+phi_deg = 24.1755
+agv_source_position_m = (-0.157792, 0.895831, 0.408333)
+agv_detector_center_position_m = (0.158029, -0.897182, -0.408948)
+agv_detector_line_direction = (-0.984839, -0.173469, 0.000000)
+agv_detector_col_direction = (-0.071041, 0.403324, -0.912295)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0001 ===
+theta_deg = 129.2051
+phi_deg = -15.9366
+agv_source_position_m = (-0.742922, -0.606023, -0.273768)
+agv_detector_center_position_m = (0.744043, 0.606937, 0.274181)
+agv_detector_line_direction = (0.632098, -0.774888, -0.000000)
+agv_detector_col_direction = (0.212763, 0.173557, -0.961566)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0002 ===
+theta_deg = 165.0060
+phi_deg = -1.4905
+agv_source_position_m = (-0.257872, -0.962796, -0.025936)
+agv_detector_center_position_m = (0.258261, 0.964248, 0.025975)
+agv_detector_line_direction = (0.965953, -0.258718, -0.000000)
+agv_detector_col_direction = (0.006730, 0.025126, -0.999662)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0003 ===
+theta_deg = 138.0606
+phi_deg = -4.2971
+agv_source_position_m = (-0.664513, -0.739587, -0.074708)
+agv_detector_center_position_m = (0.665515, 0.740702, 0.074821)
+agv_detector_line_direction = (0.743852, -0.668345, -0.000000)
+agv_detector_col_direction = (0.050077, 0.055735, -0.997189)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0004 ===
+theta_deg = 291.3764
+phi_deg = -0.5764
+agv_source_position_m = (0.928430, 0.363407, -0.010030)
+agv_detector_center_position_m = (-0.929829, -0.363955, 0.010045)
+agv_detector_line_direction = (-0.364494, 0.931206, -0.000000)
+agv_detector_col_direction = (-0.009367, -0.003667, -0.999949)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0005 ===
+theta_deg = 324.3447
+phi_deg = -0.3094
+agv_source_position_m = (0.581190, 0.810146, -0.005384)
+agv_detector_center_position_m = (-0.582066, -0.811367, 0.005392)
+agv_detector_line_direction = (-0.812539, 0.582907, -0.000000)
+agv_detector_col_direction = (-0.003148, -0.004388, -0.999985)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0006 ===
+theta_deg = 34.7088
+phi_deg = 18.2245
+agv_source_position_m = (-0.539259, 0.778532, 0.311824)
+agv_detector_center_position_m = (0.540072, -0.779706, -0.312294)
+agv_detector_line_direction = (-0.822056, -0.569406, 0.000000)
+agv_detector_col_direction = (-0.178077, 0.257091, -0.949839)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0007 ===
+theta_deg = 311.4572
+phi_deg = -8.3968
+agv_source_position_m = (0.739244, 0.653044, -0.145599)
+agv_detector_center_position_m = (-0.740358, -0.654028, 0.145819)
+agv_detector_line_direction = (-0.662060, 0.749451, -0.000000)
+agv_detector_col_direction = (-0.109440, -0.096679, -0.989281)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0008 ===
+theta_deg = 11.6996
+phi_deg = 21.1473
+agv_source_position_m = (-0.188570, 0.910603, 0.359709)
+agv_detector_center_position_m = (0.188854, -0.911976, -0.360252)
+agv_detector_line_direction = (-0.979224, -0.202780, 0.000000)
+agv_detector_col_direction = (-0.073156, 0.353271, -0.932656)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0009 ===
+theta_deg = 359.2046
+phi_deg = 21.9799
+agv_source_position_m = (0.012834, 0.924509, 0.373184)
+agv_detector_center_position_m = (-0.012854, -0.925902, -0.373746)
+agv_detector_line_direction = (-0.999904, 0.013881, -0.000000)
+agv_detector_col_direction = (0.005195, 0.374245, -0.927316)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0010 ===
+theta_deg = 293.3465
+phi_deg = 16.7260
+agv_source_position_m = (0.876704, 0.378412, 0.286951)
+agv_detector_center_position_m = (-0.878026, -0.378983, -0.287384)
+agv_detector_line_direction = (-0.396291, 0.918125, -0.000000)
+agv_detector_col_direction = (0.264231, 0.114050, -0.957692)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0011 ===
+theta_deg = 293.5400
+phi_deg = 2.3174
+agv_source_position_m = (0.913347, 0.397893, 0.040317)
+agv_detector_center_position_m = (-0.914724, -0.398492, -0.040377)
+agv_detector_line_direction = (-0.399389, 0.916782, -0.000000)
+agv_detector_col_direction = (0.037070, 0.016149, -0.999182)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0012 ===
+theta_deg = 162.2206
+phi_deg = -6.4444
+agv_source_position_m = (-0.302534, -0.943449, -0.111909)
+agv_detector_center_position_m = (0.302990, 0.944872, 0.112078)
+agv_detector_line_direction = (0.952239, -0.305353, -0.000000)
+agv_detector_col_direction = (0.034272, 0.106878, -0.993681)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0013 ===
+theta_deg = 147.0552
+phi_deg = -19.5488
+agv_source_position_m = (-0.510981, -0.788503, -0.333630)
+agv_detector_center_position_m = (0.511751, 0.789691, 0.334133)
+agv_detector_line_direction = (0.839195, -0.543831, -0.000000)
+agv_detector_col_direction = (0.181972, 0.280803, -0.942357)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0014 ===
+theta_deg = 137.3337
+phi_deg = -7.8821
+agv_source_position_m = (-0.669357, -0.726232, -0.136733)
+agv_detector_center_position_m = (0.670366, 0.727327, 0.136939)
+agv_detector_line_direction = (0.735313, -0.677727, -0.000000)
+agv_detector_col_direction = (0.092940, 0.100837, -0.990552)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0015 ===
+theta_deg = 344.5281
+phi_deg = -10.0376
+agv_source_position_m = (0.261913, 0.946228, -0.173784)
+agv_detector_center_position_m = (-0.262307, -0.947655, 0.174046)
+agv_detector_line_direction = (-0.963761, 0.266766, -0.000000)
+agv_detector_col_direction = (-0.046496, -0.167979, -0.984693)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0016 ===
+theta_deg = 252.3528
+phi_deg = -20.0488
+agv_source_position_m = (0.892570, -0.283950, -0.341815)
+agv_detector_center_position_m = (-0.893916, 0.284378, 0.342330)
+agv_detector_line_direction = (0.303155, 0.952941, -0.000000)
+agv_detector_col_direction = (-0.326687, 0.103928, -0.939401)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0017 ===
+theta_deg = 155.8907
+phi_deg = -11.5334
+agv_source_position_m = (-0.399057, -0.891717, -0.199353)
+agv_detector_center_position_m = (0.399659, 0.893061, 0.199654)
+agv_detector_line_direction = (0.912768, -0.408478, -0.000000)
+agv_detector_col_direction = (0.081671, 0.182498, -0.979808)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0018 ===
+theta_deg = 116.1527
+phi_deg = 1.2493
+agv_source_position_m = (-0.894779, -0.439369, 0.021740)
+agv_detector_center_position_m = (0.896128, 0.440031, -0.021772)
+agv_detector_line_direction = (0.440765, -0.897622, -0.000000)
+agv_detector_col_direction = (-0.019571, -0.009610, -0.999762)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0019 ===
+theta_deg = 200.9621
+phi_deg = -7.1354
+agv_source_position_m = (0.353940, -0.923869, -0.123850)
+agv_detector_center_position_m = (-0.354473, 0.925262, 0.124037)
+agv_detector_line_direction = (0.933817, 0.357751, -0.000000)
+agv_detector_col_direction = (-0.044438, 0.115993, -0.992255)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0020 ===
+theta_deg = 155.5638
+phi_deg = -17.3091
+agv_source_position_m = (-0.393788, -0.866645, -0.296655)
+agv_detector_center_position_m = (0.394381, 0.867952, 0.297102)
+agv_detector_line_direction = (0.910423, -0.413679, -0.000000)
+agv_detector_col_direction = (0.123081, 0.270875, -0.954713)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0021 ===
+theta_deg = 214.6669
+phi_deg = -21.4114
+agv_source_position_m = (0.527995, -0.763465, -0.363992)
+agv_detector_center_position_m = (-0.528791, 0.764616, 0.364540)
+agv_detector_line_direction = (0.822473, 0.568804, -0.000000)
+agv_detector_col_direction = (-0.207648, 0.300253, -0.930983)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0022 ===
+theta_deg = 8.5239
+phi_deg = 19.6204
+agv_source_position_m = (-0.139207, 0.928803, 0.334803)
+agv_detector_center_position_m = (0.139417, -0.930204, -0.335307)
+agv_detector_line_direction = (-0.988954, -0.148223, 0.000000)
+agv_detector_col_direction = (-0.049771, 0.332078, -0.941938)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0023 ===
+theta_deg = 131.4011
+phi_deg = -10.0885
+agv_source_position_m = (-0.736336, -0.649193, -0.174656)
+agv_detector_center_position_m = (0.737446, 0.650172, 0.174919)
+agv_detector_line_direction = (0.661327, -0.750098, -0.000000)
+agv_detector_col_direction = (0.131394, 0.115844, -0.984538)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0024 ===
+theta_deg = 172.9440
+phi_deg = 22.3132
+agv_source_position_m = (-0.113308, -0.915425, 0.378557)
+agv_detector_center_position_m = (0.113479, 0.916805, -0.379127)
+agv_detector_line_direction = (0.992427, -0.122839, -0.000000)
+agv_detector_col_direction = (-0.046638, -0.376794, -0.925122)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0025 ===
+theta_deg = 23.0581
+phi_deg = -22.0274
+agv_source_position_m = (-0.362011, 0.850445, -0.373951)
+agv_detector_center_position_m = (0.362556, -0.851727, 0.374514)
+agv_detector_line_direction = (-0.920108, -0.391664, 0.000000)
+agv_detector_col_direction = (0.146894, -0.345086, -0.927005)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0026 ===
+theta_deg = 94.6084
+phi_deg = 0.2139
+agv_source_position_m = (-0.993839, -0.080109, 0.003722)
+agv_detector_center_position_m = (0.995337, 0.080230, -0.003728)
+agv_detector_line_direction = (0.080345, -0.996767, -0.000000)
+agv_detector_col_direction = (-0.003721, -0.000300, -0.999993)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0027 ===
+theta_deg = 70.6562
+phi_deg = -24.0396
+agv_source_position_m = (-0.859183, 0.301619, -0.406175)
+agv_detector_center_position_m = (0.860478, -0.302074, 0.406787)
+agv_detector_line_direction = (-0.331236, -0.943548, 0.000000)
+agv_detector_col_direction = (0.384372, -0.134935, -0.913264)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0028 ===
+theta_deg = 275.8888
+phi_deg = 8.2476
+agv_source_position_m = (0.981550, 0.101240, 0.143030)
+agv_detector_center_position_m = (-0.983030, -0.101392, -0.143246)
+agv_detector_line_direction = (-0.102599, 0.994723, -0.000000)
+agv_detector_col_direction = (0.142694, 0.014718, -0.989657)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0029 ===
+theta_deg = 60.9382
+phi_deg = 22.0857
+agv_source_position_m = (-0.807583, 0.448791, 0.374891)
+agv_detector_center_position_m = (0.808801, -0.449467, -0.375456)
+agv_detector_line_direction = (-0.485753, -0.874096, 0.000000)
+agv_detector_col_direction = (-0.328654, 0.182640, -0.926623)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0030 ===
+theta_deg = 278.9145
+phi_deg = 19.9233
+agv_source_position_m = (0.926071, 0.145258, 0.339763)
+agv_detector_center_position_m = (-0.927467, -0.145477, -0.340275)
+agv_detector_line_direction = (-0.154960, 0.987921, -0.000000)
+agv_detector_col_direction = (0.336646, 0.052804, -0.940150)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0031 ===
+theta_deg = 240.8011
+phi_deg = 8.6765
+agv_source_position_m = (0.860412, -0.480847, 0.150413)
+agv_detector_center_position_m = (-0.861709, 0.481572, -0.150639)
+agv_detector_line_direction = (0.487843, 0.872931, -0.000000)
+agv_detector_col_direction = (0.131686, -0.073593, -0.988556)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0032 ===
+theta_deg = 22.4292
+phi_deg = 11.5682
+agv_source_position_m = (-0.372696, 0.902921, 0.199947)
+agv_detector_center_position_m = (0.373258, -0.904282, -0.200249)
+agv_detector_line_direction = (-0.924352, -0.381542, 0.000000)
+agv_detector_col_direction = (-0.076512, 0.185365, -0.979686)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0033 ===
+theta_deg = 190.5207
+phi_deg = -6.0800
+agv_source_position_m = (0.181031, -0.974793, -0.105607)
+agv_detector_center_position_m = (-0.181304, 0.976263, 0.105767)
+agv_detector_line_direction = (0.983189, 0.182590, -0.000000)
+agv_detector_col_direction = (-0.019340, 0.104137, -0.994375)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0034 ===
+theta_deg = 24.4999
+phi_deg = 18.7946
+agv_source_position_m = (-0.391430, 0.858918, 0.321231)
+agv_detector_center_position_m = (0.392020, -0.860213, -0.321716)
+agv_detector_line_direction = (-0.909962, -0.414691, 0.000000)
+agv_detector_col_direction = (-0.133604, 0.293168, -0.946680)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0035 ===
+theta_deg = 52.0860
+phi_deg = -20.3059
+agv_source_position_m = (-0.737736, 0.574601, -0.346015)
+agv_detector_center_position_m = (0.738848, -0.575467, 0.346537)
+agv_detector_line_direction = (-0.614478, -0.788934, 0.000000)
+agv_detector_col_direction = (0.273785, -0.213243, -0.937853)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0036 ===
+theta_deg = 356.4586
+phi_deg = 6.1114
+agv_source_position_m = (0.061239, 0.989509, 0.106151)
+agv_detector_center_position_m = (-0.061331, -0.991001, -0.106311)
+agv_detector_line_direction = (-0.998090, 0.061770, -0.000000)
+agv_detector_col_direction = (0.006576, 0.106259, -0.994317)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0037 ===
+theta_deg = 170.5981
+phi_deg = 19.2473
+agv_source_position_m = (-0.153776, -0.928693, 0.328679)
+agv_detector_center_position_m = (0.154008, 0.930093, -0.329175)
+agv_detector_line_direction = (0.986567, -0.163359, -0.000000)
+agv_detector_col_direction = (-0.053850, -0.325217, -0.944105)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0038 ===
+theta_deg = 100.7945
+phi_deg = -19.4169
+agv_source_position_m = (-0.923721, -0.176117, -0.331466)
+agv_detector_center_position_m = (0.925114, 0.176382, 0.331965)
+agv_detector_line_direction = (0.187286, -0.982305, -0.000000)
+agv_detector_col_direction = (0.326558, 0.062261, -0.943124)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0039 ===
+theta_deg = 344.4615
+phi_deg = -21.3666
+agv_source_position_m = (0.248743, 0.894601, -0.363267)
+agv_detector_center_position_m = (-0.249118, -0.895950, 0.363815)
+agv_detector_line_direction = (-0.963450, 0.267886, -0.000000)
+agv_detector_col_direction = (-0.097600, -0.351018, -0.931268)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0040 ===
+theta_deg = 28.7608
+phi_deg = 9.8872
+agv_source_position_m = (-0.472618, 0.861085, 0.171205)
+agv_detector_center_position_m = (0.473331, -0.862384, -0.171463)
+agv_detector_line_direction = (-0.876636, -0.481153, 0.000000)
+agv_detector_col_direction = (-0.082618, 0.150526, -0.985148)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0041 ===
+theta_deg = 296.3443
+phi_deg = -12.0959
+agv_source_position_m = (0.873679, 0.432641, -0.208934)
+agv_detector_center_position_m = (-0.874996, -0.433293, 0.209250)
+agv_detector_line_direction = (-0.443765, 0.896143, -0.000000)
+agv_detector_col_direction = (-0.187786, -0.092990, -0.977798)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0042 ===
+theta_deg = 250.7274
+phi_deg = -19.2338
+agv_source_position_m = (0.888657, -0.310726, -0.328458)
+agv_detector_center_position_m = (-0.889997, 0.311194, 0.328954)
+agv_detector_line_direction = (0.330063, 0.943959, -0.000000)
+agv_detector_col_direction = (-0.310963, 0.108731, -0.944182)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0043 ===
+theta_deg = 282.0169
+phi_deg = -5.2618
+agv_source_position_m = (0.971110, 0.206715, -0.091438)
+agv_detector_center_position_m = (-0.972574, -0.207027, 0.091576)
+agv_detector_line_direction = (-0.208200, 0.978086, -0.000000)
+agv_detector_col_direction = (-0.089697, -0.019093, -0.995786)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0044 ===
+theta_deg = 42.8308
+phi_deg = -17.3428
+agv_source_position_m = (-0.647028, 0.697972, -0.297215)
+agv_detector_center_position_m = (0.648003, -0.699025, 0.297663)
+agv_detector_line_direction = (-0.733364, -0.679836, 0.000000)
+agv_detector_col_direction = (0.202651, -0.218607, -0.954538)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0045 ===
+theta_deg = 150.4312
+phi_deg = -2.0575
+agv_source_position_m = (-0.491705, -0.866655, -0.035798)
+agv_detector_center_position_m = (0.492447, 0.867962, 0.035852)
+agv_detector_line_direction = (0.869763, -0.493469, -0.000000)
+agv_detector_col_direction = (0.017717, 0.031227, -0.999355)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0046 ===
+theta_deg = 9.0284
+phi_deg = -23.2393
+agv_source_position_m = (-0.143769, 0.904821, -0.393415)
+agv_detector_center_position_m = (0.143986, -0.906186, 0.394008)
+agv_detector_line_direction = (-0.987611, -0.156924, 0.000000)
+agv_detector_col_direction = (0.061918, -0.389683, -0.918865)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0047 ===
+theta_deg = 340.3127
+phi_deg = -20.3382
+agv_source_position_m = (0.314958, 0.880259, -0.346543)
+agv_detector_center_position_m = (-0.315433, -0.881586, 0.347066)
+agv_detector_line_direction = (-0.941545, 0.336887, -0.000000)
+agv_detector_col_direction = (-0.117089, -0.327245, -0.937657)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0048 ===
+theta_deg = 321.7880
+phi_deg = -10.8030
+agv_source_position_m = (0.605830, 0.769540, -0.186884)
+agv_detector_center_position_m = (-0.606743, -0.770700, 0.187165)
+agv_detector_line_direction = (-0.785727, 0.618573, -0.000000)
+agv_detector_col_direction = (-0.115941, -0.147271, -0.982277)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0049 ===
+theta_deg = 240.1669
+phi_deg = -1.0300
+agv_source_position_m = (0.864796, -0.495937, -0.017923)
+agv_detector_center_position_m = (-0.866100, 0.496685, 0.017950)
+agv_detector_line_direction = (0.497475, 0.867478, -0.000000)
+agv_detector_col_direction = (-0.015593, 0.008942, -0.999838)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0050 ===
+theta_deg = 96.6484
+phi_deg = -10.9374
+agv_source_position_m = (-0.972374, -0.113339, -0.189180)
+agv_detector_center_position_m = (0.973840, 0.113510, 0.189466)
+agv_detector_line_direction = (0.115776, -0.993275, -0.000000)
+agv_detector_col_direction = (0.188461, 0.021967, -0.981835)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0051 ===
+theta_deg = 115.5657
+phi_deg = 2.0655
+agv_source_position_m = (-0.898863, -0.430001, 0.035936)
+agv_detector_center_position_m = (0.900218, 0.430650, -0.035990)
+agv_detector_line_direction = (0.431546, -0.902091, -0.000000)
+agv_detector_col_direction = (-0.032513, -0.015554, -0.999350)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0052 ===
+theta_deg = 349.1259
+phi_deg = -15.9392
+agv_source_position_m = (0.180866, 0.941521, -0.273812)
+agv_detector_center_position_m = (-0.181139, -0.942940, 0.274225)
+agv_detector_line_direction = (-0.982044, 0.188651, -0.000000)
+agv_detector_col_direction = (-0.051807, -0.269686, -0.961554)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0053 ===
+theta_deg = 302.0992
+phi_deg = 15.4619
+agv_source_position_m = (0.814077, 0.510654, 0.265816)
+agv_detector_center_position_m = (-0.815304, -0.511424, -0.266216)
+agv_detector_line_direction = (-0.531387, 0.847129, -0.000000)
+agv_detector_col_direction = (0.225842, 0.141666, -0.963808)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0054 ===
+theta_deg = 292.6156
+phi_deg = 9.0081
+agv_source_position_m = (0.909048, 0.378691, 0.156116)
+agv_detector_center_position_m = (-0.910418, -0.379262, -0.156351)
+agv_detector_line_direction = (-0.384547, 0.923105, -0.000000)
+agv_detector_col_direction = (0.144535, 0.060210, -0.987666)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0055 ===
+theta_deg = 213.2690
+phi_deg = 17.1054
+agv_source_position_m = (0.522768, -0.796777, 0.293269)
+agv_detector_center_position_m = (-0.523557, 0.797978, -0.293711)
+agv_detector_line_direction = (0.836104, 0.548571, -0.000000)
+agv_detector_col_direction = (0.161352, -0.245924, -0.955765)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0056 ===
+theta_deg = 81.3665
+phi_deg = 3.7143
+agv_source_position_m = (-0.983701, 0.149359, 0.064591)
+agv_detector_center_position_m = (0.985184, -0.149584, -0.064688)
+agv_detector_line_direction = (-0.150113, -0.988669, 0.000000)
+agv_detector_col_direction = (-0.064047, 0.009724, -0.997900)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0057 ===
+theta_deg = 2.5387
+phi_deg = 17.6572
+agv_source_position_m = (-0.042083, 0.949163, 0.302433)
+agv_detector_center_position_m = (0.042146, -0.950594, -0.302889)
+agv_detector_line_direction = (-0.999019, -0.044293, 0.000000)
+agv_detector_col_direction = (-0.013435, 0.303024, -0.952888)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0058 ===
+theta_deg = 274.2319
+phi_deg = 3.9326
+agv_source_position_m = (0.992009, 0.073404, 0.068382)
+agv_detector_center_position_m = (-0.993505, -0.073515, -0.068485)
+agv_detector_line_direction = (-0.073794, 0.997274, -0.000000)
+agv_detector_col_direction = (0.068396, 0.005061, -0.997645)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0059 ===
+theta_deg = 281.4565
+phi_deg = 11.1815
+agv_source_position_m = (0.958654, 0.194282, 0.193349)
+agv_detector_center_position_m = (-0.960099, -0.194575, -0.193641)
+agv_detector_line_direction = (-0.198624, 0.980076, -0.000000)
+agv_detector_col_direction = (0.190054, 0.038517, -0.981018)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0060 ===
+theta_deg = 103.7893
+phi_deg = 8.9710
+agv_source_position_m = (-0.956487, -0.234747, 0.155477)
+agv_detector_center_position_m = (0.957929, 0.235101, -0.155711)
+agv_detector_line_direction = (0.238352, -0.971179, -0.000000)
+agv_detector_col_direction = (-0.151440, -0.037167, -0.987767)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0061 ===
+theta_deg = 45.2090
+phi_deg = -14.7895
+agv_source_position_m = (-0.684158, 0.679186, -0.254521)
+agv_detector_center_position_m = (0.685190, -0.680210, 0.254905)
+agv_detector_line_direction = (-0.704523, -0.709681, 0.000000)
+agv_detector_col_direction = (0.181160, -0.179843, -0.966870)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0062 ===
+theta_deg = 27.9284
+phi_deg = -17.8793
+agv_source_position_m = (-0.444442, 0.838399, -0.306113)
+agv_detector_center_position_m = (0.445112, -0.839663, 0.306574)
+agv_detector_line_direction = (-0.883533, -0.468368, 0.000000)
+agv_detector_col_direction = (0.143795, -0.271256, -0.951705)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0063 ===
+theta_deg = 75.0913
+phi_deg = -23.0509
+agv_source_position_m = (-0.886576, 0.236044, -0.390401)
+agv_detector_center_position_m = (0.887913, -0.236400, 0.390990)
+agv_detector_line_direction = (-0.257280, -0.966337, 0.000000)
+agv_detector_col_direction = (0.378368, -0.100738, -0.920157)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0064 ===
+theta_deg = 84.1749
+phi_deg = 3.4490
+agv_source_position_m = (-0.990124, 0.101011, 0.059983)
+agv_detector_center_position_m = (0.991617, -0.101164, -0.060074)
+agv_detector_line_direction = (-0.101492, -0.994836, 0.000000)
+agv_detector_col_direction = (-0.059849, 0.006106, -0.998189)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0065 ===
+theta_deg = 100.5066
+phi_deg = 4.0088
+agv_source_position_m = (-0.977954, -0.181369, 0.069705)
+agv_detector_center_position_m = (0.979428, 0.181643, -0.069810)
+agv_detector_line_direction = (0.182349, -0.983234, -0.000000)
+agv_detector_col_direction = (-0.068738, -0.012748, -0.997553)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0066 ===
+theta_deg = 2.8464
+phi_deg = 18.3124
+agv_source_position_m = (-0.047006, 0.945407, 0.313278)
+agv_detector_center_position_m = (0.047076, -0.946833, -0.313750)
+agv_detector_line_direction = (-0.998766, -0.049659, 0.000000)
+agv_detector_col_direction = (-0.015603, 0.313811, -0.949357)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0067 ===
+theta_deg = 22.3496
+phi_deg = 24.3132
+agv_source_position_m = (-0.345516, 0.840381, 0.410518)
+agv_detector_center_position_m = (0.346037, -0.841648, -0.411137)
+agv_detector_line_direction = (-0.924881, -0.380258, 0.000000)
+agv_detector_col_direction = (-0.156561, 0.380796, -0.911308)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0068 ===
+theta_deg = 222.6340
+phi_deg = 24.8147
+agv_source_position_m = (0.612974, -0.665811, 0.418456)
+agv_detector_center_position_m = (-0.613898, 0.666815, -0.419087)
+agv_detector_line_direction = (0.735695, 0.677313, -0.000000)
+agv_detector_col_direction = (0.284258, -0.308761, -0.907669)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0069 ===
+theta_deg = 327.1826
+phi_deg = -8.8214
+agv_source_position_m = (0.533983, 0.828027, -0.152905)
+agv_detector_center_position_m = (-0.534788, -0.829275, 0.153136)
+agv_detector_line_direction = (-0.840402, 0.541964, -0.000000)
+agv_detector_col_direction = (-0.083113, -0.128879, -0.988171)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0070 ===
+theta_deg = 274.4665
+phi_deg = -18.2406
+agv_source_position_m = (0.944091, 0.073747, -0.312090)
+agv_detector_center_position_m = (-0.945515, -0.073858, 0.312560)
+agv_detector_line_direction = (-0.077877, 0.996963, -0.000000)
+agv_detector_col_direction = (-0.312057, -0.024376, -0.949751)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0071 ===
+theta_deg = 251.9208
+phi_deg = 5.0612
+agv_source_position_m = (0.944147, -0.308215, 0.087962)
+agv_detector_center_position_m = (-0.945570, 0.308680, -0.088094)
+agv_detector_line_direction = (0.310331, 0.950629, -0.000000)
+agv_detector_col_direction = (0.083865, -0.027377, -0.996101)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0072 ===
+theta_deg = 253.2816
+phi_deg = -19.8762
+agv_source_position_m = (0.898038, -0.269738, -0.338992)
+agv_detector_center_position_m = (-0.899392, 0.270145, 0.339503)
+agv_detector_line_direction = (0.287667, 0.957730, -0.000000)
+agv_detector_col_direction = (-0.325618, 0.097804, -0.940430)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0073 ===
+theta_deg = 144.5700
+phi_deg = -16.0149
+agv_source_position_m = (-0.555577, -0.780905, -0.275079)
+agv_detector_center_position_m = (0.556414, 0.782083, 0.275494)
+agv_detector_line_direction = (0.814824, -0.579708, -0.000000)
+agv_detector_col_direction = (0.159934, 0.224800, -0.961190)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0074 ===
+theta_deg = 7.2476
+phi_deg = -21.2214
+agv_source_position_m = (-0.117258, 0.922030, -0.360912)
+agv_detector_center_position_m = (0.117435, -0.923420, 0.361457)
+agv_detector_line_direction = (-0.992010, -0.126158, 0.000000)
+agv_detector_col_direction = (0.045666, -0.359081, -0.932189)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0075 ===
+theta_deg = 58.2910
+phi_deg = 4.8985
+agv_source_position_m = (-0.845138, 0.522150, 0.085140)
+agv_detector_center_position_m = (0.846412, -0.522937, -0.085268)
+agv_detector_line_direction = (-0.525605, -0.850729, 0.000000)
+agv_detector_col_direction = (-0.072644, 0.044882, -0.996348)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0076 ===
+theta_deg = 295.7209
+phi_deg = -10.5321
+agv_source_position_m = (0.883145, 0.425425, -0.182251)
+agv_detector_center_position_m = (-0.884476, -0.426067, 0.182526)
+agv_detector_line_direction = (-0.433987, 0.900919, -0.000000)
+agv_detector_col_direction = (-0.164676, -0.079327, -0.983153)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0077 ===
+theta_deg = 132.7801
+phi_deg = -3.7793
+agv_source_position_m = (-0.730223, -0.675723, -0.065720)
+agv_detector_center_position_m = (0.731324, 0.676742, 0.065819)
+agv_detector_line_direction = (0.679187, -0.733966, -0.000000)
+agv_detector_col_direction = (0.048378, 0.044768, -0.997825)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0078 ===
+theta_deg = 19.5054
+phi_deg = 14.7902
+agv_source_position_m = (-0.321886, 0.908708, 0.254532)
+agv_detector_center_position_m = (0.322372, -0.910078, -0.254916)
+agv_detector_line_direction = (-0.942610, -0.333896, 0.000000)
+agv_detector_col_direction = (-0.085237, 0.240630, -0.966867)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0079 ===
+theta_deg = 280.2748
+phi_deg = 1.5166
+agv_source_position_m = (0.980736, 0.177785, 0.026389)
+agv_detector_center_position_m = (-0.982215, -0.178053, -0.026429)
+agv_detector_line_direction = (-0.178370, 0.983964, -0.000000)
+agv_detector_col_direction = (0.026042, 0.004721, -0.999650)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0080 ===
+theta_deg = 282.7112
+phi_deg = 21.7231
+agv_source_position_m = (0.903559, 0.203811, 0.369037)
+agv_detector_center_position_m = (-0.904922, -0.204118, -0.369594)
+agv_detector_line_direction = (-0.220036, 0.975492, -0.000000)
+agv_detector_col_direction = (0.361051, 0.081440, -0.928983)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0081 ===
+theta_deg = 137.9876
+phi_deg = -4.0639
+agv_source_position_m = (-0.665652, -0.738960, -0.070662)
+agv_detector_center_position_m = (0.666655, 0.740074, 0.070769)
+agv_detector_line_direction = (0.743000, -0.669291, -0.000000)
+agv_detector_col_direction = (0.047433, 0.052656, -0.997486)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0082 ===
+theta_deg = 182.9370
+phi_deg = 0.2283
+agv_source_position_m = (0.051088, -0.995752, 0.003973)
+agv_detector_center_position_m = (-0.051165, 0.997253, -0.003979)
+agv_detector_line_direction = (0.998686, 0.051239, -0.000000)
+agv_detector_col_direction = (0.000204, -0.003979, -0.999992)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0083 ===
+theta_deg = 94.7345
+phi_deg = -23.0973
+agv_source_position_m = (-0.914015, -0.075700, -0.391144)
+agv_detector_center_position_m = (0.915393, 0.075814, 0.391734)
+agv_detector_line_direction = (0.082539, -0.996588, -0.000000)
+agv_detector_col_direction = (0.390955, 0.032379, -0.919840)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0084 ===
+theta_deg = 55.8032
+phi_deg = 8.9017
+agv_source_position_m = (-0.814755, 0.553639, 0.154287)
+agv_detector_center_position_m = (0.815983, -0.554474, -0.154520)
+agv_detector_line_direction = (-0.562036, -0.827112, 0.000000)
+agv_detector_col_direction = (-0.127988, 0.086970, -0.987955)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0085 ===
+theta_deg = 172.8347
+phi_deg = -2.2346
+agv_source_position_m = (-0.124273, -0.988530, -0.038876)
+agv_detector_center_position_m = (0.124460, 0.990020, 0.038935)
+agv_detector_line_direction = (0.992190, -0.124733, -0.000000)
+agv_detector_col_direction = (0.004863, 0.038686, -0.999240)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0086 ===
+theta_deg = 201.0449
+phi_deg = -11.1684
+agv_source_position_m = (0.351266, -0.912941, -0.193125)
+agv_detector_center_position_m = (-0.351796, 0.914318, 0.193416)
+agv_detector_line_direction = (0.933299, 0.359099, -0.000000)
+agv_detector_col_direction = (-0.069555, 0.180773, -0.981062)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0087 ===
+theta_deg = 266.6859
+phi_deg = 24.2259
+agv_source_position_m = (0.907741, -0.052564, 0.409133)
+agv_detector_center_position_m = (-0.909110, 0.052643, -0.409750)
+agv_detector_line_direction = (0.057809, 0.998328, -0.000000)
+agv_detector_col_direction = (0.409650, -0.023721, -0.911935)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0088 ===
+theta_deg = 314.0455
+phi_deg = -2.7057
+agv_source_position_m = (0.715883, 0.692419, -0.047068)
+agv_detector_center_position_m = (-0.716962, -0.693462, 0.047139)
+agv_detector_line_direction = (-0.695229, 0.718788, -0.000000)
+agv_detector_col_direction = (-0.033931, -0.032819, -0.998885)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0089 ===
+theta_deg = 7.5475
+phi_deg = 19.4664
+agv_source_position_m = (-0.123477, 0.931930, 0.332277)
+agv_detector_center_position_m = (0.123663, -0.933335, -0.332778)
+agv_detector_line_direction = (-0.991336, -0.131348, 0.000000)
+agv_detector_col_direction = (-0.043772, 0.330366, -0.942837)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0090 ===
+theta_deg = 328.8263
+phi_deg = -21.2114
+agv_source_position_m = (0.481152, 0.795298, -0.360750)
+agv_detector_center_position_m = (-0.481877, -0.796497, 0.361294)
+agv_detector_line_direction = (-0.855602, 0.517635, -0.000000)
+agv_detector_col_direction = (-0.187286, -0.309565, -0.932252)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0091 ===
+theta_deg = 81.3731
+phi_deg = -14.4056
+agv_source_position_m = (-0.954794, 0.144858, -0.248056)
+agv_detector_center_position_m = (0.956233, -0.145077, 0.248430)
+agv_detector_line_direction = (-0.150000, -0.988686, 0.000000)
+agv_detector_col_direction = (0.245970, -0.037318, -0.968559)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0092 ===
+theta_deg = 73.6015
+phi_deg = 21.9691
+agv_source_position_m = (-0.887053, 0.261049, 0.373010)
+agv_detector_center_position_m = (0.888391, -0.261443, -0.373573)
+agv_detector_line_direction = (-0.282317, -0.959321, 0.000000)
+agv_detector_col_direction = (-0.358889, 0.105617, -0.927386)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0093 ===
+theta_deg = 7.6283
+phi_deg = -15.4526
+agv_source_position_m = (-0.127572, 0.952522, -0.265660)
+agv_detector_center_position_m = (0.127764, -0.953957, 0.266061)
+agv_detector_line_direction = (-0.991150, -0.132745, 0.000000)
+agv_detector_col_direction = (0.035369, -0.264083, -0.963851)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0094 ===
+theta_deg = 292.3661
+phi_deg = -20.9203
+agv_source_position_m = (0.861277, 0.354396, -0.356022)
+agv_detector_center_position_m = (-0.862576, -0.354930, 0.356559)
+agv_detector_line_direction = (-0.380523, 0.924772, -0.000000)
+agv_detector_col_direction = (-0.330207, -0.135873, -0.934078)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0095 ===
+theta_deg = 290.8752
+phi_deg = -8.1697
+agv_source_position_m = (0.922166, 0.351684, -0.141688)
+agv_detector_center_position_m = (-0.923556, -0.352215, 0.141902)
+agv_detector_line_direction = (-0.356334, 0.934359, -0.000000)
+agv_detector_col_direction = (-0.132777, -0.050637, -0.989852)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0096 ===
+theta_deg = 333.6294
+phi_deg = -12.5955
+agv_source_position_m = (0.432215, 0.871816, -0.217428)
+agv_detector_center_position_m = (-0.432867, -0.873130, 0.217756)
+agv_detector_line_direction = (-0.895940, 0.444175, -0.000000)
+agv_detector_col_direction = (-0.096860, -0.195375, -0.975934)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0097 ===
+theta_deg = 355.7184
+phi_deg = 21.7193
+agv_source_position_m = (0.069154, 0.923700, 0.368974)
+agv_detector_center_position_m = (-0.069259, -0.925093, -0.369531)
+agv_detector_line_direction = (-0.997209, 0.074658, -0.000000)
+agv_detector_col_direction = (0.027628, 0.369026, -0.929008)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0098 ===
+theta_deg = 172.6953
+phi_deg = -18.1751
+agv_source_position_m = (-0.120448, -0.939635, -0.311008)
+agv_detector_center_position_m = (0.120630, 0.941051, 0.311477)
+agv_detector_line_direction = (0.991884, -0.127146, -0.000000)
+agv_detector_col_direction = (0.039660, 0.309391, -0.950108)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0099 ===
+theta_deg = 154.5908
+phi_deg = 10.6125
+agv_source_position_m = (-0.420504, -0.885215, 0.183626)
+agv_detector_center_position_m = (0.421138, 0.886549, -0.183902)
+agv_detector_line_direction = (0.903267, -0.429080, -0.000000)
+agv_detector_col_direction = (-0.079022, -0.166350, -0.982895)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0100 ===
+theta_deg = 199.5690
+phi_deg = 2.0297
+agv_source_position_m = (0.333750, -0.938888, 0.035313)
+agv_detector_center_position_m = (-0.334253, 0.940303, -0.035367)
+agv_detector_line_direction = (0.942239, 0.334941, -0.000000)
+agv_detector_col_direction = (0.011863, -0.033372, -0.999373)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0101 ===
+theta_deg = 56.7268
+phi_deg = -0.2695
+agv_source_position_m = (-0.833605, 0.547018, -0.004690)
+agv_detector_center_position_m = (0.834861, -0.547842, 0.004697)
+agv_detector_line_direction = (-0.548632, -0.836064, 0.000000)
+agv_detector_col_direction = (0.003932, -0.002580, -0.999989)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0102 ===
+theta_deg = 102.3857
+phi_deg = -15.3659
+agv_source_position_m = (-0.939051, -0.206218, -0.264205)
+agv_detector_center_position_m = (0.940467, 0.206529, 0.264604)
+agv_detector_line_direction = (0.214491, -0.976726, -0.000000)
+agv_detector_col_direction = (0.258815, 0.056836, -0.964253)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0103 ===
+theta_deg = 101.5422
+phi_deg = -17.5934
+agv_source_position_m = (-0.931212, -0.190172, -0.301375)
+agv_detector_center_position_m = (0.932615, 0.190459, 0.301829)
+agv_detector_line_direction = (0.200090, -0.979778, -0.000000)
+agv_detector_col_direction = (0.296148, 0.060479, -0.953225)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0104 ===
+theta_deg = 38.7449
+phi_deg = 8.2319
+agv_source_position_m = (-0.617590, 0.769642, 0.142760)
+agv_detector_center_position_m = (0.618522, -0.770802, -0.142975)
+agv_detector_line_direction = (-0.779940, -0.625854, 0.000000)
+agv_detector_col_direction = (-0.089609, 0.111671, -0.989697)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0105 ===
+theta_deg = 252.5824
+phi_deg = 14.1852
+agv_source_position_m = (0.922344, -0.289357, 0.244339)
+agv_detector_center_position_m = (-0.923734, 0.289793, -0.244707)
+agv_detector_line_direction = (0.299335, 0.954148, -0.000000)
+agv_detector_col_direction = (0.233821, -0.073354, -0.969509)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0106 ===
+theta_deg = 156.4575
+phi_deg = -24.5990
+agv_source_position_m = (-0.362114, -0.831119, -0.415045)
+agv_detector_center_position_m = (0.362660, 0.832372, 0.415670)
+agv_detector_line_direction = (0.916764, -0.399429, -0.000000)
+agv_detector_col_direction = (0.166268, 0.381617, -0.909243)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0107 ===
+theta_deg = 272.0484
+phi_deg = -21.2437
+agv_source_position_m = (0.928722, 0.033217, -0.361274)
+agv_detector_center_position_m = (-0.930122, -0.033267, 0.361819)
+agv_detector_line_direction = (-0.035744, 0.999361, -0.000000)
+agv_detector_col_direction = (-0.362105, -0.012951, -0.932048)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0108 ===
+theta_deg = 49.4554
+phi_deg = -0.0495
+agv_source_position_m = (-0.757673, 0.648134, -0.000861)
+agv_detector_center_position_m = (0.758815, -0.649112, 0.000862)
+agv_detector_line_direction = (-0.650040, -0.759900, 0.000000)
+agv_detector_col_direction = (0.000656, -0.000561, -1.000000)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0109 ===
+theta_deg = 268.8412
+phi_deg = 10.7433
+agv_source_position_m = (0.979392, -0.019810, 0.185864)
+agv_detector_center_position_m = (-0.980869, 0.019840, -0.186144)
+agv_detector_line_direction = (0.020223, 0.999795, -0.000000)
+agv_detector_col_direction = (0.186372, -0.003770, -0.982472)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0110 ===
+theta_deg = 89.3628
+phi_deg = -13.8389
+agv_source_position_m = (-0.968066, 0.010766, -0.238492)
+agv_detector_center_position_m = (0.969526, -0.010783, 0.238852)
+agv_detector_line_direction = (-0.011121, -0.999938, 0.000000)
+agv_detector_col_direction = (0.239178, -0.002660, -0.970972)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0111 ===
+theta_deg = 334.3634
+phi_deg = -14.3969
+agv_source_position_m = (0.417846, 0.870685, -0.247909)
+agv_detector_center_position_m = (-0.418476, -0.871998, 0.248282)
+agv_detector_line_direction = (-0.901557, 0.432661, -0.000000)
+agv_detector_col_direction = (-0.107576, -0.224161, -0.968597)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0112 ===
+theta_deg = 79.7596
+phi_deg = -12.1008
+agv_source_position_m = (-0.959385, 0.173319, -0.209018)
+agv_detector_center_position_m = (0.960831, -0.173580, 0.209333)
+agv_detector_line_direction = (-0.177778, -0.984071, 0.000000)
+agv_detector_col_direction = (0.206293, -0.037268, -0.977780)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0113 ===
+theta_deg = 78.5144
+phi_deg = -6.6644
+agv_source_position_m = (-0.970501, 0.197196, -0.115713)
+agv_detector_center_position_m = (0.971964, -0.197493, 0.115887)
+agv_detector_line_direction = (-0.199121, -0.979975, 0.000000)
+agv_detector_col_direction = (0.113729, -0.023109, -0.993243)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0114 ===
+theta_deg = 46.6219
+phi_deg = 10.1210
+agv_source_position_m = (-0.713430, 0.674141, 0.175212)
+agv_detector_center_position_m = (0.714505, -0.675157, -0.175477)
+agv_detector_line_direction = (-0.686810, -0.726837, 0.000000)
+agv_detector_col_direction = (-0.127725, 0.120691, -0.984439)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0115 ===
+theta_deg = 144.0869
+phi_deg = 18.6661
+agv_source_position_m = (-0.554076, -0.765057, 0.319114)
+agv_detector_center_position_m = (0.554911, 0.766211, -0.319595)
+agv_detector_line_direction = (0.809907, -0.586558, -0.000000)
+agv_detector_col_direction = (-0.187729, -0.259213, -0.947400)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0116 ===
+theta_deg = 153.8379
+phi_deg = -22.1577
+agv_source_position_m = (-0.407154, -0.828829, -0.376052)
+agv_detector_center_position_m = (0.407768, 0.830079, 0.376619)
+agv_detector_line_direction = (0.897550, -0.440912, -0.000000)
+agv_detector_col_direction = (0.166293, 0.338517, -0.926149)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0117 ===
+theta_deg = 235.5504
+phi_deg = -18.8630
+agv_source_position_m = (0.778050, -0.533732, -0.322359)
+agv_detector_center_position_m = (-0.779223, 0.534537, 0.322845)
+agv_detector_line_direction = (0.565681, 0.824624, -0.000000)
+agv_detector_col_direction = (-0.266606, 0.182888, -0.946294)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0118 ===
+theta_deg = 9.8850
+phi_deg = -5.4879
+agv_source_position_m = (-0.170384, 0.977765, -0.095355)
+agv_detector_center_position_m = (0.170640, -0.979239, 0.095499)
+agv_detector_line_direction = (-0.985154, -0.171671, 0.000000)
+agv_detector_col_direction = (0.016418, -0.094216, -0.995416)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0119 ===
+theta_deg = 324.9016
+phi_deg = 11.4608
+agv_source_position_m = (0.561866, 0.799502, 0.198116)
+agv_detector_center_position_m = (-0.562713, -0.800707, -0.198415)
+agv_detector_line_direction = (-0.818166, 0.574982, -0.000000)
+agv_detector_col_direction = (0.114248, 0.162568, -0.980061)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0120 ===
+theta_deg = 73.1096
+phi_deg = 16.9369
+agv_source_position_m = (-0.912677, 0.277126, 0.290465)
+agv_detector_center_position_m = (0.914053, -0.277544, -0.290903)
+agv_detector_line_direction = (-0.290542, -0.956862, 0.000000)
+agv_detector_col_direction = (-0.278752, 0.084640, -0.956626)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0121 ===
+theta_deg = 5.1683
+phi_deg = 14.1675
+agv_source_position_m = (-0.087085, 0.962812, 0.244039)
+agv_detector_center_position_m = (0.087217, -0.964264, -0.244407)
+agv_detector_line_direction = (-0.995934, -0.090081, 0.000000)
+agv_detector_col_direction = (-0.022048, 0.243762, -0.969584)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0122 ===
+theta_deg = 339.1460
+phi_deg = -4.2282
+agv_source_position_m = (0.353979, 0.929216, -0.073513)
+agv_detector_center_position_m = (-0.354512, -0.930617, 0.073624)
+agv_detector_line_direction = (-0.934491, 0.355988, -0.000000)
+agv_detector_col_direction = (-0.026247, -0.068899, -0.997278)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0123 ===
+theta_deg = 191.4250
+phi_deg = 14.4147
+agv_source_position_m = (0.191287, -0.946545, 0.248210)
+agv_detector_center_position_m = (-0.191575, 0.947973, -0.248584)
+agv_detector_line_direction = (0.980185, 0.198085, -0.000000)
+agv_detector_col_direction = (0.049311, -0.244006, -0.968519)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0124 ===
+theta_deg = 73.5615
+phi_deg = 21.2882
+agv_source_position_m = (-0.891060, 0.262903, 0.361995)
+agv_detector_center_position_m = (0.892404, -0.263300, -0.362541)
+agv_detector_line_direction = (-0.282985, -0.959124, 0.000000)
+agv_detector_col_direction = (-0.348219, 0.102740, -0.931766)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0125 ===
+theta_deg = 100.4527
+phi_deg = 0.0494
+agv_source_position_m = (-0.980522, -0.180892, 0.000860)
+agv_detector_center_position_m = (0.982001, 0.181165, -0.000861)
+agv_detector_line_direction = (0.181424, -0.983405, -0.000000)
+agv_detector_col_direction = (-0.000848, -0.000157, -1.000000)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0126 ===
+theta_deg = 1.5529
+phi_deg = 23.2216
+agv_source_position_m = (-0.024831, 0.915957, 0.393133)
+agv_detector_center_position_m = (0.024869, -0.917337, -0.393726)
+agv_detector_line_direction = (-0.999633, -0.027100, 0.000000)
+agv_detector_col_direction = (-0.010685, 0.394144, -0.918986)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0127 ===
+theta_deg = 201.0492
+phi_deg = 23.1155
+agv_source_position_m = (0.329366, -0.855829, 0.391435)
+agv_detector_center_position_m = (-0.329862, 0.857120, -0.392025)
+agv_detector_line_direction = (0.933272, 0.359170, -0.000000)
+agv_detector_col_direction = (0.141005, -0.366389, -0.919716)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0128 ===
+theta_deg = 109.9611
+phi_deg = 20.7495
+agv_source_position_m = (-0.876383, -0.318304, 0.353245)
+agv_detector_center_position_m = (0.877704, 0.318784, -0.353778)
+agv_detector_line_direction = (0.341382, -0.939925, -0.000000)
+agv_detector_col_direction = (-0.333000, -0.120946, -0.935138)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0129 ===
+theta_deg = 227.9133
+phi_deg = -6.5106
+agv_source_position_m = (0.735184, -0.663980, -0.113055)
+agv_detector_center_position_m = (-0.736293, 0.664981, 0.113226)
+agv_detector_line_direction = (0.670254, 0.742132, -0.000000)
+agv_detector_col_direction = (-0.084148, 0.075998, -0.993551)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0130 ===
+theta_deg = 174.5092
+phi_deg = 7.0395
+agv_source_position_m = (-0.094686, -0.985013, 0.122194)
+agv_detector_center_position_m = (0.094829, 0.986498, -0.122378)
+agv_detector_line_direction = (0.995412, -0.095686, -0.000000)
+agv_detector_col_direction = (-0.011727, -0.121991, -0.992462)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0131 ===
+theta_deg = 77.8433
+phi_deg = 24.0805
+agv_source_position_m = (-0.889884, 0.191696, 0.406825)
+agv_detector_center_position_m = (0.891226, -0.191985, -0.407438)
+agv_detector_line_direction = (-0.210586, -0.977575, 0.000000)
+agv_detector_col_direction = (-0.398871, 0.085923, -0.912973)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0132 ===
+theta_deg = 52.5495
+phi_deg = -16.3459
+agv_source_position_m = (-0.759558, 0.581788, -0.280610)
+agv_detector_center_position_m = (0.760703, -0.582665, 0.281033)
+agv_detector_line_direction = (-0.608076, -0.793879, 0.000000)
+agv_detector_col_direction = (0.223425, -0.171134, -0.959580)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0133 ===
+theta_deg = 272.7676
+phi_deg = -0.0794
+agv_source_position_m = (0.995905, 0.048144, -0.001381)
+agv_detector_center_position_m = (-0.997407, -0.048216, 0.001383)
+agv_detector_line_direction = (-0.048285, 0.998834, -0.000000)
+agv_detector_col_direction = (-0.001383, -0.000067, -0.999999)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0134 ===
+theta_deg = 273.2592
+phi_deg = -3.7764
+agv_source_position_m = (0.993295, 0.056563, -0.065669)
+agv_detector_center_position_m = (-0.994793, -0.056648, 0.065768)
+agv_detector_line_direction = (-0.056853, 0.998383, -0.000000)
+agv_detector_col_direction = (-0.065756, -0.003744, -0.997829)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0135 ===
+theta_deg = 33.3408
+phi_deg = 11.0621
+agv_source_position_m = (-0.537825, 0.817491, 0.191310)
+agv_detector_center_position_m = (0.538636, -0.818723, -0.191598)
+agv_detector_line_direction = (-0.835416, -0.549618, 0.000000)
+agv_detector_col_direction = (-0.105456, 0.160293, -0.981420)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0136 ===
+theta_deg = 54.1554
+phi_deg = 18.9900
+agv_source_position_m = (-0.764244, 0.552096, 0.324450)
+agv_detector_center_position_m = (0.765396, -0.552928, -0.324939)
+agv_detector_line_direction = (-0.585589, -0.810608, 0.000000)
+agv_detector_col_direction = (-0.263775, 0.190553, -0.945575)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0137 ===
+theta_deg = 109.3125
+phi_deg = 17.7897
+agv_source_position_m = (-0.895970, -0.313984, 0.304629)
+agv_detector_center_position_m = (0.897321, 0.314457, -0.305089)
+agv_detector_line_direction = (0.330720, -0.943729, -0.000000)
+agv_detector_col_direction = (-0.288333, -0.101043, -0.952184)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0138 ===
+theta_deg = 173.0983
+phi_deg = 13.3201
+agv_source_position_m = (-0.116591, -0.963215, 0.229717)
+agv_detector_center_position_m = (0.116767, 0.964667, -0.230063)
+agv_detector_line_direction = (0.992754, -0.120167, -0.000000)
+agv_detector_col_direction = (-0.027685, -0.228722, -0.973098)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0139 ===
+theta_deg = 10.3712
+phi_deg = -15.8439
+agv_source_position_m = (-0.172678, 0.943519, -0.272216)
+agv_detector_center_position_m = (0.172938, -0.944941, 0.272627)
+agv_detector_line_direction = (-0.983662, -0.180025, 0.000000)
+agv_detector_col_direction = (0.049150, -0.268556, -0.962009)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0140 ===
+theta_deg = 250.7371
+phi_deg = 23.7047
+agv_source_position_m = (0.861835, -0.301183, 0.400845)
+agv_detector_center_position_m = (-0.863134, 0.301637, -0.401450)
+agv_detector_line_direction = (0.329902, 0.944015, -0.000000)
+agv_detector_col_direction = (0.379516, -0.132629, -0.915629)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0141 ===
+theta_deg = 124.1172
+phi_deg = 21.8576
+agv_source_position_m = (-0.766125, -0.519041, 0.371210)
+agv_detector_center_position_m = (0.767280, 0.519823, -0.371770)
+agv_detector_line_direction = (0.560887, -0.827892, -0.000000)
+agv_detector_col_direction = (-0.308225, -0.208819, -0.928112)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0142 ===
+theta_deg = 181.2237
+phi_deg = -17.9541
+agv_source_position_m = (0.020257, -0.948299, -0.307352)
+agv_detector_center_position_m = (-0.020287, 0.949729, 0.307815)
+agv_detector_line_direction = (0.999772, 0.021356, -0.000000)
+agv_detector_col_direction = (-0.006583, 0.308185, -0.951304)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0143 ===
+theta_deg = 306.0960
+phi_deg = -18.2448
+agv_source_position_m = (0.765160, 0.557883, -0.312160)
+agv_detector_center_position_m = (-0.766313, -0.558724, 0.312631)
+agv_detector_line_direction = (-0.589141, 0.808031, -0.000000)
+agv_detector_col_direction = (-0.252977, -0.184447, -0.949727)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0144 ===
+theta_deg = 44.0669
+phi_deg = 12.9323
+agv_source_position_m = (-0.675870, 0.698250, 0.223144)
+agv_detector_center_position_m = (0.676890, -0.699302, -0.223480)
+agv_detector_line_direction = (-0.718528, -0.695498, 0.000000)
+agv_detector_col_direction = (-0.155652, 0.160806, -0.974635)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0145 ===
+theta_deg = 298.2598
+phi_deg = 22.4663
+agv_source_position_m = (0.811575, 0.436253, 0.381021)
+agv_detector_center_position_m = (-0.812798, -0.436911, -0.381595)
+agv_detector_line_direction = (-0.473470, 0.880810, -0.000000)
+agv_detector_col_direction = (0.336593, 0.180932, -0.924104)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0146 ===
+theta_deg = 261.4774
+phi_deg = 11.6154
+agv_source_position_m = (0.965866, -0.144740, 0.200751)
+agv_detector_center_position_m = (-0.967322, 0.144958, -0.201054)
+agv_detector_line_direction = (0.148200, 0.988957, -0.000000)
+agv_detector_col_direction = (0.199118, -0.029839, -0.979521)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0147 ===
+theta_deg = 311.0084
+phi_deg = -16.7949
+agv_source_position_m = (0.720308, 0.626340, -0.288100)
+agv_detector_center_position_m = (-0.721394, -0.627284, 0.288535)
+agv_detector_line_direction = (-0.656170, 0.754613, -0.000000)
+agv_detector_col_direction = (-0.218043, -0.189599, -0.957345)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0148 ===
+theta_deg = 138.5615
+phi_deg = 22.1643
+agv_source_position_m = (-0.611115, -0.692236, 0.376159)
+agv_detector_center_position_m = (0.612036, 0.693279, -0.376726)
+agv_detector_line_direction = (0.749667, -0.661816, -0.000000)
+agv_detector_col_direction = (-0.249680, -0.282823, -0.926106)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0149 ===
+theta_deg = 115.9036
+phi_deg = -20.1353
+agv_source_position_m = (-0.842078, -0.408956, -0.343230)
+agv_detector_center_position_m = (0.843347, 0.409572, 0.343747)
+agv_detector_line_direction = (0.436858, -0.899531, -0.000000)
+agv_detector_col_direction = (0.309653, 0.150383, -0.938882)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0150 ===
+theta_deg = 29.0966
+phi_deg = -7.1286
+agv_source_position_m = (-0.481110, 0.864506, -0.123734)
+agv_detector_center_position_m = (0.481835, -0.865809, 0.123920)
+agv_detector_line_direction = (-0.873801, -0.486283, 0.000000)
+agv_detector_col_direction = (0.060346, -0.108436, -0.992270)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0151 ===
+theta_deg = 118.9618
+phi_deg = 16.3712
+agv_source_position_m = (-0.837009, -0.463232, 0.281034)
+agv_detector_center_position_m = (0.838270, 0.463930, -0.281457)
+agv_detector_line_direction = (0.484226, -0.874943, -0.000000)
+agv_detector_col_direction = (-0.246611, -0.136484, -0.959456)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0152 ===
+theta_deg = 4.3375
+phi_deg = -23.8317
+agv_source_position_m = (-0.068979, 0.909443, -0.402867)
+agv_detector_center_position_m = (0.069083, -0.910815, 0.403474)
+agv_detector_line_direction = (-0.997136, -0.075631, 0.000000)
+agv_detector_col_direction = (0.030559, -0.402894, -0.914737)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0153 ===
+theta_deg = 126.8280
+phi_deg = -15.2505
+agv_source_position_m = (-0.769988, -0.576611, -0.262269)
+agv_detector_center_position_m = (0.771149, 0.577480, 0.262665)
+agv_detector_line_direction = (0.599415, -0.800439, -0.000000)
+agv_detector_col_direction = (0.210548, 0.157670, -0.964785)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0154 ===
+theta_deg = 250.8853
+phi_deg = -14.9673
+agv_source_position_m = (0.910133, -0.315424, -0.257510)
+agv_detector_center_position_m = (-0.911506, 0.315900, 0.257898)
+agv_detector_line_direction = (0.327461, 0.944865, -0.000000)
+agv_detector_col_direction = (-0.244027, 0.084572, -0.966074)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0155 ===
+theta_deg = 83.0083
+phi_deg = -6.4431
+agv_source_position_m = (-0.983404, 0.120601, -0.111888)
+agv_detector_center_position_m = (0.984887, -0.120783, 0.112057)
+agv_detector_line_direction = (-0.121725, -0.992564, 0.000000)
+agv_detector_col_direction = (0.111382, -0.013660, -0.993684)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0156 ===
+theta_deg = 32.5500
+phi_deg = 18.1310
+agv_source_position_m = (-0.509821, 0.798722, 0.310278)
+agv_detector_center_position_m = (0.510590, -0.799926, -0.310746)
+agv_detector_line_direction = (-0.842923, -0.538035, 0.000000)
+agv_detector_col_direction = (-0.167431, 0.262309, -0.950348)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0157 ===
+theta_deg = 295.1191
+phi_deg = -10.1646
+agv_source_position_m = (0.888605, 0.416614, -0.175959)
+agv_detector_center_position_m = (-0.889944, -0.417242, 0.176224)
+agv_detector_line_direction = (-0.424501, 0.905427, -0.000000)
+agv_detector_col_direction = (-0.159786, -0.074914, -0.984305)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0158 ===
+theta_deg = 154.7232
+phi_deg = 14.5242
+agv_source_position_m = (-0.412135, -0.872792, 0.250053)
+agv_detector_center_position_m = (0.412757, 0.874107, -0.250430)
+agv_detector_line_direction = (0.904255, -0.426992, -0.000000)
+agv_detector_col_direction = (-0.107085, -0.226776, -0.968042)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0159 ===
+theta_deg = 168.3464
+phi_deg = 21.7549
+agv_source_position_m = (-0.187057, -0.906967, 0.369550)
+agv_detector_center_position_m = (0.187339, 0.908334, -0.370107)
+agv_detector_line_direction = (0.979387, -0.201993, -0.000000)
+agv_detector_col_direction = (-0.074866, -0.362996, -0.928778)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0160 ===
+theta_deg = 327.3333
+phi_deg = 17.6397
+agv_source_position_m = (0.512865, 0.799891, 0.302142)
+agv_detector_center_position_m = (-0.513639, -0.801097, -0.302598)
+agv_detector_line_direction = (-0.841824, 0.539752, -0.000000)
+agv_detector_col_direction = (0.163561, 0.255098, -0.952981)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0161 ===
+theta_deg = 215.4572
+phi_deg = -3.6102
+agv_source_position_m = (0.577247, -0.810550, -0.062783)
+agv_detector_center_position_m = (-0.578117, 0.811772, 0.062878)
+agv_detector_line_direction = (0.814549, 0.580095, -0.000000)
+agv_detector_col_direction = (-0.036527, 0.051291, -0.998016)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0162 ===
+theta_deg = 195.2078
+phi_deg = 20.4250
+agv_source_position_m = (0.245109, -0.901662, 0.347958)
+agv_detector_center_position_m = (-0.245478, 0.903021, -0.348482)
+agv_detector_line_direction = (0.964981, 0.262321, -0.000000)
+agv_detector_col_direction = (0.091545, -0.336759, -0.937130)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0163 ===
+theta_deg = 111.9863
+phi_deg = 15.8664
+agv_source_position_m = (-0.889332, -0.359066, 0.272595)
+agv_detector_center_position_m = (0.890673, 0.359607, -0.273006)
+agv_detector_line_direction = (0.374384, -0.927274, -0.000000)
+agv_detector_col_direction = (-0.253513, -0.102355, -0.961902)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0164 ===
+theta_deg = 127.3841
+phi_deg = 5.3930
+agv_source_position_m = (-0.788747, -0.602697, 0.093711)
+agv_detector_center_position_m = (0.789936, 0.603605, -0.093852)
+agv_detector_line_direction = (0.607156, -0.794583, -0.000000)
+agv_detector_col_direction = (-0.074680, -0.057064, -0.995574)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0165 ===
+theta_deg = 140.0403
+phi_deg = -10.6009
+agv_source_position_m = (-0.629437, -0.751206, -0.183427)
+agv_detector_center_position_m = (0.630385, 0.752339, 0.183704)
+agv_detector_line_direction = (0.766497, -0.642248, -0.000000)
+agv_detector_col_direction = (0.118152, 0.141010, -0.982933)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0166 ===
+theta_deg = 101.1884
+phi_deg = 11.4131
+agv_source_position_m = (-0.958778, -0.189642, 0.197301)
+agv_detector_center_position_m = (0.960223, 0.189928, -0.197599)
+agv_detector_line_direction = (0.194036, -0.980994, -0.000000)
+agv_detector_col_direction = (-0.194120, -0.038396, -0.980226)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0167 ===
+theta_deg = 66.2558
+phi_deg = 3.8064
+agv_source_position_m = (-0.910657, 0.400588, 0.066190)
+agv_detector_center_position_m = (0.912030, -0.401192, -0.066290)
+agv_detector_line_direction = (-0.402654, -0.915352, 0.000000)
+agv_detector_col_direction = (-0.060765, 0.026730, -0.997794)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0168 ===
+theta_deg = 311.8912
+phi_deg = -19.1620
+agv_source_position_m = (0.701109, 0.628874, -0.327278)
+agv_detector_center_position_m = (-0.702166, -0.629822, 0.327772)
+agv_detector_line_direction = (-0.667718, 0.744414, -0.000000)
+agv_detector_col_direction = (-0.244347, -0.219172, -0.944594)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0169 ===
+theta_deg = 74.6827
+phi_deg = 18.0081
+agv_source_position_m = (-0.914543, 0.250487, 0.308245)
+agv_detector_center_position_m = (0.915921, -0.250865, -0.308710)
+agv_detector_line_direction = (-0.264164, -0.964478, 0.000000)
+agv_detector_col_direction = (-0.298170, 0.081667, -0.951013)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0170 ===
+theta_deg = 49.9489
+phi_deg = -3.5973
+agv_source_position_m = (-0.761724, 0.640320, -0.062559)
+agv_detector_center_position_m = (0.762872, -0.641285, 0.062653)
+agv_detector_line_direction = (-0.643470, -0.765471, 0.000000)
+agv_detector_col_direction = (0.048028, -0.040373, -0.998030)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0171 ===
+theta_deg = 54.5663
+phi_deg = 18.2921
+agv_source_position_m = (-0.771347, 0.548851, 0.312942)
+agv_detector_center_position_m = (0.772510, -0.549679, -0.313414)
+agv_detector_line_direction = (-0.579761, -0.814787, 0.000000)
+agv_detector_col_direction = (-0.255730, 0.181965, -0.949469)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0172 ===
+theta_deg = 127.6893
+phi_deg = -11.6576
+agv_source_position_m = (-0.772743, -0.597014, -0.201470)
+agv_detector_center_position_m = (0.773908, 0.597914, 0.201774)
+agv_detector_line_direction = (0.611380, -0.791337, -0.000000)
+agv_detector_col_direction = (0.159900, 0.123537, -0.979373)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0173 ===
+theta_deg = 144.2115
+phi_deg = -24.3558
+agv_source_position_m = (-0.531188, -0.736822, -0.411193)
+agv_detector_center_position_m = (0.531988, 0.737933, 0.411813)
+agv_detector_line_direction = (0.811181, -0.584795, -0.000000)
+agv_detector_col_direction = (0.241170, 0.334533, -0.911002)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0174 ===
+theta_deg = 146.4907
+phi_deg = -0.3536
+agv_source_position_m = (-0.550444, -0.831337, -0.006153)
+agv_detector_center_position_m = (0.551274, 0.832590, 0.006163)
+agv_detector_line_direction = (0.833796, -0.552072, -0.000000)
+agv_detector_col_direction = (0.003407, 0.005146, -0.999981)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0175 ===
+theta_deg = 263.8459
+phi_deg = -20.3928
+agv_source_position_m = (0.929193, -0.100189, -0.347434)
+agv_detector_center_position_m = (-0.930593, 0.100340, 0.347958)
+agv_detector_line_direction = (0.107203, 0.994237, -0.000000)
+agv_detector_col_direction = (-0.346447, 0.037355, -0.937325)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0176 ===
+theta_deg = 295.3193
+phi_deg = 21.4351
+agv_source_position_m = (0.838949, 0.396915, 0.364377)
+agv_detector_center_position_m = (-0.840214, -0.397513, -0.364926)
+agv_detector_line_direction = (-0.427662, 0.903939, -0.000000)
+agv_detector_col_direction = (0.330343, 0.156288, -0.930832)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0177 ===
+theta_deg = 230.3491
+phi_deg = -14.7713
+agv_source_position_m = (0.742319, -0.615211, -0.254214)
+agv_detector_center_position_m = (-0.743438, 0.616138, 0.254597)
+agv_detector_line_direction = (0.638108, 0.769947, -0.000000)
+agv_detector_col_direction = (-0.196307, 0.162693, -0.966951)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0178 ===
+theta_deg = 8.3352
+phi_deg = -13.6115
+agv_source_position_m = (-0.140479, 0.958829, -0.234648)
+agv_detector_center_position_m = (0.140691, -0.960275, 0.235002)
+agv_detector_line_direction = (-0.989437, -0.144963, 0.000000)
+agv_detector_col_direction = (0.034115, -0.232852, -0.971914)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0179 ===
+theta_deg = 347.3241
+phi_deg = -6.4544
+agv_source_position_m = (0.217406, 0.966602, -0.112084)
+agv_detector_center_position_m = (-0.217734, -0.968059, 0.112253)
+agv_detector_line_direction = (-0.975627, 0.219436, -0.000000)
+agv_detector_col_direction = (-0.024667, -0.109673, -0.993662)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0180 ===
+theta_deg = 55.1758
+phi_deg = 8.1537
+agv_source_position_m = (-0.810228, 0.563631, 0.141413)
+agv_detector_center_position_m = (0.811450, -0.564481, -0.141627)
+agv_detector_line_direction = (-0.571061, -0.820908, 0.000000)
+agv_detector_col_direction = (-0.116429, 0.080993, -0.989891)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0181 ===
+theta_deg = 353.3474
+phi_deg = 21.2468
+agv_source_position_m = (0.107658, 0.923040, 0.361323)
+agv_detector_center_position_m = (-0.107820, -0.924431, -0.361868)
+agv_detector_line_direction = (-0.993267, 0.115848, -0.000000)
+agv_detector_col_direction = (0.041982, 0.359945, -0.932028)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0182 ===
+theta_deg = 151.7319
+phi_deg = -12.6867
+agv_source_position_m = (-0.460681, -0.856721, -0.218975)
+agv_detector_center_position_m = (0.461375, 0.858012, 0.219305)
+agv_detector_line_direction = (0.880741, -0.473597, -0.000000)
+agv_detector_col_direction = (0.104011, 0.193427, -0.975586)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0183 ===
+theta_deg = 22.9872
+phi_deg = 15.8870
+agv_source_position_m = (-0.374507, 0.882834, 0.272938)
+agv_detector_center_position_m = (0.375072, -0.884165, -0.273350)
+agv_detector_line_direction = (-0.920592, -0.390525, 0.000000)
+agv_detector_col_direction = (-0.106902, 0.252003, -0.961804)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0184 ===
+theta_deg = 227.5159
+phi_deg = -1.9895
+agv_source_position_m = (0.734861, -0.673000, -0.034614)
+agv_detector_center_position_m = (-0.735969, 0.674014, 0.034666)
+agv_detector_line_direction = (0.675385, 0.737465, -0.000000)
+agv_detector_col_direction = (-0.025602, 0.023447, -0.999397)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0185 ===
+theta_deg = 248.7404
+phi_deg = 5.2286
+agv_source_position_m = (0.925349, -0.360027, 0.090863)
+agv_detector_center_position_m = (-0.926744, 0.360570, -0.091000)
+agv_detector_line_direction = (0.362594, 0.931947, -0.000000)
+agv_detector_col_direction = (0.084929, -0.033043, -0.995839)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0186 ===
+theta_deg = 96.3099
+phi_deg = 9.2157
+agv_source_position_m = (-0.978237, -0.108169, 0.159683)
+agv_detector_center_position_m = (0.979712, 0.108332, -0.159924)
+agv_detector_line_direction = (0.109905, -0.993942, -0.000000)
+agv_detector_col_direction = (-0.159182, -0.017602, -0.987092)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0187 ===
+theta_deg = 69.3898
+phi_deg = 25.2270
+agv_source_position_m = (-0.844246, 0.317503, 0.424956)
+agv_detector_center_position_m = (0.845519, -0.317981, -0.425597)
+agv_detector_line_direction = (-0.352008, -0.935997, 0.000000)
+agv_detector_col_direction = (-0.398927, 0.150028, -0.904627)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0188 ===
+theta_deg = 35.6919
+phi_deg = -7.5860
+agv_source_position_m = (-0.576625, 0.802699, -0.131627)
+agv_detector_center_position_m = (0.577494, -0.803909, 0.131826)
+agv_detector_line_direction = (-0.812166, -0.583426, 0.000000)
+agv_detector_col_direction = (0.077021, -0.107217, -0.991248)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0189 ===
+theta_deg = 106.2932
+phi_deg = -18.6288
+agv_source_position_m = (-0.906885, -0.265075, -0.318499)
+agv_detector_center_position_m = (0.908252, 0.265475, 0.318979)
+agv_detector_line_direction = (0.280553, -0.959839, -0.000000)
+agv_detector_col_direction = (0.306606, 0.089618, -0.947608)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0190 ===
+theta_deg = 144.7112
+phi_deg = -20.6396
+agv_source_position_m = (-0.539035, -0.761622, -0.351455)
+agv_detector_center_position_m = (0.539847, 0.762770, 0.351985)
+agv_detector_line_direction = (0.816251, -0.577698, -0.000000)
+agv_detector_col_direction = (0.203632, 0.287719, -0.935816)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0191 ===
+theta_deg = 281.1990
+phi_deg = -18.5778
+agv_source_position_m = (0.927117, 0.183557, -0.317659)
+agv_detector_center_position_m = (-0.928515, -0.183834, 0.318138)
+agv_detector_line_direction = (-0.194217, 0.980959, -0.000000)
+agv_detector_col_direction = (-0.312526, -0.061876, -0.947892)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0192 ===
+theta_deg = 59.5388
+phi_deg = -22.4857
+agv_source_position_m = (-0.794107, 0.467041, -0.381331)
+agv_detector_center_position_m = (0.795304, -0.467745, 0.381906)
+agv_detector_line_direction = (-0.506955, -0.861972, 0.000000)
+agv_detector_col_direction = (0.329663, -0.193886, -0.923975)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0193 ===
+theta_deg = 122.8302
+phi_deg = 2.0062
+agv_source_position_m = (-0.837304, -0.540231, 0.034905)
+agv_detector_center_position_m = (0.838567, 0.541046, -0.034958)
+agv_detector_line_direction = (0.542152, -0.840281, -0.000000)
+agv_detector_col_direction = (-0.029416, -0.018980, -0.999387)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0194 ===
+theta_deg = 168.6953
+phi_deg = 11.6292
+agv_source_position_m = (-0.191441, -0.957654, 0.200986)
+agv_detector_center_position_m = (0.191729, 0.959098, -0.201289)
+agv_detector_line_direction = (0.980598, -0.196027, -0.000000)
+agv_detector_col_direction = (-0.039515, -0.197666, -0.979473)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0195 ===
+theta_deg = 210.3714
+phi_deg = 21.2872
+agv_source_position_m = (0.469727, -0.801545, 0.361979)
+agv_detector_center_position_m = (-0.470435, 0.802754, -0.362525)
+agv_detector_line_direction = (0.862766, 0.505604, -0.000000)
+agv_detector_col_direction = (0.183556, -0.313221, -0.931772)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0196 ===
+theta_deg = 260.2407
+phi_deg = -12.3239
+agv_source_position_m = (0.959997, -0.165119, -0.212813)
+agv_detector_center_position_m = (-0.961444, 0.165367, 0.213134)
+agv_detector_line_direction = (0.169510, 0.985528, -0.000000)
+agv_detector_col_direction = (-0.210350, 0.036180, -0.976957)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0197 ===
+theta_deg = 227.7041
+phi_deg = -2.9135
+agv_source_position_m = (0.736558, -0.670121, -0.050680)
+agv_detector_center_position_m = (-0.737668, 0.671131, 0.050756)
+agv_detector_line_direction = (0.672960, 0.739679, -0.000000)
+agv_detector_col_direction = (-0.037597, 0.034206, -0.998707)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0198 ===
+theta_deg = 160.5330
+phi_deg = 16.7950
+agv_source_position_m = (-0.318113, -0.899971, 0.288102)
+agv_detector_center_position_m = (0.318592, 0.901328, -0.288536)
+agv_detector_line_direction = (0.942834, -0.333263, -0.000000)
+agv_detector_col_direction = (-0.096296, -0.272431, -0.957345)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0199 ===
+theta_deg = 308.9172
+phi_deg = 12.2773
+agv_source_position_m = (0.758033, 0.612030, 0.212020)
+agv_detector_center_position_m = (-0.759175, -0.612953, -0.212340)
+agv_detector_line_direction = (-0.628196, 0.778055, -0.000000)
+agv_detector_col_direction = (0.165448, 0.133582, -0.977130)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0200 ===
+theta_deg = 161.0992
+phi_deg = -21.2690
+agv_source_position_m = (-0.300983, -0.879057, -0.361684)
+agv_detector_center_position_m = (0.301437, 0.880382, 0.362229)
+agv_detector_line_direction = (0.946081, -0.323931, -0.000000)
+agv_detector_col_direction = (0.117505, 0.343188, -0.931888)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0201 ===
+theta_deg = 320.0580
+phi_deg = 9.5871
+agv_source_position_m = (0.631190, 0.753771, 0.166059)
+agv_detector_center_position_m = (-0.632141, -0.754907, -0.166310)
+agv_detector_line_direction = (-0.766695, 0.642012, -0.000000)
+agv_detector_col_direction = (0.106925, 0.127691, -0.986033)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0202 ===
+theta_deg = 342.4565
+phi_deg = 4.2374
+agv_source_position_m = (0.299725, 0.948095, 0.073673)
+agv_detector_center_position_m = (-0.300177, -0.949524, -0.073784)
+agv_detector_line_direction = (-0.953488, 0.301430, -0.000000)
+agv_detector_col_direction = (0.022273, 0.070453, -0.997266)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0203 ===
+theta_deg = 183.8837
+phi_deg = 15.9564
+agv_source_position_m = (0.064930, -0.956452, 0.274100)
+agv_detector_center_position_m = (-0.065028, 0.957894, -0.274513)
+agv_detector_line_direction = (0.997704, 0.067731, -0.000000)
+agv_detector_col_direction = (0.018620, -0.274275, -0.961471)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0204 ===
+theta_deg = 317.8273
+phi_deg = -4.1299
+agv_source_position_m = (0.667662, 0.737033, -0.071807)
+agv_detector_center_position_m = (-0.668669, -0.738144, 0.071915)
+agv_detector_line_direction = (-0.741124, 0.671368, -0.000000)
+agv_detector_col_direction = (-0.048350, -0.053374, -0.997403)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0205 ===
+theta_deg = 295.3164
+phi_deg = -12.3406
+agv_source_position_m = (0.880485, 0.416512, -0.213096)
+agv_detector_center_position_m = (-0.881813, -0.417140, 0.213417)
+agv_detector_line_direction = (-0.427617, 0.903960, -0.000000)
+agv_detector_col_direction = (-0.193196, -0.091391, -0.976894)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0206 ===
+theta_deg = 16.4557
+phi_deg = 18.1404
+agv_source_position_m = (-0.268405, 0.908701, 0.310434)
+agv_detector_center_position_m = (0.268809, -0.910070, -0.310902)
+agv_detector_line_direction = (-0.959039, -0.283273, 0.000000)
+agv_detector_col_direction = (-0.088196, 0.298593, -0.950297)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0207 ===
+theta_deg = 140.1332
+phi_deg = 12.6395
+agv_source_position_m = (-0.623638, -0.746741, 0.218174)
+agv_detector_center_position_m = (0.624579, 0.747867, -0.218503)
+agv_detector_line_direction = (0.767536, -0.641005, -0.000000)
+agv_detector_col_direction = (-0.140262, -0.167949, -0.975766)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0208 ===
+theta_deg = 178.5150
+phi_deg = -16.5848
+agv_source_position_m = (-0.024764, -0.955268, -0.284598)
+agv_detector_center_position_m = (0.024801, 0.956708, 0.285027)
+agv_detector_line_direction = (0.999664, -0.025915, -0.000000)
+agv_detector_col_direction = (0.007397, 0.285339, -0.958398)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0209 ===
+theta_deg = 54.6425
+phi_deg = 8.8060
+agv_source_position_m = (-0.803581, 0.570180, 0.152641)
+agv_detector_center_position_m = (0.804793, -0.571039, -0.152871)
+agv_detector_line_direction = (-0.578677, -0.815557, 0.000000)
+agv_detector_col_direction = (-0.124853, 0.088589, -0.988212)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0210 ===
+theta_deg = 354.4926
+phi_deg = 10.0927
+agv_source_position_m = (0.094213, 0.977109, 0.174728)
+agv_detector_center_position_m = (-0.094355, -0.978582, -0.174991)
+agv_detector_line_direction = (-0.995384, 0.095975, -0.000000)
+agv_detector_col_direction = (0.016819, 0.174432, -0.984526)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0211 ===
+theta_deg = 207.6633
+phi_deg = -16.0179
+agv_source_position_m = (0.444942, -0.848810, -0.275128)
+agv_detector_center_position_m = (-0.445613, 0.850089, 0.275543)
+agv_detector_line_direction = (0.885691, 0.464275, -0.000000)
+agv_detector_col_direction = (-0.128111, 0.244395, -0.961176)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0212 ===
+theta_deg = 17.0581
+phi_deg = 12.9400
+agv_source_position_m = (-0.285055, 0.928999, 0.223275)
+agv_detector_center_position_m = (0.285485, -0.930400, -0.223611)
+agv_detector_line_direction = (-0.956008, -0.293342, 0.000000)
+agv_detector_col_direction = (-0.065688, 0.214080, -0.974605)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0213 ===
+theta_deg = 230.9283
+phi_deg = -24.5095
+agv_source_position_m = (0.704332, -0.571817, -0.413629)
+agv_detector_center_position_m = (-0.705394, 0.572679, 0.414252)
+agv_detector_line_direction = (0.630292, 0.776358, -0.000000)
+agv_detector_col_direction = (-0.322068, 0.261473, -0.909892)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0214 ===
+theta_deg = 335.6062
+phi_deg = 4.9530
+agv_source_position_m = (0.410258, 0.904668, 0.086086)
+agv_detector_center_position_m = (-0.410877, -0.906032, -0.086216)
+agv_detector_line_direction = (-0.910728, 0.413007, -0.000000)
+agv_detector_col_direction = (0.035659, 0.078631, -0.996266)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0215 ===
+theta_deg = 139.9664
+phi_deg = 22.8382
+agv_source_position_m = (-0.591072, -0.703575, 0.386993)
+agv_detector_center_position_m = (0.591963, 0.704636, -0.387576)
+agv_detector_line_direction = (0.765668, -0.643236, -0.000000)
+agv_detector_col_direction = (-0.249660, -0.297179, -0.921604)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0216 ===
+theta_deg = 89.0258
+phi_deg = 10.1259
+agv_source_position_m = (-0.981397, 0.016689, 0.175296)
+agv_detector_center_position_m = (0.982876, -0.016714, -0.175560)
+agv_detector_line_direction = (-0.017003, -0.999855, 0.000000)
+agv_detector_col_direction = (-0.175786, 0.002989, -0.984424)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0217 ===
+theta_deg = 33.2269
+phi_deg = 17.4865
+agv_source_position_m = (-0.521102, 0.795512, 0.299600)
+agv_detector_center_position_m = (0.521887, -0.796712, -0.300052)
+agv_detector_line_direction = (-0.836507, -0.547956, 0.000000)
+agv_detector_col_direction = (-0.164650, 0.251354, -0.953788)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0218 ===
+theta_deg = 21.1613
+phi_deg = -19.7061
+agv_source_position_m = (-0.338856, 0.875379, -0.336207)
+agv_detector_center_position_m = (0.339367, -0.876699, 0.336714)
+agv_detector_line_direction = (-0.932568, -0.360994, 0.000000)
+agv_detector_col_direction = (0.121726, -0.314458, -0.941435)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0219 ===
+theta_deg = 236.8749
+phi_deg = 1.3560
+agv_source_position_m = (0.834791, -0.544715, 0.023594)
+agv_detector_center_position_m = (-0.836049, 0.545536, -0.023630)
+agv_detector_line_direction = (0.546469, 0.837479, -0.000000)
+agv_detector_col_direction = (0.019818, -0.012931, -0.999720)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0220 ===
+theta_deg = 354.8879
+phi_deg = -18.2179
+agv_source_position_m = (0.084390, 0.943323, -0.311716)
+agv_detector_center_position_m = (-0.084517, -0.944745, 0.312186)
+agv_detector_line_direction = (-0.996022, 0.089105, -0.000000)
+agv_detector_col_direction = (-0.027857, -0.311388, -0.949874)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0221 ===
+theta_deg = 169.2967
+phi_deg = -3.9354
+agv_source_position_m = (-0.184742, -0.977412, -0.068431)
+agv_detector_center_position_m = (0.185021, 0.978886, 0.068534)
+agv_detector_line_direction = (0.982602, -0.185723, -0.000000)
+agv_detector_col_direction = (0.012747, 0.067438, -0.997642)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0222 ===
+theta_deg = 293.0952
+phi_deg = 11.5397
+agv_source_position_m = (0.898619, 0.383205, 0.199460)
+agv_detector_center_position_m = (-0.899974, -0.383783, -0.199761)
+agv_detector_line_direction = (-0.392260, 0.919854, -0.000000)
+agv_detector_col_direction = (0.184014, 0.078470, -0.979786)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0223 ===
+theta_deg = 272.4284
+phi_deg = -5.0457
+agv_source_position_m = (0.992314, 0.042083, -0.087693)
+agv_detector_center_position_m = (-0.993809, -0.042147, 0.087825)
+agv_detector_line_direction = (-0.042371, 0.999102, -0.000000)
+agv_detector_col_direction = (-0.087871, -0.003727, -0.996125)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0224 ===
+theta_deg = 157.5738
+phi_deg = 21.6498
+agv_source_position_m = (-0.353541, -0.856645, 0.367851)
+agv_detector_center_position_m = (0.354074, 0.857937, -0.368405)
+agv_detector_line_direction = (0.924372, -0.381492, -0.000000)
+agv_detector_col_direction = (-0.140745, -0.341030, -0.929456)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0225 ===
+theta_deg = 146.7196
+phi_deg = 2.3633
+agv_source_position_m = (-0.546664, -0.832836, 0.041114)
+agv_detector_center_position_m = (0.547488, 0.834091, -0.041176)
+agv_detector_line_direction = (0.835995, -0.548737, -0.000000)
+agv_detector_col_direction = (-0.022627, -0.034472, -0.999150)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0226 ===
+theta_deg = 7.5013
+phi_deg = 18.1929
+agv_source_position_m = (-0.123660, 0.939120, 0.311303)
+agv_detector_center_position_m = (0.123846, -0.940536, -0.311772)
+agv_detector_line_direction = (-0.991442, -0.130549, 0.000000)
+agv_detector_col_direction = (-0.040760, 0.309546, -0.950010)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0227 ===
+theta_deg = 352.6618
+phi_deg = -7.7768
+agv_source_position_m = (0.126179, 0.979808, -0.134918)
+agv_detector_center_position_m = (-0.126370, -0.981285, 0.135121)
+agv_detector_line_direction = (-0.991810, 0.127725, -0.000000)
+agv_detector_col_direction = (-0.017283, -0.134206, -0.990803)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0228 ===
+theta_deg = 97.7428
+phi_deg = 23.6614
+agv_source_position_m = (-0.904923, -0.123039, 0.400154)
+agv_detector_center_position_m = (0.906287, 0.123225, -0.400757)
+agv_detector_line_direction = (0.134727, -0.990883, -0.000000)
+agv_detector_col_direction = (-0.397671, -0.054070, -0.915933)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0229 ===
+theta_deg = 178.1024
+phi_deg = -9.3189
+agv_source_position_m = (-0.032581, -0.983370, -0.161456)
+agv_detector_center_position_m = (0.032630, 0.984853, 0.161699)
+agv_detector_line_direction = (0.999452, -0.033114, -0.000000)
+agv_detector_col_direction = (0.005362, 0.161841, -0.986802)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0230 ===
+theta_deg = 45.0181
+phi_deg = 4.9984
+agv_source_position_m = (-0.702575, 0.702132, 0.086872)
+agv_detector_center_position_m = (0.703634, -0.703190, -0.087003)
+agv_detector_line_direction = (-0.706884, -0.707330, 0.000000)
+agv_detector_col_direction = (-0.061628, 0.061589, -0.996197)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0231 ===
+theta_deg = 354.9603
+phi_deg = -9.0780
+agv_source_position_m = (0.086491, 0.980774, -0.157317)
+agv_detector_center_position_m = (-0.086621, -0.982253, 0.157554)
+agv_detector_line_direction = (-0.996134, 0.087845, -0.000000)
+agv_detector_col_direction = (-0.013860, -0.157169, -0.987475)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0232 ===
+theta_deg = 213.1597
+phi_deg = 19.2031
+agv_source_position_m = (0.515027, -0.788252, 0.327953)
+agv_detector_center_position_m = (-0.515803, 0.789440, -0.328448)
+agv_detector_line_direction = (0.837149, 0.546975, -0.000000)
+agv_detector_col_direction = (0.179910, -0.275353, -0.944359)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0233 ===
+theta_deg = 61.9758
+phi_deg = -22.3153
+agv_source_position_m = (-0.814245, 0.433383, -0.378590)
+agv_detector_center_position_m = (0.815473, -0.434037, 0.379160)
+agv_detector_line_direction = (-0.469845, -0.882749, 0.000000)
+agv_detector_col_direction = (0.335182, -0.178401, -0.925109)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0234 ===
+theta_deg = 255.3090
+phi_deg = -14.3651
+agv_source_position_m = (0.934318, -0.244956, -0.247372)
+agv_detector_center_position_m = (-0.935727, 0.245326, 0.247745)
+agv_detector_line_direction = (0.253606, 0.967308, -0.000000)
+agv_detector_col_direction = (-0.239988, 0.062919, -0.968735)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0235 ===
+theta_deg = 34.3908
+phi_deg = 23.0798
+agv_source_position_m = (-0.518102, 0.756930, 0.390864)
+agv_detector_center_position_m = (0.518883, -0.758071, -0.391453)
+agv_detector_line_direction = (-0.825205, -0.564834, 0.000000)
+agv_detector_col_direction = (-0.221422, 0.323491, -0.919960)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0236 ===
+theta_deg = 243.9689
+phi_deg = -4.8386
+agv_source_position_m = (0.892730, -0.436013, -0.084102)
+agv_detector_center_position_m = (-0.894075, 0.436671, 0.084229)
+agv_detector_line_direction = (0.438859, 0.898556, -0.000000)
+agv_detector_col_direction = (-0.075793, 0.037018, -0.996436)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0237 ===
+theta_deg = 200.2491
+phi_deg = 10.6831
+agv_source_position_m = (0.339106, -0.919234, 0.184834)
+agv_detector_center_position_m = (-0.339618, 0.920619, -0.185112)
+agv_detector_line_direction = (0.938197, 0.346102, -0.000000)
+agv_detector_col_direction = (0.064159, -0.173920, -0.982668)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0238 ===
+theta_deg = 243.0391
+phi_deg = 23.7721
+agv_source_position_m = (0.813302, -0.413700, 0.401919)
+agv_detector_center_position_m = (-0.814528, 0.414323, -0.402525)
+agv_detector_line_direction = (0.453383, 0.891316, -0.000000)
+agv_detector_col_direction = (0.359290, -0.182759, -0.915156)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0239 ===
+theta_deg = 108.9253
+phi_deg = 16.3365
+agv_source_position_m = (-0.905091, -0.310328, 0.280454)
+agv_detector_center_position_m = (0.906455, 0.310796, -0.280877)
+agv_detector_line_direction = (0.324335, -0.945942, -0.000000)
+agv_detector_col_direction = (-0.266073, -0.091228, -0.959626)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0240 ===
+theta_deg = 3.7912
+phi_deg = 16.2096
+agv_source_position_m = (-0.063306, 0.955337, 0.278334)
+agv_detector_center_position_m = (0.063402, -0.956777, -0.278754)
+agv_detector_line_direction = (-0.997812, -0.066121, 0.000000)
+agv_detector_col_direction = (-0.018458, 0.278542, -0.960247)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0241 ===
+theta_deg = 343.0086
+phi_deg = 2.1752
+agv_source_position_m = (0.291161, 0.952859, 0.037844)
+agv_detector_center_position_m = (-0.291600, -0.954295, -0.037901)
+agv_detector_line_direction = (-0.956349, 0.292228, -0.000000)
+agv_detector_col_direction = (0.011091, 0.036298, -0.999279)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0242 ===
+theta_deg = 147.8053
+phi_deg = 7.3019
+agv_source_position_m = (-0.526928, -0.836920, 0.126726)
+agv_detector_center_position_m = (0.527722, 0.838181, -0.126917)
+agv_detector_line_direction = (0.846243, -0.532798, -0.000000)
+agv_detector_col_direction = (-0.067718, -0.107556, -0.991890)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0243 ===
+theta_deg = 130.7508
+phi_deg = 4.4357
+agv_source_position_m = (-0.753073, -0.648908, 0.077113)
+agv_detector_center_position_m = (0.754209, 0.649886, -0.077229)
+agv_detector_line_direction = (0.652770, -0.757556, -0.000000)
+agv_detector_col_direction = (-0.058589, -0.050485, -0.997005)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0244 ===
+theta_deg = 192.6477
+phi_deg = -19.6707
+agv_source_position_m = (0.205573, -0.916101, -0.335627)
+agv_detector_center_position_m = (-0.205883, 0.917482, 0.336133)
+agv_detector_line_direction = (0.975735, 0.218955, -0.000000)
+agv_detector_col_direction = (-0.073703, 0.328446, -0.941643)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0245 ===
+theta_deg = 298.8810
+phi_deg = 23.4932
+agv_source_position_m = (0.800688, 0.441658, 0.397472)
+agv_detector_center_position_m = (-0.801895, -0.442323, -0.398071)
+agv_detector_line_direction = (-0.482992, 0.875625, -0.000000)
+agv_detector_col_direction = (0.349059, 0.192540, -0.917107)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0246 ===
+theta_deg = 71.1926
+phi_deg = 4.0896
+agv_source_position_m = (-0.941430, 0.320624, 0.071107)
+agv_detector_center_position_m = (0.942850, -0.321107, -0.071215)
+agv_detector_line_direction = (-0.322387, -0.946608, 0.000000)
+agv_detector_col_direction = (-0.067509, 0.022992, -0.997454)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0247 ===
+theta_deg = 232.2062
+phi_deg = 18.9703
+agv_source_position_m = (0.745112, -0.577839, 0.324126)
+agv_detector_center_position_m = (-0.746235, 0.578710, -0.324614)
+agv_detector_line_direction = (0.612821, 0.790221, -0.000000)
+agv_detector_col_direction = (0.256884, -0.199215, -0.945687)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0248 ===
+theta_deg = 121.2320
+phi_deg = -21.6045
+agv_source_position_m = (-0.792674, -0.480665, -0.367119)
+agv_detector_center_position_m = (0.793869, 0.481390, 0.367672)
+agv_detector_line_direction = (0.518504, -0.855075, -0.000000)
+agv_detector_col_direction = (0.314837, 0.190912, -0.929747)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0249 ===
+theta_deg = 223.7225
+phi_deg = 1.3230
+agv_source_position_m = (0.688957, -0.720386, 0.023021)
+agv_detector_center_position_m = (-0.689996, 0.721472, -0.023056)
+agv_detector_line_direction = (0.722696, 0.691166, -0.000000)
+agv_detector_col_direction = (0.015958, -0.016686, -0.999734)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0250 ===
+theta_deg = 245.3408
+phi_deg = 0.4549
+agv_source_position_m = (0.906113, -0.415984, 0.007917)
+agv_detector_center_position_m = (-0.907479, 0.416611, -0.007929)
+agv_detector_line_direction = (0.417220, 0.908806, -0.000000)
+agv_detector_col_direction = (0.007216, -0.003313, -0.999968)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0251 ===
+theta_deg = 162.5418
+phi_deg = -0.3628
+agv_source_position_m = (-0.299125, -0.951121, -0.006313)
+agv_detector_center_position_m = (0.299576, 0.952555, 0.006322)
+agv_detector_line_direction = (0.953936, -0.300010, -0.000000)
+agv_detector_col_direction = (0.001899, 0.006040, -0.999980)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0252 ===
+theta_deg = 117.7710
+phi_deg = -1.1096
+agv_source_position_m = (-0.882059, -0.464486, -0.019309)
+agv_detector_center_position_m = (0.883388, 0.465186, 0.019338)
+agv_detector_line_direction = (0.465938, -0.884817, -0.000000)
+agv_detector_col_direction = (0.017135, 0.009023, -0.999812)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0253 ===
+theta_deg = 134.9265
+phi_deg = 24.0345
+agv_source_position_m = (-0.644733, -0.643082, 0.406094)
+agv_detector_center_position_m = (0.645705, 0.644051, -0.406706)
+agv_detector_line_direction = (0.706200, -0.708013, -0.000000)
+agv_detector_col_direction = (-0.288365, -0.287626, -0.913300)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0254 ===
+theta_deg = 292.4857
+phi_deg = 23.0924
+agv_source_position_m = (0.847449, 0.350777, 0.391066)
+agv_detector_center_position_m = (-0.848727, -0.351305, -0.391655)
+agv_detector_line_direction = (-0.382452, 0.923975, -0.000000)
+agv_detector_col_direction = (0.362397, 0.150004, -0.919873)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0255 ===
+theta_deg = 112.0522
+phi_deg = -11.9568
+agv_source_position_m = (-0.904076, -0.366229, -0.206567)
+agv_detector_center_position_m = (0.905439, 0.366781, 0.206879)
+agv_detector_line_direction = (0.375452, -0.926842, -0.000000)
+agv_detector_col_direction = (0.192018, 0.077784, -0.978304)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0256 ===
+theta_deg = 196.9588
+phi_deg = -9.6949
+agv_source_position_m = (0.286676, -0.940091, -0.167908)
+agv_detector_center_position_m = (-0.287108, 0.941508, 0.168161)
+agv_detector_line_direction = (0.956515, 0.291685, -0.000000)
+agv_detector_col_direction = (-0.049120, 0.161078, -0.985719)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0257 ===
+theta_deg = 113.7368
+phi_deg = 12.9076
+agv_source_position_m = (-0.889659, -0.391214, 0.222724)
+agv_detector_center_position_m = (0.891000, 0.391804, -0.223060)
+agv_detector_line_direction = (0.402535, -0.915404, -0.000000)
+agv_detector_col_direction = (-0.204482, -0.089918, -0.974732)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0258 ===
+theta_deg = 237.2273
+phi_deg = -24.2583
+agv_source_position_m = (0.764335, -0.492065, -0.409647)
+agv_detector_center_position_m = (-0.765487, 0.492807, 0.410264)
+agv_detector_line_direction = (0.541308, 0.840824, -0.000000)
+agv_detector_col_direction = (-0.345453, 0.222397, -0.911703)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0259 ===
+theta_deg = 133.0744
+phi_deg = 17.7805
+agv_source_position_m = (-0.693537, -0.648419, 0.304476)
+agv_detector_center_position_m = (0.694583, 0.649397, -0.304935)
+agv_detector_line_direction = (0.682947, -0.730468, -0.000000)
+agv_detector_col_direction = (-0.223064, -0.208552, -0.952233)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0260 ===
+theta_deg = 123.4898
+phi_deg = -14.8296
+agv_source_position_m = (-0.803842, -0.531847, -0.255196)
+agv_detector_center_position_m = (0.805054, 0.532648, 0.255580)
+agv_detector_line_direction = (0.551789, -0.833984, -0.000000)
+agv_detector_col_direction = (0.213454, 0.141228, -0.966691)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0261 ===
+theta_deg = 257.9024
+phi_deg = 10.0778
+agv_source_position_m = (0.959884, -0.205739, 0.174472)
+agv_detector_center_position_m = (-0.961331, 0.206050, -0.174735)
+agv_detector_line_direction = (0.209578, 0.977792, -0.000000)
+agv_detector_col_direction = (0.171098, -0.036673, -0.984571)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0262 ===
+theta_deg = 260.0186
+phi_deg = -11.0769
+agv_source_position_m = (0.963684, -0.169602, -0.191563)
+agv_detector_center_position_m = (-0.965136, 0.169857, 0.191851)
+agv_detector_line_direction = (0.173329, 0.984864, -0.000000)
+agv_detector_col_direction = (-0.189218, 0.033301, -0.981370)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0263 ===
+theta_deg = 231.2240
+phi_deg = -22.1548
+agv_source_position_m = (0.719924, -0.578339, -0.376006)
+agv_detector_center_position_m = (-0.721010, 0.579211, 0.376573)
+agv_detector_line_direction = (0.626278, 0.779600, -0.000000)
+agv_detector_col_direction = (-0.293996, 0.236176, -0.926168)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0264 ===
+theta_deg = 104.4616
+phi_deg = -22.6428
+agv_source_position_m = (-0.891061, -0.229806, -0.383857)
+agv_detector_center_position_m = (0.892404, 0.230153, 0.384436)
+agv_detector_line_direction = (0.249730, -0.968315, -0.000000)
+agv_detector_col_direction = (0.372788, 0.096143, -0.922923)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0265 ===
+theta_deg = 90.0882
+phi_deg = -1.5486
+agv_source_position_m = (-0.996704, -0.001534, -0.026945)
+agv_detector_center_position_m = (0.998206, 0.001537, 0.026986)
+agv_detector_line_direction = (0.001539, -0.999999, -0.000000)
+agv_detector_col_direction = (0.027024, 0.000042, -0.999635)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0266 ===
+theta_deg = 140.2088
+phi_deg = 14.4350
+agv_source_position_m = (-0.617972, -0.741943, 0.248551)
+agv_detector_center_position_m = (0.618904, 0.743062, -0.248926)
+agv_detector_line_direction = (0.768381, -0.639992, -0.000000)
+agv_detector_col_direction = (-0.159539, -0.191544, -0.968431)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0267 ===
+theta_deg = 197.2915
+phi_deg = -25.5407
+agv_source_position_m = (0.267402, -0.858975, -0.429889)
+agv_detector_center_position_m = (-0.267805, 0.860270, 0.430537)
+agv_detector_line_direction = (0.954805, 0.297234, -0.000000)
+agv_detector_col_direction = (-0.128153, 0.411667, -0.902279)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0268 ===
+theta_deg = 207.6440
+phi_deg = -21.0400
+agv_source_position_m = (0.431774, -0.824365, -0.357967)
+agv_detector_center_position_m = (-0.432425, 0.825608, 0.358506)
+agv_detector_line_direction = (0.885848, 0.463976, -0.000000)
+agv_detector_col_direction = (-0.166576, 0.318036, -0.933330)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0269 ===
+theta_deg = 217.1899
+phi_deg = -2.3632
+agv_source_position_m = (0.602175, -0.793626, -0.041113)
+agv_detector_center_position_m = (-0.603083, 0.794822, 0.041175)
+agv_detector_line_direction = (0.796636, 0.604459, -0.000000)
+agv_detector_col_direction = (-0.024924, 0.032849, -0.999150)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0270 ===
+theta_deg = 270.2264
+phi_deg = -12.9460
+agv_source_position_m = (0.971718, 0.003839, -0.223376)
+agv_detector_center_position_m = (-0.973183, -0.003845, 0.223712)
+agv_detector_line_direction = (-0.003951, 0.999992, -0.000000)
+agv_detector_col_direction = (-0.224030, -0.000885, -0.974582)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0271 ===
+theta_deg = 58.8316
+phi_deg = 3.7661
+agv_source_position_m = (-0.851300, 0.514924, 0.065491)
+agv_detector_center_position_m = (0.852583, -0.515700, -0.065590)
+agv_detector_line_direction = (-0.517555, -0.855650, 0.000000)
+agv_detector_col_direction = (-0.056202, 0.033995, -0.997841)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0272 ===
+theta_deg = 172.2869
+phi_deg = -18.9693
+agv_source_position_m = (-0.126552, -0.934390, -0.324109)
+agv_detector_center_position_m = (0.126743, 0.935799, 0.324597)
+agv_detector_line_direction = (0.990952, -0.134213, -0.000000)
+agv_detector_col_direction = (0.043628, 0.322120, -0.945693)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0273 ===
+theta_deg = 193.9404
+phi_deg = -10.7397
+agv_source_position_m = (0.235999, -0.950752, -0.185801)
+agv_detector_center_position_m = (-0.236355, 0.952185, 0.186081)
+agv_detector_line_direction = (0.970547, 0.240913, -0.000000)
+agv_detector_col_direction = (-0.044893, 0.180858, -0.982484)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0274 ===
+theta_deg = 205.6883
+phi_deg = -9.0850
+agv_source_position_m = (0.426782, -0.887253, -0.157437)
+agv_detector_center_position_m = (-0.427426, 0.888590, 0.157675)
+agv_detector_line_direction = (0.901166, 0.433475, -0.000000)
+agv_detector_col_direction = (-0.068446, 0.142294, -0.987455)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0275 ===
+theta_deg = 95.9265
+phi_deg = 15.2212
+agv_source_position_m = (-0.956949, -0.099338, 0.261777)
+agv_detector_center_position_m = (0.958392, 0.099488, -0.262171)
+agv_detector_line_direction = (0.103252, -0.994655, -0.000000)
+agv_detector_col_direction = (-0.261143, -0.027108, -0.964919)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0276 ===
+theta_deg = 59.3215
+phi_deg = -1.3253
+agv_source_position_m = (-0.857294, 0.508588, -0.023061)
+agv_detector_center_position_m = (0.858587, -0.509355, 0.023095)
+agv_detector_line_direction = (-0.510220, -0.860044, 0.000000)
+agv_detector_col_direction = (0.019891, -0.011801, -0.999732)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0277 ===
+theta_deg = 316.4475
+phi_deg = -8.1442
+agv_source_position_m = (0.680071, 0.715332, -0.141250)
+agv_detector_center_position_m = (-0.681096, -0.716410, 0.141463)
+agv_detector_line_direction = (-0.724744, 0.689019, -0.000000)
+agv_detector_col_direction = (-0.097610, -0.102671, -0.989915)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0278 ===
+theta_deg = 71.1018
+phi_deg = 15.7146
+agv_source_position_m = (-0.908064, 0.310867, 0.270053)
+agv_detector_center_position_m = (0.909433, -0.311336, -0.270460)
+agv_detector_line_direction = (-0.323887, -0.946096, 0.000000)
+agv_detector_col_direction = (-0.256247, 0.087724, -0.962623)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0279 ===
+theta_deg = 250.8912
+phi_deg = 16.8120
+agv_source_position_m = (0.901862, -0.312452, 0.288385)
+agv_detector_center_position_m = (-0.903221, 0.312923, -0.288820)
+agv_detector_line_direction = (0.327362, 0.944899, -0.000000)
+agv_detector_col_direction = (0.273296, -0.094684, -0.957259)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0280 ===
+theta_deg = 233.8450
+phi_deg = 1.6919
+agv_source_position_m = (0.804707, -0.587986, 0.029438)
+agv_detector_center_position_m = (-0.805920, 0.588872, -0.029482)
+agv_detector_line_direction = (0.589971, 0.807424, -0.000000)
+agv_detector_col_direction = (0.023839, -0.017419, -0.999564)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0281 ===
+theta_deg = 120.1783
+phi_deg = -13.4190
+agv_source_position_m = (-0.838400, -0.487535, -0.231391)
+agv_detector_center_position_m = (0.839664, 0.488270, 0.231740)
+agv_detector_line_direction = (0.502692, -0.864465, -0.000000)
+agv_detector_col_direction = (0.200618, 0.116660, -0.972699)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0282 ===
+theta_deg = 321.1383
+phi_deg = -3.4414
+agv_source_position_m = (0.624475, 0.774981, -0.059851)
+agv_detector_center_position_m = (-0.625417, -0.776149, 0.059942)
+agv_detector_line_direction = (-0.778663, 0.627442, -0.000000)
+agv_detector_col_direction = (-0.037664, -0.046741, -0.998197)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0283 ===
+theta_deg = 65.3346
+phi_deg = 0.0595
+agv_source_position_m = (-0.906096, 0.416095, 0.001036)
+agv_detector_center_position_m = (0.907463, -0.416723, -0.001038)
+agv_detector_line_direction = (-0.417319, -0.908760, 0.000000)
+agv_detector_col_direction = (-0.000944, 0.000434, -1.000000)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0284 ===
+theta_deg = 255.8422
+phi_deg = 5.4623
+agv_source_position_m = (0.962394, -0.242768, 0.094911)
+agv_detector_center_position_m = (-0.963845, 0.243134, -0.095054)
+agv_detector_line_direction = (0.244592, 0.969626, -0.000000)
+agv_detector_col_direction = (0.092299, -0.023283, -0.995459)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0285 ===
+theta_deg = 36.5780
+phi_deg = -2.2794
+agv_source_position_m = (-0.593701, 0.800059, -0.039655)
+agv_detector_center_position_m = (0.594595, -0.801265, 0.039715)
+agv_detector_line_direction = (-0.803046, -0.595917, 0.000000)
+agv_detector_col_direction = (0.023701, -0.031939, -0.999209)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0286 ===
+theta_deg = 210.7023
+phi_deg = 11.8054
+agv_source_position_m = (0.498312, -0.839178, 0.203989)
+agv_detector_center_position_m = (-0.499064, 0.840443, -0.204297)
+agv_detector_line_direction = (0.859832, 0.510577, -0.000000)
+agv_detector_col_direction = (0.104458, -0.175912, -0.978848)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0287 ===
+theta_deg = 199.3996
+phi_deg = 10.8862
+agv_source_position_m = (0.325221, -0.923536, 0.188305)
+agv_detector_center_position_m = (-0.325712, 0.924928, -0.188589)
+agv_detector_line_direction = (0.943225, 0.332155, -0.000000)
+agv_detector_col_direction = (0.062730, -0.178136, -0.982004)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0288 ===
+theta_deg = 294.0019
+phi_deg = 16.5640
+agv_source_position_m = (0.873056, 0.388745, 0.284250)
+agv_detector_center_position_m = (-0.874372, -0.389331, -0.284678)
+agv_detector_line_direction = (-0.406768, 0.913532, -0.000000)
+agv_detector_col_direction = (0.260435, 0.115964, -0.958502)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0289 ===
+theta_deg = 189.8404
+phi_deg = 5.0504
+agv_source_position_m = (0.169742, -0.978586, 0.087774)
+agv_detector_center_position_m = (-0.169998, 0.980061, -0.087907)
+agv_detector_line_direction = (0.985288, 0.170904, -0.000000)
+agv_detector_col_direction = (0.015045, -0.086737, -0.996118)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0290 ===
+theta_deg = 117.7816
+phi_deg = 8.7984
+agv_source_position_m = (-0.871757, -0.459268, 0.152510)
+agv_detector_center_position_m = (0.873071, 0.459961, -0.152740)
+agv_detector_line_direction = (0.466103, -0.884731, -0.000000)
+agv_detector_col_direction = (-0.135327, -0.071294, -0.988233)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0291 ===
+theta_deg = 184.5932
+phi_deg = -2.6159
+agv_source_position_m = (0.079762, -0.992831, -0.045506)
+agv_detector_center_position_m = (-0.079882, 0.994328, 0.045574)
+agv_detector_line_direction = (0.996788, 0.080080, -0.000000)
+agv_detector_col_direction = (-0.003655, 0.045493, -0.998958)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0292 ===
+theta_deg = 66.4513
+phi_deg = -17.9570
+agv_source_position_m = (-0.869510, 0.378952, -0.307400)
+agv_detector_center_position_m = (0.870821, -0.379523, 0.307863)
+agv_detector_line_direction = (-0.399528, -0.916721, 0.000000)
+agv_detector_col_direction = (0.282628, -0.123176, -0.951288)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0293 ===
+theta_deg = 48.3476
+phi_deg = 1.2610
+agv_source_position_m = (-0.744821, 0.662501, 0.021942)
+agv_detector_center_position_m = (0.745944, -0.663500, -0.021975)
+agv_detector_line_direction = (-0.664609, -0.747191, 0.000000)
+agv_detector_col_direction = (-0.016443, 0.014626, -0.999758)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0294 ===
+theta_deg = 220.7297
+phi_deg = -8.5933
+agv_source_position_m = (0.643275, -0.747093, -0.148982)
+agv_detector_center_position_m = (-0.644245, 0.748220, 0.149207)
+agv_detector_line_direction = (0.757796, 0.652491, -0.000000)
+agv_detector_col_direction = (-0.097495, 0.113230, -0.988774)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0295 ===
+theta_deg = 185.9526
+phi_deg = -10.0741
+agv_source_position_m = (0.101807, -0.976403, -0.174410)
+agv_detector_center_position_m = (-0.101960, 0.977875, 0.174672)
+agv_detector_line_direction = (0.994608, 0.103705, -0.000000)
+agv_detector_col_direction = (-0.018140, 0.173979, -0.984582)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0296 ===
+theta_deg = 141.2898
+phi_deg = 16.4041
+agv_source_position_m = (-0.598167, -0.746361, 0.281582)
+agv_detector_center_position_m = (0.599068, 0.747486, -0.282007)
+agv_detector_line_direction = (0.780319, -0.625382, -0.000000)
+agv_detector_col_direction = (-0.176614, -0.220370, -0.959294)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0297 ===
+theta_deg = 32.3692
+phi_deg = -17.4581
+agv_source_position_m = (-0.509215, 0.803348, -0.299129)
+agv_detector_center_position_m = (0.509983, -0.804560, 0.299580)
+agv_detector_line_direction = (-0.844616, -0.535373, 0.000000)
+agv_detector_col_direction = (0.160617, -0.253392, -0.953936)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0298 ===
+theta_deg = 315.6826
+phi_deg = 12.3964
+agv_source_position_m = (0.680344, 0.696752, 0.214045)
+agv_detector_center_position_m = (-0.681370, -0.697802, -0.214368)
+agv_detector_line_direction = (-0.715481, 0.698632, -0.000000)
+agv_detector_col_direction = (0.149978, 0.153595, -0.976686)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0299 ===
+theta_deg = 65.1572
+phi_deg = -18.5730
+agv_source_position_m = (-0.857681, 0.397081, -0.317579)
+agv_detector_center_position_m = (0.858974, -0.397680, 0.318058)
+agv_detector_line_direction = (-0.420130, -0.907464, 0.000000)
+agv_detector_col_direction = (0.289039, -0.133817, -0.947919)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0300 ===
+theta_deg = 272.7143
+phi_deg = -8.8533
+agv_source_position_m = (0.984084, 0.046655, -0.153454)
+agv_detector_center_position_m = (-0.985568, -0.046726, 0.153686)
+agv_detector_line_direction = (-0.047357, 0.998878, -0.000000)
+agv_detector_col_direction = (-0.153733, -0.007288, -0.988086)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0301 ===
+theta_deg = 240.6127
+phi_deg = 22.3506
+agv_source_position_m = (0.803502, -0.452515, 0.379159)
+agv_detector_center_position_m = (-0.804713, 0.453198, -0.379730)
+agv_detector_line_direction = (0.490711, 0.871323, -0.000000)
+agv_detector_col_direction = (0.331341, -0.186604, -0.924874)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0302 ===
+theta_deg = 173.2583
+phi_deg = 0.4685
+agv_source_position_m = (-0.117046, -0.990142, 0.008153)
+agv_detector_center_position_m = (0.117222, 0.991635, -0.008166)
+agv_detector_line_direction = (0.993085, -0.117394, -0.000000)
+agv_detector_col_direction = (-0.000960, -0.008121, -0.999967)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0303 ===
+theta_deg = 66.1071
+phi_deg = 17.1903
+agv_source_position_m = (-0.870901, 0.385801, 0.294681)
+agv_detector_center_position_m = (0.872214, -0.386382, -0.295125)
+agv_detector_line_direction = (-0.405028, -0.914304, 0.000000)
+agv_detector_col_direction = (-0.270220, 0.119705, -0.955328)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0304 ===
+theta_deg = 314.2513
+phi_deg = -22.2373
+agv_source_position_m = (0.661068, 0.644014, -0.377334)
+agv_detector_center_position_m = (-0.662065, -0.644985, 0.377903)
+agv_detector_line_direction = (-0.697807, 0.716286, -0.000000)
+agv_detector_col_direction = (-0.271074, -0.264081, -0.925624)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0305 ===
+theta_deg = 36.0373
+phi_deg = 4.5883
+agv_source_position_m = (-0.584708, 0.803680, 0.079760)
+agv_detector_center_position_m = (0.585589, -0.804892, -0.079881)
+agv_detector_line_direction = (-0.808634, -0.588312, 0.000000)
+agv_detector_col_direction = (-0.047062, 0.064687, -0.996795)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0306 ===
+theta_deg = 36.4608
+phi_deg = 15.1540
+agv_source_position_m = (-0.571927, 0.774021, 0.260648)
+agv_detector_center_position_m = (0.572790, -0.775188, -0.261041)
+agv_detector_line_direction = (-0.804263, -0.594273, 0.000000)
+agv_detector_col_direction = (-0.155351, 0.210246, -0.965227)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0307 ===
+theta_deg = 190.8569
+phi_deg = -10.5640
+agv_source_position_m = (0.184621, -0.962626, -0.182796)
+agv_detector_center_position_m = (-0.184899, 0.964077, 0.183071)
+agv_detector_line_direction = (0.982101, 0.188356, -0.000000)
+agv_detector_col_direction = (-0.034532, 0.180051, -0.983051)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0308 ===
+theta_deg = 188.1732
+phi_deg = 21.4078
+agv_source_position_m = (0.131970, -0.918849, 0.363934)
+agv_detector_center_position_m = (-0.132169, 0.920234, -0.364483)
+agv_detector_line_direction = (0.989843, 0.142166, -0.000000)
+agv_detector_col_direction = (0.051891, -0.361296, -0.931006)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0309 ===
+theta_deg = 32.4844
+phi_deg = -13.2598
+agv_source_position_m = (-0.521220, 0.818643, -0.228694)
+agv_detector_center_position_m = (0.522006, -0.819877, 0.229039)
+agv_detector_line_direction = (-0.843538, -0.537070, 0.000000)
+agv_detector_col_direction = (0.123186, -0.193479, -0.973340)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0310 ===
+theta_deg = 217.8365
+phi_deg = -12.5634
+agv_source_position_m = (0.596969, -0.768595, -0.216881)
+agv_detector_center_position_m = (-0.597869, 0.769753, 0.217208)
+agv_detector_line_direction = (0.789764, 0.613411, -0.000000)
+agv_detector_col_direction = (-0.133428, 0.171789, -0.976056)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0311 ===
+theta_deg = 246.0187
+phi_deg = -13.3008
+agv_source_position_m = (0.886564, -0.394377, -0.229388)
+agv_detector_center_position_m = (-0.887900, 0.394971, 0.229734)
+agv_detector_line_direction = (0.406438, 0.913678, -0.000000)
+agv_detector_col_direction = (-0.210203, 0.093506, -0.973176)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0312 ===
+theta_deg = 122.5255
+phi_deg = -14.4281
+agv_source_position_m = (-0.814167, -0.519191, -0.248434)
+agv_detector_center_position_m = (0.815394, 0.519974, 0.248809)
+agv_detector_line_direction = (0.537675, -0.843152, -0.000000)
+agv_detector_col_direction = (0.210084, 0.133970, -0.968461)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0313 ===
+theta_deg = 198.1303
+phi_deg = 6.8547
+agv_source_position_m = (0.308050, -0.940793, 0.119002)
+agv_detector_center_position_m = (-0.308514, 0.942211, -0.119182)
+agv_detector_line_direction = (0.950351, 0.311179, -0.000000)
+agv_detector_col_direction = (0.037140, -0.113426, -0.992852)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0314 ===
+theta_deg = 126.3673
+phi_deg = 1.7237
+agv_source_position_m = (-0.802509, -0.590954, 0.029992)
+agv_detector_center_position_m = (0.803719, 0.591845, -0.030037)
+agv_detector_line_direction = (0.592960, -0.805232, -0.000000)
+agv_detector_col_direction = (-0.024221, -0.017836, -0.999547)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0315 ===
+theta_deg = 175.7890
+phi_deg = -14.5341
+agv_source_position_m = (-0.070871, -0.962556, -0.250221)
+agv_detector_center_position_m = (0.070978, 0.964007, 0.250599)
+agv_detector_line_direction = (0.997300, -0.073429, -0.000000)
+agv_detector_col_direction = (0.018428, 0.250279, -0.967998)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0316 ===
+theta_deg = 337.5185
+phi_deg = 3.4009
+agv_source_position_m = (0.380593, 0.919672, 0.059149)
+agv_detector_center_position_m = (-0.381167, -0.921059, -0.059238)
+agv_detector_line_direction = (-0.924003, 0.382386, -0.000000)
+agv_detector_col_direction = (0.022684, 0.054814, -0.998239)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0317 ===
+theta_deg = 27.8964
+phi_deg = 9.9423
+agv_source_position_m = (-0.459497, 0.867971, 0.172151)
+agv_detector_center_position_m = (0.460190, -0.869280, -0.172410)
+agv_detector_line_direction = (-0.883795, -0.467874, 0.000000)
+agv_detector_col_direction = (-0.080782, 0.152593, -0.984982)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0318 ===
+theta_deg = 125.2599
+phi_deg = -24.5849
+agv_source_position_m = (-0.740343, -0.523414, -0.414822)
+agv_detector_center_position_m = (0.741459, 0.524203, 0.415447)
+agv_detector_line_direction = (0.577286, -0.816542, -0.000000)
+agv_detector_col_direction = (0.339715, 0.240175, -0.909346)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0319 ===
+theta_deg = 4.2468
+phi_deg = 2.4463
+agv_source_position_m = (-0.073768, 0.993425, 0.042558)
+agv_detector_center_position_m = (0.073880, -0.994923, -0.042622)
+agv_detector_line_direction = (-0.997254, -0.074053, 0.000000)
+agv_detector_col_direction = (-0.003161, 0.042566, -0.999089)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0320 ===
+theta_deg = 37.9483
+phi_deg = -10.3268
+agv_source_position_m = (-0.603216, 0.773518, -0.178737)
+agv_detector_center_position_m = (0.604126, -0.774684, 0.179006)
+agv_detector_line_direction = (-0.788566, -0.614951, 0.000000)
+agv_detector_col_direction = (0.110237, -0.141360, -0.983801)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0321 ===
+theta_deg = 358.3763
+phi_deg = 3.3924
+agv_source_position_m = (0.028203, 0.994922, 0.059001)
+agv_detector_center_position_m = (-0.028246, -0.996422, -0.059090)
+agv_detector_line_direction = (-0.999598, 0.028336, -0.000000)
+agv_detector_col_direction = (0.001677, 0.059151, -0.998248)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0322 ===
+theta_deg = 270.6052
+phi_deg = 5.2482
+agv_source_position_m = (0.992834, 0.010487, 0.091202)
+agv_detector_center_position_m = (-0.994331, -0.010503, -0.091339)
+agv_detector_line_direction = (-0.010562, 0.999944, -0.000000)
+agv_detector_col_direction = (0.091465, 0.000966, -0.995808)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0323 ===
+theta_deg = 174.2366
+phi_deg = -17.1449
+agv_source_position_m = (-0.095677, -0.947945, -0.293925)
+agv_detector_center_position_m = (0.095821, 0.949375, 0.294369)
+agv_detector_line_direction = (0.994945, -0.100421, -0.000000)
+agv_detector_col_direction = (0.029603, 0.293299, -0.955562)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0324 ===
+theta_deg = 244.2996
+phi_deg = 2.7916
+agv_source_position_m = (0.897367, -0.431881, 0.048560)
+agv_detector_center_position_m = (-0.898720, 0.432532, -0.048634)
+agv_detector_line_direction = (0.433665, 0.901074, -0.000000)
+agv_detector_col_direction = (0.043885, -0.021121, -0.998813)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0325 ===
+theta_deg = 168.1869
+phi_deg = -22.9960
+agv_source_position_m = (-0.187898, -0.898395, -0.389522)
+agv_detector_center_position_m = (0.188181, 0.899750, 0.390109)
+agv_detector_line_direction = (0.978821, -0.204719, -0.000000)
+agv_detector_col_direction = (0.079977, 0.382393, -0.920532)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0326 ===
+theta_deg = 106.6145
+phi_deg = 17.7820
+agv_source_position_m = (-0.909796, -0.271473, 0.304500)
+agv_detector_center_position_m = (0.911168, 0.271882, -0.304959)
+agv_detector_line_direction = (0.285931, -0.958250, -0.000000)
+agv_detector_col_direction = (-0.292645, -0.087322, -0.952226)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0327 ===
+theta_deg = 276.5285
+phi_deg = -17.9315
+agv_source_position_m = (0.942485, 0.107858, -0.306978)
+agv_detector_center_position_m = (-0.943906, -0.108021, 0.307441)
+agv_detector_line_direction = (-0.113698, 0.993515, -0.000000)
+agv_detector_col_direction = (-0.305884, -0.035005, -0.951425)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0328 ===
+theta_deg = 296.9018
+phi_deg = -21.5386
+agv_source_position_m = (0.827079, 0.419635, -0.366052)
+agv_detector_center_position_m = (-0.828326, -0.420267, 0.366604)
+agv_detector_line_direction = (-0.452463, 0.891783, -0.000000)
+agv_detector_col_direction = (-0.327399, -0.166112, -0.930170)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0329 ===
+theta_deg = 135.7305
+phi_deg = -24.6164
+agv_source_position_m = (-0.632735, -0.649079, -0.415320)
+agv_detector_center_position_m = (0.633689, 0.650057, 0.415946)
+agv_detector_line_direction = (0.716065, -0.698034, -0.000000)
+agv_detector_col_direction = (0.290760, 0.298270, -0.909117)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0330 ===
+theta_deg = 254.6814
+phi_deg = -0.1831
+agv_source_position_m = (0.961640, -0.263411, -0.003185)
+agv_detector_center_position_m = (-0.963090, 0.263808, 0.003190)
+agv_detector_line_direction = (0.264187, 0.964472, -0.000000)
+agv_detector_col_direction = (-0.003081, 0.000844, -0.999995)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0331 ===
+theta_deg = 21.6563
+phi_deg = -17.2645
+agv_source_position_m = (-0.351378, 0.884938, -0.295914)
+agv_detector_center_position_m = (0.351908, -0.886272, 0.296360)
+agv_detector_line_direction = (-0.929414, -0.369038, 0.000000)
+agv_detector_col_direction = (0.109525, -0.275835, -0.954945)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0332 ===
+theta_deg = 272.1730
+phi_deg = -23.9237
+agv_source_position_m = (0.910752, 0.034557, -0.404331)
+agv_detector_center_position_m = (-0.912125, -0.034609, 0.404941)
+agv_detector_line_direction = (-0.037916, 0.999281, -0.000000)
+agv_detector_col_direction = (-0.405228, -0.015376, -0.914086)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0333 ===
+theta_deg = 173.4987
+phi_deg = -3.6983
+agv_source_position_m = (-0.112659, -0.988594, -0.064314)
+agv_detector_center_position_m = (0.112829, 0.990085, 0.064411)
+agv_detector_line_direction = (0.993569, -0.113226, -0.000000)
+agv_detector_col_direction = (0.007303, 0.064088, -0.997917)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0334 ===
+theta_deg = 258.9469
+phi_deg = -16.6484
+agv_source_position_m = (0.937553, -0.183143, -0.285657)
+agv_detector_center_position_m = (-0.938966, 0.183419, 0.286088)
+agv_detector_line_direction = (0.191718, 0.981450, -0.000000)
+agv_detector_col_direction = (-0.281183, 0.054927, -0.958081)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0335 ===
+theta_deg = 112.8517
+phi_deg = 13.0322
+agv_source_position_m = (-0.895147, -0.377235, 0.224838)
+agv_detector_center_position_m = (0.896497, 0.377804, -0.225177)
+agv_detector_line_direction = (0.388347, -0.921513, -0.000000)
+agv_detector_col_direction = (-0.207800, -0.087572, -0.974243)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0336 ===
+theta_deg = 301.6413
+phi_deg = 17.6011
+agv_source_position_m = (0.809115, 0.498575, 0.301501)
+agv_detector_center_position_m = (-0.810335, -0.499327, -0.301956)
+agv_detector_line_direction = (-0.524600, 0.851349, -0.000000)
+agv_detector_col_direction = (0.257438, 0.158632, -0.953185)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0337 ===
+theta_deg = 61.6792
+phi_deg = 10.8041
+agv_source_position_m = (-0.862166, 0.464633, 0.186902)
+agv_detector_center_position_m = (0.863466, -0.465333, -0.187184)
+agv_detector_line_direction = (-0.474408, -0.880305, 0.000000)
+agv_detector_col_direction = (-0.165015, 0.088929, -0.982274)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0338 ===
+theta_deg = 44.2166
+phi_deg = 19.2202
+agv_source_position_m = (-0.656572, 0.674776, 0.328234)
+agv_detector_center_position_m = (0.657562, -0.675793, -0.328729)
+agv_detector_line_direction = (-0.716709, -0.697373, 0.000000)
+agv_detector_col_direction = (-0.229575, 0.235940, -0.944260)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0339 ===
+theta_deg = 3.5213
+phi_deg = 20.4306
+agv_source_position_m = (-0.057388, 0.932585, 0.348049)
+agv_detector_center_position_m = (0.057475, -0.933992, -0.348573)
+agv_detector_line_direction = (-0.998112, -0.061420, 0.000000)
+agv_detector_col_direction = (-0.021440, 0.348413, -0.937096)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0340 ===
+theta_deg = 357.9546
+phi_deg = 17.8313
+agv_source_position_m = (0.033877, 0.948568, 0.305318)
+agv_detector_center_position_m = (-0.033928, -0.949998, -0.305778)
+agv_detector_line_direction = (-0.999363, 0.035691, -0.000000)
+agv_detector_col_direction = (0.010929, 0.306020, -0.951962)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0341 ===
+theta_deg = 86.4366
+phi_deg = -5.8559
+agv_source_position_m = (-0.989949, 0.061647, -0.101728)
+agv_detector_center_position_m = (0.991441, -0.061740, 0.101881)
+agv_detector_line_direction = (-0.062153, -0.998067, 0.000000)
+agv_detector_col_direction = (0.101830, -0.006341, -0.994782)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0342 ===
+theta_deg = 315.4155
+phi_deg = 3.7599
+agv_source_position_m = (0.698397, 0.708600, 0.065384)
+agv_detector_center_position_m = (-0.699449, -0.709669, -0.065483)
+agv_detector_line_direction = (-0.712216, 0.701960, -0.000000)
+agv_detector_col_direction = (0.046032, 0.046704, -0.997848)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0343 ===
+theta_deg = 87.0271
+phi_deg = -1.3122
+agv_source_position_m = (-0.995466, 0.051698, -0.022832)
+agv_detector_center_position_m = (0.996967, -0.051776, 0.022867)
+agv_detector_line_direction = (-0.051864, -0.998654, 0.000000)
+agv_detector_col_direction = (0.022869, -0.001188, -0.999738)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0344 ===
+theta_deg = 169.2084
+phi_deg = 4.1270
+agv_source_position_m = (-0.186205, -0.976896, 0.071756)
+agv_detector_center_position_m = (0.186486, 0.978369, -0.071864)
+agv_detector_line_direction = (0.982315, -0.187238, -0.000000)
+agv_detector_col_direction = (-0.013475, -0.070694, -0.997407)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0345 ===
+theta_deg = 72.4309
+phi_deg = 9.6806
+agv_source_position_m = (-0.937024, 0.296685, 0.167663)
+agv_detector_center_position_m = (0.938437, -0.297132, -0.167915)
+agv_detector_line_direction = (-0.301855, -0.953354, 0.000000)
+agv_detector_col_direction = (-0.160311, 0.050759, -0.985760)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0346 ===
+theta_deg = 256.4817
+phi_deg = 12.3961
+agv_source_position_m = (0.946845, -0.227638, 0.214039)
+agv_detector_center_position_m = (-0.948272, 0.227981, -0.214362)
+agv_detector_line_direction = (0.233757, 0.972295, -0.000000)
+agv_detector_col_direction = (0.208721, -0.050180, -0.976687)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0347 ===
+theta_deg = 124.0951
+phi_deg = 14.5813
+agv_source_position_m = (-0.799087, -0.540923, 0.251016)
+agv_detector_center_position_m = (0.800292, 0.541739, -0.251395)
+agv_detector_line_direction = (0.560568, -0.828108, -0.000000)
+agv_detector_col_direction = (-0.208480, -0.141125, -0.967791)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0348 ===
+theta_deg = 140.6396
+phi_deg = -9.7169
+agv_source_position_m = (-0.623266, -0.759847, -0.168285)
+agv_detector_center_position_m = (0.624205, 0.760992, 0.168538)
+agv_detector_line_direction = (0.773172, -0.634196, -0.000000)
+agv_detector_col_direction = (0.107039, 0.130496, -0.985654)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0349 ===
+theta_deg = 314.3810
+phi_deg = 10.1849
+agv_source_position_m = (0.701381, 0.686387, 0.176308)
+agv_detector_center_position_m = (-0.702438, -0.687422, -0.176574)
+agv_detector_line_direction = (-0.699426, 0.714705, -0.000000)
+agv_detector_col_direction = (0.126378, 0.123677, -0.984242)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0350 ===
+theta_deg = 93.0330
+phi_deg = -15.1833
+agv_source_position_m = (-0.960917, -0.050915, -0.261140)
+agv_detector_center_position_m = (0.962365, 0.050992, 0.261533)
+agv_detector_line_direction = (0.052912, -0.998599, -0.000000)
+agv_detector_col_direction = (0.261541, 0.013858, -0.965093)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0351 ===
+theta_deg = 341.5637
+phi_deg = 10.9151
+agv_source_position_m = (0.309619, 0.928783, 0.188799)
+agv_detector_center_position_m = (-0.310086, -0.930183, -0.189084)
+agv_detector_line_direction = (-0.948676, 0.316251, -0.000000)
+agv_detector_col_direction = (0.059883, 0.179636, -0.981909)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0352 ===
+theta_deg = 299.3992
+phi_deg = -22.4584
+agv_source_position_m = (0.802785, 0.452332, -0.380892)
+agv_detector_center_position_m = (-0.803995, -0.453014, 0.381467)
+agv_detector_line_direction = (-0.490892, 0.871220, -0.000000)
+agv_detector_col_direction = (-0.332817, -0.187527, -0.924157)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0353 ===
+theta_deg = 204.6320
+phi_deg = 18.7416
+agv_source_position_m = (0.393532, -0.858283, 0.320360)
+agv_detector_center_position_m = (-0.394126, 0.859577, -0.320842)
+agv_detector_line_direction = (0.909004, 0.416788, -0.000000)
+agv_detector_col_direction = (0.133915, -0.292064, -0.946977)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0354 ===
+theta_deg = 206.4604
+phi_deg = -7.5110
+agv_source_position_m = (0.440461, -0.884960, -0.130333)
+agv_detector_center_position_m = (-0.441125, 0.886294, 0.130530)
+agv_detector_line_direction = (0.895243, 0.445579, -0.000000)
+agv_detector_col_direction = (-0.058244, 0.117023, -0.991420)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0355 ===
+theta_deg = 21.6328
+phi_deg = 23.1125
+agv_source_position_m = (-0.338074, 0.852449, 0.391387)
+agv_detector_center_position_m = (0.338583, -0.853734, -0.391977)
+agv_detector_line_direction = (-0.929565, -0.368658, 0.000000)
+agv_detector_col_direction = (-0.144712, 0.364889, -0.919736)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0356 ===
+theta_deg = 25.5304
+phi_deg = 7.6303
+agv_source_position_m = (-0.425921, 0.891746, 0.132391)
+agv_detector_center_position_m = (0.426564, -0.893090, -0.132590)
+agv_detector_line_direction = (-0.902357, -0.430990, 0.000000)
+agv_detector_col_direction = (-0.057227, 0.119815, -0.991146)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0357 ===
+theta_deg = 350.9025
+phi_deg = -12.0648
+agv_source_position_m = (0.154170, 0.962780, -0.208404)
+agv_detector_center_position_m = (-0.154402, -0.964232, 0.208719)
+agv_detector_line_direction = (-0.987421, 0.158115, -0.000000)
+agv_detector_col_direction = (-0.033049, -0.206388, -0.977912)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0358 ===
+theta_deg = 322.2184
+phi_deg = 25.2376
+agv_source_position_m = (0.552549, 0.712815, 0.425124)
+agv_detector_center_position_m = (-0.553383, -0.713890, -0.425765)
+agv_detector_line_direction = (-0.790352, 0.612653, -0.000000)
+agv_detector_col_direction = (0.261219, 0.336985, -0.904547)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0359 ===
+theta_deg = 175.1097
+phi_deg = 2.4268
+agv_source_position_m = (-0.084922, -0.992549, 0.042218)
+agv_detector_center_position_m = (0.085050, 0.994045, -0.042282)
+agv_detector_line_direction = (0.996360, -0.085248, -0.000000)
+agv_detector_col_direction = (-0.003610, -0.042188, -0.999103)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0360 ===
+theta_deg = 104.5077
+phi_deg = -20.8706
+agv_source_position_m = (-0.901942, -0.233387, -0.355215)
+agv_detector_center_position_m = (0.903302, 0.233739, 0.355750)
+agv_detector_line_direction = (0.250510, -0.968114, -0.000000)
+agv_detector_col_direction = (0.344899, 0.089246, -0.934387)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0361 ===
+theta_deg = 184.6638
+phi_deg = -10.1777
+agv_source_position_m = (0.079795, -0.978131, -0.176183)
+agv_detector_center_position_m = (-0.079916, 0.979605, 0.176449)
+agv_detector_line_direction = (0.996689, 0.081309, -0.000000)
+agv_detector_col_direction = (-0.014367, 0.176116, -0.984265)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0362 ===
+theta_deg = 52.4059
+phi_deg = -11.3564
+agv_source_position_m = (-0.774563, 0.596366, -0.196334)
+agv_detector_center_position_m = (0.775730, -0.597266, 0.196630)
+agv_detector_line_direction = (-0.610064, -0.792352, 0.000000)
+agv_detector_col_direction = (0.156023, -0.120128, -0.980421)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0363 ===
+theta_deg = 170.8175
+phi_deg = -6.4778
+agv_source_position_m = (-0.158097, -0.978008, -0.112488)
+agv_detector_center_position_m = (0.158335, 0.979482, 0.112658)
+agv_detector_line_direction = (0.987185, -0.159580, -0.000000)
+agv_detector_col_direction = (0.018004, 0.111373, -0.993616)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0364 ===
+theta_deg = 357.7725
+phi_deg = -16.0158
+agv_source_position_m = (0.037249, 0.957644, -0.275094)
+agv_detector_center_position_m = (-0.037305, -0.959088, 0.275509)
+agv_detector_line_direction = (-0.999244, 0.038867, -0.000000)
+agv_detector_col_direction = (-0.010724, -0.275694, -0.961186)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0365 ===
+theta_deg = 175.9510
+phi_deg = -7.7340
+agv_source_position_m = (-0.069763, -0.985533, -0.134180)
+agv_detector_center_position_m = (0.069868, 0.987019, 0.134382)
+agv_detector_line_direction = (0.997504, -0.070610, -0.000000)
+agv_detector_col_direction = (0.009502, 0.134238, -0.990903)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0366 ===
+theta_deg = 322.6441
+phi_deg = -17.1489
+agv_source_position_m = (0.578090, 0.757316, -0.293992)
+agv_detector_center_position_m = (-0.578961, -0.758458, 0.294435)
+agv_detector_line_direction = (-0.794881, 0.606765, -0.000000)
+agv_detector_col_direction = (-0.178908, -0.234376, -0.955542)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0367 ===
+theta_deg = 306.8934
+phi_deg = 20.0259
+agv_source_position_m = (0.749197, 0.562378, 0.341441)
+agv_detector_center_position_m = (-0.750326, -0.563226, -0.341956)
+agv_detector_line_direction = (-0.600328, 0.799754, -0.000000)
+agv_detector_col_direction = (0.273872, 0.205579, -0.939538)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0368 ===
+theta_deg = 78.5614
+phi_deg = -21.7033
+agv_source_position_m = (-0.907988, 0.183720, -0.368717)
+agv_detector_center_position_m = (0.909357, -0.183997, 0.369273)
+agv_detector_line_direction = (-0.198318, -0.980138, 0.000000)
+agv_detector_col_direction = (0.362456, -0.073338, -0.929111)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0369 ===
+theta_deg = 68.5479
+phi_deg = 20.0304
+agv_source_position_m = (-0.871862, 0.342594, 0.341514)
+agv_detector_center_position_m = (0.873177, -0.343111, -0.342029)
+agv_detector_line_direction = (-0.365724, -0.930723, 0.000000)
+agv_detector_col_direction = (-0.318790, 0.125267, -0.939511)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0370 ===
+theta_deg = 243.0292
+phi_deg = -13.4919
+agv_source_position_m = (0.864102, -0.439728, -0.232624)
+agv_detector_center_position_m = (-0.865405, 0.440391, 0.232974)
+agv_detector_line_direction = (0.453537, 0.891237, -0.000000)
+agv_detector_col_direction = (-0.207932, 0.105813, -0.972403)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0371 ===
+theta_deg = 206.8686
+phi_deg = -18.8148
+agv_source_position_m = (0.426542, -0.841905, -0.321566)
+agv_detector_center_position_m = (-0.427185, 0.843175, 0.322050)
+agv_detector_line_direction = (0.892046, 0.451945, -0.000000)
+agv_detector_col_direction = (-0.145757, 0.287694, -0.946566)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0372 ===
+theta_deg = 339.6492
+phi_deg = -7.3900
+agv_source_position_m = (0.343867, 0.927068, -0.128246)
+agv_detector_center_position_m = (-0.344386, -0.928466, 0.128439)
+agv_detector_line_direction = (-0.937581, 0.347767, -0.000000)
+agv_detector_col_direction = (-0.044731, -0.120595, -0.991694)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0373 ===
+theta_deg = 20.6255
+phi_deg = -16.6133
+agv_source_position_m = (-0.336565, 0.894206, -0.285073)
+agv_detector_center_position_m = (0.337072, -0.895554, 0.285503)
+agv_detector_line_direction = (-0.935903, -0.352259, 0.000000)
+agv_detector_col_direction = (0.100715, -0.267585, -0.958256)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0374 ===
+theta_deg = 80.5638
+phi_deg = 16.5237
+agv_source_position_m = (-0.942958, 0.156718, 0.283578)
+agv_detector_center_position_m = (0.944380, -0.156954, -0.284006)
+agv_detector_line_direction = (-0.163950, -0.986469, 0.000000)
+agv_detector_col_direction = (-0.280563, 0.046629, -0.958702)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0375 ===
+theta_deg = 4.8801
+phi_deg = -4.9174
+agv_source_position_m = (-0.084510, 0.989798, -0.085468)
+agv_detector_center_position_m = (0.084637, -0.991290, 0.085597)
+agv_detector_line_direction = (-0.996375, -0.085072, 0.000000)
+agv_detector_col_direction = (0.007292, -0.085409, -0.996319)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0376 ===
+theta_deg = 62.0397
+phi_deg = -18.3023
+agv_source_position_m = (-0.836132, 0.443837, -0.313111)
+agv_detector_center_position_m = (0.837393, -0.444507, 0.313583)
+agv_detector_line_direction = (-0.468860, -0.883272, 0.000000)
+agv_detector_col_direction = (0.277375, -0.147237, -0.949413)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0377 ===
+theta_deg = 358.7268
+phi_deg = -17.3110
+agv_source_position_m = (0.021150, 0.951670, -0.296687)
+agv_detector_center_position_m = (-0.021182, -0.953105, 0.297134)
+agv_detector_line_direction = (-0.999753, 0.022219, -0.000000)
+agv_detector_col_direction = (-0.006611, -0.297485, -0.954704)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0378 ===
+theta_deg = 57.8693
+phi_deg = 13.6293
+agv_source_position_m = (-0.820579, 0.515361, 0.234949)
+agv_detector_center_position_m = (0.821816, -0.516138, -0.235303)
+agv_detector_line_direction = (-0.531852, -0.846837, 0.000000)
+agv_detector_col_direction = (-0.199549, 0.125326, -0.971840)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0379 ===
+theta_deg = 135.5239
+phi_deg = -23.8866
+agv_source_position_m = (-0.638726, -0.650514, -0.403740)
+agv_detector_center_position_m = (0.639690, 0.651495, 0.404349)
+agv_detector_line_direction = (0.713542, -0.700612, -0.000000)
+agv_detector_col_direction = (0.283697, 0.288933, -0.914349)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0380 ===
+theta_deg = 18.2778
+phi_deg = 24.0380
+agv_source_position_m = (-0.285585, 0.864657, 0.406149)
+agv_detector_center_position_m = (0.286016, -0.865960, -0.406762)
+agv_detector_line_direction = (-0.949547, -0.313624, 0.000000)
+agv_detector_col_direction = (-0.127752, 0.386791, -0.913275)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0381 ===
+theta_deg = 120.2249
+phi_deg = -7.3123
+agv_source_position_m = (-0.854517, -0.497838, -0.126905)
+agv_detector_center_position_m = (0.855805, 0.498588, 0.127096)
+agv_detector_line_direction = (0.503395, -0.864056, -0.000000)
+agv_detector_col_direction = (0.109975, 0.064071, -0.991867)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0382 ===
+theta_deg = 230.3141
+phi_deg = 15.0274
+agv_source_position_m = (0.741061, -0.614933, 0.258520)
+agv_detector_center_position_m = (-0.742178, 0.615860, -0.258910)
+agv_detector_line_direction = (0.638579, 0.769557, -0.000000)
+agv_detector_col_direction = (0.199531, -0.165571, -0.965802)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0383 ===
+theta_deg = 267.1734
+phi_deg = -11.1439
+agv_source_position_m = (0.977079, -0.048241, -0.192708)
+agv_detector_center_position_m = (-0.978552, 0.048314, 0.192998)
+agv_detector_line_direction = (0.049313, 0.998783, -0.000000)
+agv_detector_col_direction = (-0.193039, 0.009531, -0.981145)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0384 ===
+theta_deg = 319.4988
+phi_deg = 4.8389
+agv_source_position_m = (0.645252, 0.755462, 0.084107)
+agv_detector_center_position_m = (-0.646225, -0.756601, -0.084234)
+agv_detector_line_direction = (-0.760393, 0.649464, -0.000000)
+agv_detector_col_direction = (0.054785, 0.064143, -0.996436)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0385 ===
+theta_deg = 353.9947
+phi_deg = 8.2776
+agv_source_position_m = (0.103227, 0.981267, 0.143548)
+agv_detector_center_position_m = (-0.103382, -0.982747, -0.143764)
+agv_detector_line_direction = (-0.994512, 0.104620, -0.000000)
+agv_detector_col_direction = (0.015062, 0.143180, -0.989582)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0386 ===
+theta_deg = 56.4555
+phi_deg = 13.9849
+agv_source_position_m = (-0.806383, 0.534634, 0.240957)
+agv_detector_center_position_m = (0.807599, -0.535440, -0.241321)
+agv_detector_line_direction = (-0.552584, -0.833457, 0.000000)
+agv_detector_col_direction = (-0.201418, 0.133541, -0.970360)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0387 ===
+theta_deg = 72.7132
+phi_deg = -9.8831
+agv_source_position_m = (-0.937903, 0.291887, -0.171136)
+agv_detector_center_position_m = (0.939317, -0.292327, 0.171394)
+agv_detector_line_direction = (-0.297155, -0.954829, 0.000000)
+agv_detector_col_direction = (0.163886, -0.051003, -0.985160)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0388 ===
+theta_deg = 221.3410
+phi_deg = 2.9024
+agv_source_position_m = (0.657759, -0.747631, 0.050486)
+agv_detector_center_position_m = (-0.658750, 0.748758, -0.050562)
+agv_detector_line_direction = (0.750791, 0.660539, -0.000000)
+agv_detector_col_direction = (0.033446, -0.038016, -0.998717)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0389 ===
+theta_deg = 308.3713
+phi_deg = 16.2050
+agv_source_position_m = (0.750649, 0.594345, 0.278257)
+agv_detector_center_position_m = (-0.751781, -0.595241, -0.278677)
+agv_detector_line_direction = (-0.620755, 0.784005, -0.000000)
+agv_detector_col_direction = (0.218796, 0.173237, -0.960269)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0390 ===
+theta_deg = 72.8227
+phi_deg = -3.7071
+agv_source_position_m = (-0.950602, 0.293848, -0.064466)
+agv_detector_center_position_m = (0.952035, -0.294291, 0.064563)
+agv_detector_line_direction = (-0.295330, -0.955395, 0.000000)
+agv_detector_col_direction = (0.061771, -0.019095, -0.997908)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0391 ===
+theta_deg = 120.7185
+phi_deg = -20.2486
+agv_source_position_m = (-0.804195, -0.477847, -0.345080)
+agv_detector_center_position_m = (0.805407, 0.478567, 0.345600)
+agv_detector_line_direction = (0.510820, -0.859688, -0.000000)
+agv_detector_col_direction = (0.297533, 0.176792, -0.938200)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0392 ===
+theta_deg = 234.1977
+phi_deg = -21.6474
+agv_source_position_m = (0.751630, -0.542138, -0.367813)
+agv_detector_center_position_m = (-0.752763, 0.542955, 0.368368)
+agv_detector_line_direction = (0.584990, 0.811040, -0.000000)
+agv_detector_col_direction = (-0.299188, 0.215799, -0.929471)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0393 ===
+theta_deg = 265.7985
+phi_deg = 8.1642
+agv_source_position_m = (0.984312, -0.072309, 0.141594)
+agv_detector_center_position_m = (-0.985796, 0.072418, -0.141808)
+agv_detector_line_direction = (0.073264, 0.997313, -0.000000)
+agv_detector_col_direction = (0.141629, -0.010404, -0.989865)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0394 ===
+theta_deg = 339.3361
+phi_deg = -14.5034
+agv_source_position_m = (0.340639, 0.903194, -0.249704)
+agv_detector_center_position_m = (-0.341152, -0.904556, 0.250080)
+agv_detector_line_direction = (-0.935667, 0.352886, -0.000000)
+agv_detector_col_direction = (-0.088376, -0.234326, -0.968133)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0395 ===
+theta_deg = 19.3678
+phi_deg = -10.7233
+agv_source_position_m = (-0.324885, 0.924218, -0.185521)
+agv_detector_center_position_m = (0.325375, -0.925611, 0.185801)
+agv_detector_line_direction = (-0.943409, -0.331631, 0.000000)
+agv_detector_col_direction = (0.061705, -0.175537, -0.982537)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0396 ===
+theta_deg = 163.2696
+phi_deg = 18.2396
+agv_source_position_m = (-0.272604, -0.906887, 0.312075)
+agv_detector_center_position_m = (0.273015, 0.908254, -0.312545)
+agv_detector_line_direction = (0.957670, -0.287870, -0.000000)
+agv_detector_col_direction = (-0.090101, -0.299743, -0.949756)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0397 ===
+theta_deg = 278.2920
+phi_deg = -17.2717
+agv_source_position_m = (0.942155, 0.137311, -0.296033)
+agv_detector_center_position_m = (-0.943576, -0.137518, 0.296479)
+agv_detector_line_direction = (-0.144218, 0.989546, -0.000000)
+agv_detector_col_direction = (-0.293800, -0.042819, -0.954908)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0398 ===
+theta_deg = 274.4202
+phi_deg = 7.7229
+agv_source_position_m = (0.985087, 0.076148, 0.133989)
+agv_detector_center_position_m = (-0.986572, -0.076262, -0.134191)
+agv_detector_line_direction = (-0.077071, 0.997026, -0.000000)
+agv_detector_col_direction = (0.133983, 0.010357, -0.990929)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400
+
+=== view 0399 ===
+theta_deg = 73.6822
+phi_deg = 17.2393
+agv_source_position_m = (-0.913917, 0.267556, 0.295495)
+agv_detector_center_position_m = (0.915295, -0.267959, -0.295940)
+agv_detector_line_direction = (-0.280964, -0.959718, 0.000000)
+agv_detector_col_direction = (-0.284425, 0.083268, -0.955075)
+focus_object_distance_in_mm = 997.0690
+focus_detector_distance_in_mm = 1995.6410
+number_projection_angles = 400

@@ -1,0 +1,79 @@
+{
+  "study": "fd_epsilon_sweep",
+  "phantom": "moderate",
+  "resolution": 192,
+  "k": 40,
+  "objective": "saturated_coverage - lambda*mean(bundle_tau)",
+  "quadrature": {
+    "rule": "clip",
+    "n_samples": 256
+  },
+  "lambda_bundle": 0.19249257638995418,
+  "median_tau_probe": 1.0390011072158813,
+  "n_dirs": 24,
+  "seed": 0,
+  "git_head": "0cdc39059228c71d0e96dc9474ae21a313fe2456",
+  "runtime_s": 45.3,
+  "curve": [
+    {
+      "eps_mm": 0.001,
+      "rel_err_median": 0.5873888989267176,
+      "rel_err_p95": 27.328044681836726,
+      "rel_err_max": 38.51249098035411
+    },
+    {
+      "eps_mm": 0.005,
+      "rel_err_median": 0.16341809007183722,
+      "rel_err_p95": 3.275944189521988,
+      "rel_err_max": 16.004996392141646
+    },
+    {
+      "eps_mm": 0.01,
+      "rel_err_median": 0.09036279549273107,
+      "rel_err_p95": 2.2717649451307547,
+      "rel_err_max": 11.00333092809443
+    },
+    {
+      "eps_mm": 0.05,
+      "rel_err_median": 0.03358377529596953,
+      "rel_err_p95": 0.7321067496102813,
+      "rel_err_max": 1.5008327320236075
+    },
+    {
+      "eps_mm": 0.1,
+      "rel_err_median": 0.021563296392540073,
+      "rel_err_p95": 0.37142871502037283,
+      "rel_err_max": 0.5004996392141645
+    },
+    {
+      "eps_mm": 0.25,
+      "rel_err_median": 0.005495549883595257,
+      "rel_err_p95": 0.37513654011952163,
+      "rel_err_max": 0.7201991880791299
+    },
+    {
+      "eps_mm": 0.5,
+      "rel_err_median": 0.0074765973605112595,
+      "rel_err_p95": 0.13568260250263364,
+      "rel_err_max": 0.6852240865890211
+    },
+    {
+      "eps_mm": 1.0,
+      "rel_err_median": 0.006005462478167717,
+      "rel_err_p95": 0.11423162760984293,
+      "rel_err_max": 0.1955252738860512
+    },
+    {
+      "eps_mm": 2.0,
+      "rel_err_median": 0.007319634607339232,
+      "rel_err_p95": 0.1910026893839289,
+      "rel_err_max": 0.40605222614439324
+    }
+  ],
+  "eps_star_mm": 0.25,
+  "richardson_reference_at_eps_star": {
+    "rel_err_median": 0.028177695430520993,
+    "rel_err_p95": 0.5372452319128329,
+    "rel_err_max": 0.933977312764923
+  }
+}

@@ -1,0 +1,27 @@
+# R2 — Init x Bundle factorial on MILP moderate.  See r2_factorial_milp_mild.yaml.
+
+name: init_x_bundle_lof_v3
+description: "Init x Bundle factorial on MILP moderate, 5 seeds"
+experiment_type: method_grid
+output: experiments/results/lof_plate_20260825/init_x_bundle_lof_v3.csv
+
+phantom:
+  type: milp_npy
+  path: data/lof_flange_v3.npy
+  resolution: 384
+
+geometry: milp
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+k_values: [40, 80]
+
+methods:
+  - name: vcls_adam_vcl
+  - name: vcls_adam_bundle_center
+  - name: vcls_adam_bundle
+  - name: greedy_adam_vcl
+  - name: greedy_adam_bundle_center
+  - name: greedy_adam_bundle

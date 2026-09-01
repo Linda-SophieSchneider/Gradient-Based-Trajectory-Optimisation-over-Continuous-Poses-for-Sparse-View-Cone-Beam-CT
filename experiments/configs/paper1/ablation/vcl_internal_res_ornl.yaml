@@ -1,0 +1,43 @@
+# P3 — internal-resolution ablation for the continuous VCL term.
+# The paper uses a 128^3 working reference volume inside the continuous
+# VCL term on the 512^3 fuel nozzle and claims this costs no measurable
+# accuracy.  This sweep relaxes that approximation over {96, 128, 192,
+# 256}^3 on the headline cov+VCL Tuy-greedy cell at k = 80 and reports
+# quality plus selection wall-clock (sel_s).
+
+name: vcl_internal_res_ornl
+description: "VCL internal working-resolution sweep (ORNL 512^3, cov+VCL Tuy-greedy, k=80)"
+experiment_type: param_sweep
+output: experiments/results/vcl_internal_res_ornl.csv
+
+phantom:
+  type: ornl_nozzle
+  path: data/ornl_nozzle.h5
+  section: L
+  resolution: 512
+
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+
+k_values: [80]
+
+methods:
+  - name: greedy_adam_vcl
+    base_kwargs:
+      lambda_cov: 1.0
+      lambda_vcl: 0.2
+      lambda_path: 0.0
+      init_method: greedy_tuy
+      n_steps: 100
+
+sweep:
+  param: vcl_target_shape
+  values:
+    - [96, 96, 96]
+    - [128, 128, 128]
+    - [192, 192, 192]
+    - [256, 256, 256]

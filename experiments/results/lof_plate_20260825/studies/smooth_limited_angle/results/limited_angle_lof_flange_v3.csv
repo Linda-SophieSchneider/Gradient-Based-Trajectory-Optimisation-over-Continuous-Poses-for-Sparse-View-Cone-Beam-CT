@@ -1,0 +1,9 @@
+phantom,constraint,condition,k,photon,n,psnr_n,psnr_mean,psnr_std,roi_psnr_mean,roi_psnr_std,roi_ssim_mean,roi_ssim_std,roi_hfen_mean,roi_hfen_std
+lof_flange_v3,lamino,ours_cov,60,10000.0,6,3,35.3223,0.0111,19.8399,3.5264,0.2002,0.2224,0.9898,0.4801
+lof_flange_v3,lamino,ours_roi_abs,60,10000.0,6,6,35.1705,0.1106,19.6532,3.3573,0.1864,0.204,1.0068,0.4663
+lof_flange_v3,lamino,uniform_wedge,60,10000.0,6,3,34.7138,0.0,19.244,3.5431,0.1975,0.2196,1.0021,0.4708
+lof_flange_v3,lamino,vcls_wedge,60,10000.0,6,3,35.2483,0.0104,19.7384,3.5117,0.2028,0.2194,0.9928,0.4778
+lof_flange_v3,wedge120,ours_cov,60,10000.0,6,3,35.8114,0.1025,20.1007,2.3523,0.2913,0.0249,0.9131,0.309
+lof_flange_v3,wedge120,ours_roi_abs,60,10000.0,6,6,36.3516,0.6191,21.133,2.3295,0.3885,0.1625,0.7732,0.3024
+lof_flange_v3,wedge120,uniform_wedge,60,10000.0,6,3,36.3959,0.0002,19.6658,1.8365,0.3883,0.0482,0.7975,0.2892
+lof_flange_v3,wedge120,vcls_wedge,60,10000.0,6,3,39.0029,0.0245,26.5561,1.4887,0.7264,0.2385,0.233,0.0584

@@ -1,0 +1,115 @@
+{
+  "study": "bundle_quadrature_camera_prior",
+  "volume": "/home/schneider/DiffCT_CUDA_Development/TestReconstructions/output/reconstruction_FDK.rek",
+  "volume_shape": [
+    768,
+    768,
+    768
+  ],
+  "voxel_mm": 0.27771701049804687,
+  "fod_mm": 997.1,
+  "n_probes": 96,
+  "probe_convention": "isocentre-centred FOD sphere, target = isocentre (the acquired-arm planning convention)",
+  "reference": {
+    "rule": "clip",
+    "n_samples": 4096
+  },
+  "tolerances": {
+    "value_rel_median": 0.01,
+    "value_rel_p95": 0.03,
+    "grad_angle_median_deg": 5.0,
+    "grad_angle_p95_deg": 15.0,
+    "grad_mag_median_lo": 0.95,
+    "grad_mag_median_hi": 1.05,
+    "kendall_tau_min": 0.99
+  },
+  "tau_ref_median": 0.10163222253322601,
+  "git_head": "0cdc39059228c71d0e96dc9474ae21a313fe2456",
+  "runtime_s": 29.2,
+  "cells": {
+    "full@32": {
+      "value_rel_median": 0.3115799152029879,
+      "value_rel_p95": 1.0667418511936653,
+      "value_rel_max": 2.0654167382833633,
+      "grad_angle_median_deg": 87.76617653088809,
+      "grad_angle_p95_deg": 145.42900673043084,
+      "grad_angle_max_deg": 171.31428609202428,
+      "grad_mag_median": 7.023090104729787,
+      "grad_probes_kept": 96,
+      "kendall_tau": 0.3855263157894736,
+      "spearman_rho": 0.536828540423223,
+      "top_decile_overlap": 0.5555555555555556,
+      "pass": false
+    },
+    "full@128": {
+      "value_rel_median": 0.13355714176236072,
+      "value_rel_p95": 0.5004443286917841,
+      "value_rel_max": 1.0606868320271954,
+      "grad_angle_median_deg": 68.6135879222804,
+      "grad_angle_p95_deg": 150.09097870412745,
+      "grad_angle_max_deg": 159.76317078961426,
+      "grad_mag_median": 3.9066857488376203,
+      "grad_probes_kept": 96,
+      "kendall_tau": 0.700877192982456,
+      "spearman_rho": 0.8505697232772652,
+      "top_decile_overlap": 0.6666666666666666,
+      "pass": false
+    },
+    "full@256": {
+      "value_rel_median": 0.1384245329377675,
+      "value_rel_p95": 0.5112580376887174,
+      "value_rel_max": 1.1634099930579043,
+      "grad_angle_median_deg": 56.9064865779354,
+      "grad_angle_p95_deg": 129.52450268650966,
+      "grad_angle_max_deg": 159.47887880861447,
+      "grad_mag_median": 2.808254000271807,
+      "grad_probes_kept": 96,
+      "kendall_tau": 0.7473684210526315,
+      "spearman_rho": 0.8714731416169289,
+      "top_decile_overlap": 0.5555555555555556,
+      "pass": false
+    },
+    "clip@32": {
+      "value_rel_median": 0.022311958318900822,
+      "value_rel_p95": 0.08029367312294912,
+      "value_rel_max": 0.09621095473172656,
+      "grad_angle_median_deg": 28.809231319582633,
+      "grad_angle_p95_deg": 135.85663904835587,
+      "grad_angle_max_deg": 179.60652877988363,
+      "grad_mag_median": 1.673152444074387,
+      "grad_probes_kept": 96,
+      "kendall_tau": 0.9140350877192981,
+      "spearman_rho": 0.9861231687466088,
+      "top_decile_overlap": 0.8888888888888888,
+      "pass": false
+    },
+    "clip@128": {
+      "value_rel_median": 0.0021868685761910036,
+      "value_rel_p95": 0.0059414220982163275,
+      "value_rel_max": 0.015361334685087099,
+      "grad_angle_median_deg": 11.92871930768339,
+      "grad_angle_p95_deg": 129.7954646819686,
+      "grad_angle_max_deg": 177.993915587209,
+      "grad_mag_median": 1.109411605149114,
+      "grad_probes_kept": 96,
+      "kendall_tau": 0.9938596491228069,
+      "spearman_rho": 0.999769397721107,
+      "top_decile_overlap": 1.0,
+      "pass": false
+    },
+    "clip@256": {
+      "value_rel_median": 0.0005327637816094264,
+      "value_rel_p95": 0.0016552186993538064,
+      "value_rel_max": 0.002823274466161125,
+      "grad_angle_median_deg": 5.84639727575543,
+      "grad_angle_p95_deg": 59.391908652478556,
+      "grad_angle_max_deg": 133.86919757289616,
+      "grad_mag_median": 1.0119993155927038,
+      "grad_probes_kept": 96,
+      "kendall_tau": 0.9986842105263156,
+      "spearman_rho": 0.9999593054801953,
+      "top_decile_overlap": 1.0,
+      "pass": false
+    }
+  }
+}

@@ -1,0 +1,47 @@
+# Slice grid and difference maps for the hexagonal fuel-nozzle phantom,
+# under low-dose photon noise (matches the noise-study trio of tab:noise).
+# Rendered at 256^3 (downsampled from the native 512^3) for slice-figure
+# legibility; the table numbers (tab:noise / tab:ornl) are at native 512^3.
+# PW-OED swapped for the analytic bundle 2026-07-01, see paper/fully3d_pwoed/.
+#
+# Produces:
+#   - paper/figures/ornl_recon_slices.pdf
+#   - paper/figures/ornl_recon_diff.pdf
+
+name: ornl_slices
+description: "Fuel-nozzle slice grid + diff maps at 256^3 k=80, I0=1e4"
+experiment_type: figure_milp_slices
+output_slices: paper/figures/ornl_recon_slices.pdf
+output_diff:   paper/figures/ornl_recon_diff.pdf
+output_plate:  paper/figures/ornl_recon_plate.pdf
+
+# Low-dose photon noise (Beer-Lambert / Poisson); single fixed draw.
+photon_count: 1.0e4
+noise_seed: 0
+
+phantoms:
+  - tag: nozzle
+    type: ornl_nozzle
+    path: data/ornl_nozzle.h5
+    section: L
+    resolution: 256
+
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+k: 80
+
+# Aim the zoom inset at the bolt-hole ring (top-left hexagon corner)
+# instead of the hollow centre.
+inset_center: [0.28, 0.32]
+inset_fraction: 0.32
+
+methods:
+  - name: vcls
+    label: "VCLS"
+  - name: greedy_adam
+    label: "Coverage"
+  - name: greedy_adam_bundle
+    label: "Coverage + bundle"

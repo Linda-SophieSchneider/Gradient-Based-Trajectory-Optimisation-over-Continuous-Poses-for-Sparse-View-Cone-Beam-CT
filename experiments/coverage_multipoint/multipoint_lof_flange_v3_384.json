@@ -1,0 +1,156 @@
+{
+  "study": "coverage_multipoint_eval",
+  "phantom": "lof_flange_v3",
+  "resolution": 384,
+  "roi_centre_mm": [
+    11.550000190734863,
+    -4.650000095367432,
+    -28.649999618530273
+  ],
+  "roi_radius_mm": 5.0,
+  "n_roi_points": 32,
+  "smoothing": {
+    "tau": 0.25881904510252074,
+    "sigma": 0.08528219908899114
+  },
+  "n_normals": 300,
+  "seed": 0,
+  "git_head": "ab064917e1f511d9988805ea11ad772bfea085cb",
+  "runtime_s": 12.4,
+  "results": {
+    "k40": {
+      "centre_selection": {
+        "coverage_at_centre": 0.9845,
+        "per_point": {
+          "min": 0.9845,
+          "mean": 0.9845,
+          "max": 0.9845,
+          "sd": 0.0
+        }
+      },
+      "multipoint_selection": {
+        "per_point": {
+          "min": 0.9845,
+          "mean": 0.9845,
+          "max": 0.9845,
+          "sd": 0.0
+        },
+        "assign_vs_centre_sel_deg": {
+          "mean": 0.294,
+          "max": 0.902
+        }
+      },
+      "centre_sensitivity": [
+        {
+          "perturb_mm": 2.0,
+          "assign_mean_deg": 14.863,
+          "assign_max_deg": 98.123,
+          "coverage_at_true_centre": 0.9845,
+          "coverage_drop_vs_centre_sel": 0.0001
+        },
+        {
+          "perturb_mm": 2.0,
+          "assign_mean_deg": 14.903,
+          "assign_max_deg": 82.292,
+          "coverage_at_true_centre": 0.9845,
+          "coverage_drop_vs_centre_sel": 0.0
+        },
+        {
+          "perturb_mm": 5.0,
+          "assign_mean_deg": 18.614,
+          "assign_max_deg": 83.139,
+          "coverage_at_true_centre": 0.9845,
+          "coverage_drop_vs_centre_sel": 0.0
+        },
+        {
+          "perturb_mm": 5.0,
+          "assign_mean_deg": 15.73,
+          "assign_max_deg": 48.249,
+          "coverage_at_true_centre": 0.9843,
+          "coverage_drop_vs_centre_sel": 0.0002
+        },
+        {
+          "perturb_mm": 10.0,
+          "assign_mean_deg": 22.754,
+          "assign_max_deg": 78.996,
+          "coverage_at_true_centre": 0.9844,
+          "coverage_drop_vs_centre_sel": 0.0001
+        },
+        {
+          "perturb_mm": 10.0,
+          "assign_mean_deg": 27.944,
+          "assign_max_deg": 101.844,
+          "coverage_at_true_centre": 0.9844,
+          "coverage_drop_vs_centre_sel": 0.0002
+        }
+      ]
+    },
+    "k80": {
+      "centre_selection": {
+        "coverage_at_centre": 0.9998,
+        "per_point": {
+          "min": 0.9998,
+          "mean": 0.9998,
+          "max": 0.9998,
+          "sd": 0.0
+        }
+      },
+      "multipoint_selection": {
+        "per_point": {
+          "min": 0.9998,
+          "mean": 0.9998,
+          "max": 0.9998,
+          "sd": 0.0
+        },
+        "assign_vs_centre_sel_deg": {
+          "mean": 3.897,
+          "max": 36.682
+        }
+      },
+      "centre_sensitivity": [
+        {
+          "perturb_mm": 2.0,
+          "assign_mean_deg": 12.951,
+          "assign_max_deg": 46.487,
+          "coverage_at_true_centre": 0.9998,
+          "coverage_drop_vs_centre_sel": 0.0
+        },
+        {
+          "perturb_mm": 2.0,
+          "assign_mean_deg": 12.788,
+          "assign_max_deg": 62.004,
+          "coverage_at_true_centre": 0.9998,
+          "coverage_drop_vs_centre_sel": 0.0
+        },
+        {
+          "perturb_mm": 5.0,
+          "assign_mean_deg": 11.332,
+          "assign_max_deg": 51.529,
+          "coverage_at_true_centre": 0.9998,
+          "coverage_drop_vs_centre_sel": 0.0
+        },
+        {
+          "perturb_mm": 5.0,
+          "assign_mean_deg": 17.143,
+          "assign_max_deg": 57.306,
+          "coverage_at_true_centre": 0.9998,
+          "coverage_drop_vs_centre_sel": -0.0
+        },
+        {
+          "perturb_mm": 10.0,
+          "assign_mean_deg": 15.623,
+          "assign_max_deg": 50.481,
+          "coverage_at_true_centre": 0.9998,
+          "coverage_drop_vs_centre_sel": 0.0
+        },
+        {
+          "perturb_mm": 10.0,
+          "assign_mean_deg": 20.903,
+          "assign_max_deg": 61.167,
+          "coverage_at_true_centre": 0.9998,
+          "coverage_drop_vs_centre_sel": 0.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,66 @@
+# Main-paper nozzle reconstruction plate (fig:ornl_recon).
+#
+# Unlike ornl_slices.yaml -- which renders the LOW-DOSE trio at I0=1e4 for the
+# noise study -- this config is NOISE-FREE and its method list mirrors the rows
+# of tab:ornl_runs exactly: discrete VCLS, cov+VCL and cov+bundle, all cold
+# started from the Tuy-greedy solution.
+# Rendered at 256^3 (downsampled from the native 512^3) for slice legibility;
+# the table numbers are at native 512^3.
+#
+# Produces:
+#   - paper/figures/ornl_main_slices.pdf
+#   - paper/figures/ornl_main_diff.pdf
+#   - paper/figures/ornl_recon_plate_main.pdf   <- used by fig:ornl_recon
+
+name: ornl_slices_main
+description: "fig:ornl_recon -- noise-free nozzle plate at 256^3, k=40, tab:ornl_runs arms"
+experiment_type: figure_milp_slices
+output_slices: paper/figures/ornl_main_slices.pdf
+output_diff:   paper/figures/ornl_main_diff.pdf
+output_plate:  paper/figures/ornl_recon_plate_main.pdf
+
+phantoms:
+  - tag: nozzle
+    type: ornl_nozzle
+    path: data/ornl_nozzle.h5
+    section: L
+    resolution: 256
+    geometry: ornl
+    inset_center: [0.28, 0.32]
+  # Second row: the Defrise flange, on its own bench geometry and at native
+  # resolution, so one plate shows the symmetric and the asymmetric object
+  # side by side under the same three selectors.
+  - tag: Defrise flange
+    type: milp_npy
+    path: data/lof_flange_v3.npy
+    resolution: 384
+    geometry: milp
+    axis: x               # sagittal, the plane that shows both LoF stacks
+    inset_center: [0.72, 0.5]
+    inset_fraction: 0.28
+    # The flange is a low-contrast aluminium part, so it needs the window of
+    # fig:kinematics_recon rather than the metal-part window of the nozzle.
+    display_gamma: 0.32
+    display_black_percentile: 0.0
+    display_white_percentile: 99.5
+    display_highlight_headroom: 2.0
+
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+k: 40
+
+# Aim the zoom inset at the bolt-hole ring (top-left hexagon corner)
+# instead of the hollow centre.
+inset_center: [0.28, 0.32]
+inset_fraction: 0.32
+
+methods:
+  - name: vcls
+    label: "VCLS"
+  - name: greedy_adam_vcl
+    label: "Coverage + VCL"
+  - name: greedy_adam_bundle
+    label: "Coverage + bundle"

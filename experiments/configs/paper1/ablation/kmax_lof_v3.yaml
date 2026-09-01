@@ -1,0 +1,38 @@
+# K_max comparison on the moderate simulated phantom across k={40,60,80}.
+# This is aimed at the Paper-1 question:
+#   - how much do we gain from continuous off-grid refinement over discrete VCLS
+#   - and how much additional value comes from the object-aware bundle term
+#
+# We therefore keep:
+#   - vcls              : discrete baseline
+#   - vcls_adam_vcl     : continuous refinement without bundle attenuation
+#   - vcls_adam_bundle  : continuous refinement with bundle attenuation
+#   - greedy_adam_bundle: alternative non-VCLS warm start for context
+#
+# The runner records cache_s and total_s and writes incrementally, so the
+# experiment can be resumed safely.
+
+name: kmax_lof_v3
+description: "K_max comparison on moderate phantom: VCLS vs continuous refinement"
+experiment_type: kmax_method_grid
+output: experiments/results/lof_plate_20260825/kmax_lof_v3.csv
+
+phantom:
+  type: milp_npy
+  path: data/lof_flange_v3.npy
+  resolution: 384
+
+geometry: milp
+sart_iterations: 15
+k_max: 250                # fallback only; overridden per kmax_values entry
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+k_values: [40, 60, 80]
+kmax_values: [80, 100, 125, 250]
+
+methods:
+  - name: vcls
+  - name: vcls_adam_vcl
+  - name: vcls_adam_bundle
+  - name: greedy_adam_bundle

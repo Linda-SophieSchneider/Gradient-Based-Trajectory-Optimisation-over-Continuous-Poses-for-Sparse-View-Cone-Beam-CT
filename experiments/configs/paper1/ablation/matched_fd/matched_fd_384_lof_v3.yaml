@@ -1,0 +1,36 @@
+# REV-P0-01 matched derivative-only ablation + REV-P1-08 derivative-free
+# comparator (replaces tab:fd_vs_bundle).  All bundle arms share the exact
+# selector configuration — VCLS init, calibrated lambda, Adam/cosine/patience
+# where applicable, frozen clip@256 quadrature — and differ in EXACTLY ONE
+# field each: the gradient estimator (fd_central, eps = 0.5 mm from the
+# fd_epsilon_sweep artifact) or the optimizer (CMA-ES, budget = the FD arm's
+# 2*3k*n_steps objective evaluations).
+
+name: matched_fd_384_lof_v3
+description: "Matched FD/analytic/CMA-ES bundle selectors (moderate 384^3)"
+experiment_type: method_grid
+output: experiments/results/lof_plate_20260825/matched_fd_384_lof_v3.csv
+
+phantom:
+  type: milp_npy
+  path: data/lof_flange_v3.npy
+  resolution: 384
+
+geometry: milp
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+
+k_values: [40, 80]
+
+methods:
+  - name: vcls                       # discrete reference
+  - name: vcls_adam_bundle           # analytic gradient (proposed)
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}
+  - name: vcls_adam_bundle_fd        # ONLY difference: central FD gradient
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true,
+             derivative_fd_step: 0.5}
+  - name: vcls_cmaes_bundle          # ONLY difference: derivative-free CMA-ES
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}

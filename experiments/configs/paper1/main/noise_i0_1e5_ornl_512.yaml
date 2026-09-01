@@ -1,0 +1,36 @@
+# Photon-noise half of tab:ornl_runs (sec:results_noisefree). Single fluence
+# level I0 = 1e5, the one level shared by both pre-registered fluence pairs,
+# and the same five selector families as the noise-free table so the two
+# halves are row-matched.
+name: noise_i0_1e5_ornl_512
+description: "Photon-noise robustness: continuous vs noise-blind VCLS (ORNL nozzle)"
+experiment_type: noise_robustness
+output: experiments/results/lof_plate_20260825/noise_i0_1e5_ornl_512.csv
+
+phantom:
+  type: ornl_nozzle
+  path: data/ornl_nozzle.h5
+  section: L
+  resolution: 512
+
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+selection_seeds: [0, 1, 2]
+paired_baseline: vcls
+force_rebuild_cache: true
+
+photon_levels: [1.0e5]
+noise_seeds: [0, 1, 2, 3, 4]
+k_values: [40, 80]
+
+methods:
+  - name: vcls
+  - name: greedy_discrete
+  - name: greedy_adam_bundle
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}
+  - name: greedy_adam_vcl
+  - name: greedy_adam_composite
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}

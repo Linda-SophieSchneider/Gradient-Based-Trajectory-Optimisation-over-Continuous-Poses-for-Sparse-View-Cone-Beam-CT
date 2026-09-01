@@ -1,0 +1,31 @@
+# PW-OED-removal feasibility check: does the analytic bundle term alone match
+# greedy_adam_oed on tab:noise / tab:cost (ORNL nozzle, native 512^3)? Bundle
+# needs no VCL cache, so this is a bundle-only rerun of
+# noise_robustness_ornl_512.yaml for direct row-by-row comparison against the
+# existing greedy_adam_oed rows, including the wall-clock (sel_s) numbers that
+# back tab:cost.
+
+name: bundle_confirm_ornl_512
+description: "Bundle-only rerun of noise_robustness_ornl_512 for PW-OED-vs-bundle check"
+experiment_type: noise_robustness
+output: experiments/results/bundle_confirm_ornl_512.csv
+
+phantom:
+  type: ornl_nozzle
+  path: data/ornl_nozzle.h5
+  section: L
+  resolution: 512
+
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+force_rebuild_cache: false
+
+photon_levels: [1.0e4, 1.0e5]
+noise_seeds: [0, 1, 2, 3, 4]
+k_values: [40, 80]
+
+methods:
+  - name: greedy_adam_bundle

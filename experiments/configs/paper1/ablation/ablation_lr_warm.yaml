@@ -1,0 +1,38 @@
+# Reproduces Table IV (Warm-start learning-rate sweep).  Pure-VCL
+# objective from the VCLS warm start, ORNL nozzle at 128^3 (development
+# scale, fast), k = 80.  Verifies that lr <= 0.05 reproduces the VCLS
+# result to milli-decibel accuracy and that lr = 0.5 over-shoots.
+
+name: ablation_lr_warm
+description: "Table IV — pure-VCL warm-start LR sweep, ORNL 128^3 k=80"
+experiment_type: param_sweep
+output: experiments/results/ablation_lr_warm.csv
+
+phantom:
+  type: ornl_nozzle
+  path: data/ornl_nozzle.h5
+  section: L
+  resolution: 128
+
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+
+k_values: [80]
+
+methods:
+  - name: vcls_adam_vcl_pure          # informative name; selector dispatched below
+    base_kwargs:
+      lambda_cov: 0.0
+      lambda_vcl: 1.0
+      lambda_path: 0.0
+      lambda_bundle: 0.0
+      init_method: vcls
+      n_steps: 100
+
+sweep:
+  param: lr
+  values: [0.0005, 0.005, 0.05, 0.5]

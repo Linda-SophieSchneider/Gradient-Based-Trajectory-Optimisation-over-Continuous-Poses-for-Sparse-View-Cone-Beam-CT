@@ -1,0 +1,23 @@
+# Batch 5: the noise-free ORNL prose (results Sec. noise-free) cites a
+# Tuy-greedy-initialised coverage+bundle arm — a bundle-dependent cell that
+# must be regenerated under the frozen clip@256 quadrature (REV-P1-01 scope).
+name: ornl_greedy_bundle_rerun
+description: "ORNL 512^3 greedy-init coverage+bundle under frozen quadrature"
+experiment_type: method_grid
+output: experiments/results/ornl_greedy_bundle_rerun.csv
+phantom:
+  type: ornl_nozzle
+  path: data/ornl_nozzle.h5
+  section: L
+  resolution: 512
+geometry: ornl
+sart_iterations: 15
+k_max: 720
+voxel_subsample_r1: 0.001
+seed: 0
+metrics: [psnr, ssim, nrmse, hfen]
+k_values: [40, 80]
+methods:
+  - name: greedy_adam_bundle
+    kwargs: {bundle_n_samples: 256, bundle_clip_to_volume: true}
+  - name: greedy_adam_vcl        # unaffected by quadrature; rerun for matched 3-seed dispersion
