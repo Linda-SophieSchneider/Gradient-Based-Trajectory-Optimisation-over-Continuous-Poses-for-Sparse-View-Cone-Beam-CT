@@ -128,23 +128,7 @@ Any cubic reference volume can be substituted by pointing a config's
 `phantom.path` at it; absolute PSNR/SSIM numbers will then differ from the
 paper, but the methodology is unchanged.
 
-## What was left out of this release
 
-- **`differentiable_coverage/oed.py`** implements a photon-weighted
-  optimal-experimental-design view score. A verification pass found it adds
-  no measurable reconstruction-quality benefit over the bundle absorption
-  penalty as an in-loop objective, so it is **not part of the paper's
-  method**. It is kept in this release only because
-  `experiments/studies/basin_selection.py` imports it behind its
-  non-default `--explore-objective oed` flag; the paper's own results use
-  the default `vcl` path.
-- Exploratory/superseded experiment runs that predate the current Defrise
-  flange phantom (early MILP mild/moderate benchmark cells, retired
-  limited-angle/ROI-occlusion studies, earlier kinematics reruns) are not
-  included, since none of them back a table or figure in the current
-  paper. `experiments/bundle_quadrature/` is the one exception that
-  intentionally keeps its original mild/moderate convergence data, since
-  the paper cites that quadrature study on the phantoms it was frozen on.
 
 ## Citation
 
