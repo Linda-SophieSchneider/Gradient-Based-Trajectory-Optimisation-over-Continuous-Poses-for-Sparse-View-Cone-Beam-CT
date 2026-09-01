@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-"""Cone-beam reconstruction of EZRT (.raw) projections with diffct-mlx on CUDA.
+"""Cone-beam reconstruction of raw scanner (.raw) projections with diffct-mlx on CUDA.
 
 Dataset: TrajektorienOptimierung / Kamera / circular_1200
-    * 1200 projections, 3072 x 3072, 16-bit, EZRT .raw with per-view
+    * 1200 projections, 3072 x 3072, 16-bit, vendor raw format with per-view
       arbitrary-geometry vectors (AGV) stored in the 2048-byte header.
 
 Two dataset-specific corrections were provided by the data owner and are applied
@@ -16,7 +16,7 @@ Pipeline:
       ->  (B) SIRT (iterative, footprint model)   -> saved as .rek
 
 Run with the CUDA test venv, e.g.:
-    /tmp/.../ct_venv/bin/python TestReconstructions/reconstruct_ezrt_cuda.py
+    /tmp/.../ct_venv/bin/python TestReconstructions/reconstruct_measured_cuda.py
 """
 
 from __future__ import annotations
@@ -38,20 +38,20 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 # Location of the extracted projection folder (contains projection_XXXX.raw).
 DATA_DIR = Path(
     os.environ.get(
-        "EZRT_DATA_DIR",
+        "SCAN_DATA_DIR",
         "/ssd_data/diffct_scratch/TrajektorienOptimierung/Kamera/circular_1200",
     )
 )
 
 # Where the reconstructed .rek volumes and preview PNGs are written.
-OUT_DIR = Path(os.environ.get("EZRT_OUT_DIR", str(Path(__file__).resolve().parent / "output")))
+OUT_DIR = Path(os.environ.get("SCAN_OUT_DIR", str(Path(__file__).resolve().parent / "output")))
 
 # Detector down-sampling (mean pooling). 4 -> 768x768 detector, ~0.28 mm voxels,
 # full 213 mm field of view fits a 768^3 volume comfortably on a 96 GB GPU.
-DETECTOR_BIN = int(os.environ.get("EZRT_DETECTOR_BIN", "4"))
+DETECTOR_BIN = int(os.environ.get("SCAN_DETECTOR_BIN", "4"))
 
 # Use every Nth view. 1 = all 1200 views.
-VIEW_STRIDE = int(os.environ.get("EZRT_VIEW_STRIDE", "1"))
+VIEW_STRIDE = int(os.environ.get("SCAN_VIEW_STRIDE", "1"))
 
 # Reconstruction volume (nz, ny, nx) = (z/height, y, x). None -> cube sized to
 # the down-sampled detector width.
@@ -61,7 +61,7 @@ VOLUME_SHAPE = None
 # under-converged at feasible iteration counts (30 iters -> blooming halos,
 # max/p99.9 only 1.7 vs FDK's 6.0 on the prescan) and no longer plays a role
 # in the pipeline (FDK is the reference/prior, SART reconstructs the arms).
-SIRT_ITERS = int(os.environ.get("EZRT_SIRT_ITERS", "0"))
+SIRT_ITERS = int(os.environ.get("SCAN_SIRT_ITERS", "0"))
 
 # Dataset-specific corrections (from the data owner).
 POSITIONS_IN_METRES = True          # scale AGV positions by 1000 -> mm
@@ -77,11 +77,14 @@ TRANSPOSE_UV = True
 # --------------------------------------------------------------------------- #
 # Imports that depend on the environment
 # --------------------------------------------------------------------------- #
-sys.path.insert(0, str(REPO_ROOT))  # for EZRT_Helpers
+# Vendor-specific raw-projection I/O helpers (raw2py, header, py2rek) are not
+# included in this release; provide your own `scanner_io` module exposing
+# equivalent functions/classes for your scanner's raw format.
+sys.path.insert(0, str(REPO_ROOT))  # for the scanner_io helpers
 
-from EZRT_Helpers.raw2py import raw2py            # noqa: E402
-from EZRT_Helpers.ezrt_header import EzrtHeader   # noqa: E402
-from EZRT_Helpers.py2rek import py2rek            # noqa: E402
+from scanner_io.raw2py import raw2py              # noqa: E402
+from scanner_io.header import ScanHeader          # noqa: E402
+from scanner_io.py2rek import py2rek              # noqa: E402
 
 import diffct_mlx as dct                          # noqa: E402
 from diffct_mlx.backend import active as _b       # noqa: E402
@@ -117,8 +120,8 @@ def _load_projection(path, factor):
     return header, binned
 
 
-def load_ezrt_dataset(data_dir: Path, detector_bin: int, view_stride: int):
-    """Load EZRT .raw projections + per-view AGV geometry.
+def load_measured_dataset(data_dir: Path, detector_bin: int, view_stride: int):
+    """Load raw scanner projections + per-view AGV geometry.
 
     Returns
     -------
@@ -236,14 +239,14 @@ def log_normalize(sino_raw: np.ndarray, air_border_px: int = 24) -> np.ndarray:
 
 
 def save_rek(volume_np: np.ndarray, path: Path, voxel_size_um: float):
-    """Save a (nz, ny, nx) float32 volume as an EZRT .rek file."""
+    """Save a (nz, ny, nx) float32 volume as a .rek file."""
     path.parent.mkdir(parents=True, exist_ok=True)
     nz, ny, nx = volume_np.shape
     vol = np.ascontiguousarray(volume_np, dtype=np.float32)
-    header = EzrtHeader(
+    header = ScanHeader(
         image_width=nx,
         image_height=ny,
-        bit_depth=EzrtHeader.convert_to_ezrt_bitdepth(np.float32),
+        bit_depth=ScanHeader.convert_to_bitdepth(np.float32),
         number_of_images=nz,
         number_voxels=(nx, ny, nz),
     )
@@ -290,7 +293,7 @@ def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     # ---- load ------------------------------------------------------------- #
-    sino_raw, geom_raw, meta = load_ezrt_dataset(DATA_DIR, DETECTOR_BIN, VIEW_STRIDE)
+    sino_raw, geom_raw, meta = load_measured_dataset(DATA_DIR, DETECTOR_BIN, VIEW_STRIDE)
     n_views, det_u_count, det_v_count = sino_raw.shape
     du = meta["du"]
     dv = meta["dv"]
@@ -381,7 +384,7 @@ def main():
     # (B) SIRT  --  iterative (separable-footprint forward/adjoint)
     # ===================================================================== #
     if SIRT_ITERS <= 0:
-        print("\n=== (B) SIRT skipped (EZRT_SIRT_ITERS=0) ===")
+        print("\n=== (B) SIRT skipped (SCAN_SIRT_ITERS=0) ===")
         print(f"\nDone. Reconstructions written to {OUT_DIR}")
         return
 

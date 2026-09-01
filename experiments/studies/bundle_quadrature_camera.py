@@ -26,7 +26,7 @@ import numpy as np
 
 HERE = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(HERE / "real_experiment"))
-from EZRT_Helpers.rek2py import rek2py                       # noqa: E402
+from scanner_io.rek2py import rek2py                          # noqa: E402
 
 from differentiable_coverage.absorption_bundle import (      # noqa: E402
     BundleAbsorptionConfig,

@@ -1,4 +1,4 @@
-"""Quantify the radiometric FDK scale of the reconstruct_ezrt_cuda pipeline.
+"""Quantify the radiometric FDK scale of the reconstruct_measured_cuda pipeline.
 
 Forward-project a known-mu cylinder with Siddon (exact line integrals in mm),
 then reconstruct with EXACTLY the script's FDK path (cosine weights, diffct
@@ -85,7 +85,7 @@ def run_case(name, *, n, det_n, num_views, du, voxel, sid, sdd, sart_iters=0):
     vol_d = xp.array(vol)
     sino = xp.stack([fwd_1(vol_d, i) for i in range(num_views)])
 
-    # --- FDK exactly as in reconstruct_ezrt_cuda.py ---
+    # --- FDK exactly as in reconstruct_measured_cuda.py ---
     u = (xp.arange(det_n) - (det_n - 1) / 2.0) * du
     w = sdd / xp.sqrt(sdd**2 + u.reshape(1, det_n, 1) ** 2 + u.reshape(1, 1, det_n) ** 2)
     norm = (math.pi * sid) / (2.0 * sdd * num_views)

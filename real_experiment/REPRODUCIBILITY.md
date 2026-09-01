@@ -61,7 +61,7 @@ small provenance artifacts. In particular,
 `planned_trajectory_prescan_{bundle,all3}*/**/trajectory_headers.txt` provides
 the executed planning geometries without exposing images.
 
-The raw EZRT `.raw` projections, Nextcloud source archives, and `.rek`
+The raw `.raw` projections, Nextcloud source archives, and `.rek`
 reconstruction volumes are excluded because they are large and governed by
 source-data and institutional redistribution conditions. Requests for the raw
 projections, calibration export, and component identifiers should be sent to

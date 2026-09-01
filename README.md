@@ -50,7 +50,6 @@ experiments/
                                 #   tables and figures are read from directly
 real_experiment/                # robot-CT reproduction pipeline (planning, geometry-frame
                                  #   reconstruction, registration, real-data figures/tables)
-docs/                           # notes on the VCL geometry-VJP correction and its reruns
 tests/                          # unit and integration tests for differentiable_coverage/
 ```
 
@@ -73,7 +72,7 @@ CMA-ES ablation column of the finite-difference-vs-bundle comparison):
 pip install -r requirements.txt
 ```
 
-`real_experiment/reconstruct_ezrt_cuda.py` additionally needs the
+`real_experiment/reconstruct_measured_cuda.py` additionally needs the
 `numba-cuda` plugin package and `nvidia-cuda-nvcc` (for `libnvvm.so`).
 
 ## Quick start
@@ -111,10 +110,7 @@ regenerated from them without rerunning the optimiser.
 | Local-basins sensitivity probe (supplementary) | `experiments/studies/basin_selection.py --phantom lof_flange_v3` |
 | Defrise flange / directional absorption figures | `figures/render_defrise_flange.py`, `figures/render_absorption_map.py` |
 | ORNL reconstruction slices | `experiments/render_milp_slices.py` via `experiments/configs/paper1/main/ornl_slices_main.yaml` |
-| Robot-CT camera and Pinterguss results | `real_experiment/README.md` and `real_experiment/REPRODUCIBILITY.md` |
-
-The VCL geometry-VJP correction and its effect on the reported numbers are
-documented in `docs/vcl_geometry_vjp.md` and `docs/vcl_geometry_vjp_reruns.md`.
+| Robot-CT camera results | `real_experiment/README.md` and `real_experiment/REPRODUCIBILITY.md` |
 
 ## Data
 
@@ -126,7 +122,7 @@ under `./data/` (the path each config expects is given in its
 |---|---|
 | **Defrise flange** (`data/lof_flange_v3.npy`, our custom aluminium/steel specimen, `sec:setup_phantoms`) | Available on request from the corresponding author (see below). |
 | **ORNL fuel nozzle** (`data/ornl_nozzle.h5`) | Publicly released by Oak Ridge National Laboratory: Ziabari, Rahman, Venkatakrishnan and Dehoff, *X-ray Computed Tomography Data of Dense Metallic Components*, 2025, [doi:10.13139/ORNLNCCS/2568789](https://doi.org/10.13139/ORNLNCCS/2568789). This is also the object used in the discrete View Covariance Loss Search (VCLS) comparison of Lin, Ziabari, Venkatakrishnan, Rahman, Buzzard and Bouman, *Tomographic Sparse View Selection Using the View Covariance Loss*, IEEE TPAMI, 2025, [doi:10.1109/TPAMI.2025.3600072](https://doi.org/10.1109/TPAMI.2025.3600072) — see `content/related.tex`/`experimental_setup.tex` of the paper for the exact comparison protocol. |
-| **Digital camera and Pinterguss casting** (measured robot-CT projections, `real_experiment/`) | Real hardware scans; not redistributed here. Available on request from the corresponding author, subject to the source data and institutional redistribution conditions. |
+| **Digital camera** (measured robot-CT projections, `real_experiment/`) | Real hardware scans; not redistributed here. Available on request from the corresponding author, subject to the source data and institutional redistribution conditions. |
 
 Any cubic reference volume can be substituted by pointing a config's
 `phantom.path` at it; absolute PSNR/SSIM numbers will then differ from the

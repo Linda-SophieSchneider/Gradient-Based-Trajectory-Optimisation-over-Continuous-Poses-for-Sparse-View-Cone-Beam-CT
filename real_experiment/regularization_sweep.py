@@ -44,14 +44,14 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(HERE.parent / "Differentiable-Coverage"))
 
-import reconstruct_ezrt_cuda as rec                       # noqa: E402
+import reconstruct_measured_cuda as rec                   # noqa: E402
 import diffct_mlx as dct                                  # noqa: E402
 from diffct_mlx.backend import active as _b               # noqa: E402
 from diffct_mlx.reconstruction_algorithms.cases import (  # noqa: E402
     _build_sensitivity_support_mask,
     _build_leap_style_circular_fov_mask,
 )
-from EZRT_Helpers.rek2py import rek2py                    # noqa: E402
+from scanner_io.rek2py import rek2py                      # noqa: E402
 from differentiable_coverage.eval import metrics as M     # noqa: E402
 from sart_circular_baseline import ASD_OUTER, ASD_REG_ITERS, ASD_BETA_RED, SART_RELAX  # noqa: E402
 import uniform_band_baseline as ub                        # noqa: E402
@@ -81,7 +81,7 @@ R_SHARED = rot_x(ROLL) @ rot_z(YAW)
 
 def load_arm(arm, k, ref_shape):
     if arm == "circular":
-        sino_raw, geom_raw, meta = rec.load_ezrt_dataset(
+        sino_raw, geom_raw, meta = rec.load_measured_dataset(
             KAMERA / "circular_1200",
             rec.DETECTOR_BIN, view_stride=1200 // k)
         src, det_c, det_u_v, det_v_v, iso = rec.build_geometry(geom_raw)
@@ -92,7 +92,7 @@ def load_arm(arm, k, ref_shape):
     if arm in ("bundle", "all3"):
         tag = f"{arm}_N0{k:03d}"
         data_dir = KAMERA / f"{arm}_2026_07_17_N0{k:03d}"
-        sino_raw, geom_raw, meta = rec.load_ezrt_dataset(data_dir, rec.DETECTOR_BIN, 1)
+        sino_raw, geom_raw, meta = rec.load_measured_dataset(data_dir, rec.DETECTOR_BIN, 1)
         src, det_c, det_u_v, det_v_v, iso = rec.build_geometry(geom_raw)
         sino = rec.log_normalize(sino_raw)
         T = SCAN_T[tag]

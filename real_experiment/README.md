@@ -3,9 +3,16 @@
 Backs the paper's real-hardware section (`sec:real`). This directory holds
 the planning/reconstruction/registration pipeline and small, non-proprietary
 result artifacts (previews, CSVs, JSON). **All `.rek` reconstruction volumes
-and raw `.raw` EZRT projections are excluded** — those are multi-GB each and
-are available on request from the corresponding author (see the top-level
+and raw `.raw` projections are excluded** — those are multi-GB each and are
+available on request from the corresponding author (see the top-level
 README's "Data" section and `REPRODUCIBILITY.md` below).
+
+The raw-projection I/O (`raw2py`, `py2rek`, the per-view geometry header) is
+vendor-specific to the scanner's native format and is **not included** in
+this release. The pipeline scripts import it as a `scanner_io` package
+(`from scanner_io.rek2py import rek2py`, etc.); provide your own module of
+that name exposing equivalent functions for your scanner's raw format to run
+these scripts end to end.
 
 ## Layout
 
@@ -17,16 +24,14 @@ README's "Data" section and `REPRODUCIBILITY.md` below).
   prescan prior used for planning.
 - `registration/` — the shared geometry-frame pose and registration QA slices.
 - `sweeps/` — per-(arm, k) TV-sweep summaries (`sweep_<arm>_k<budget>_summary.csv`).
-- `pinterguss/` — the 2026-08 follow-up experiment on a second real object
-  (see below).
-- `EZRT_Helpers/` — vendored EZRT header/IO helpers.
 - Driver scripts stay at the top level.
 
 ## Pipeline scripts (run in this rough order)
 
-- `reconstruct_ezrt_cuda.py` — FDK/SIRT reconstruction of a raw EZRT dataset.
-  Data location is read from `EZRT_DATA_DIR` / `EZRT_OUT_DIR` (env vars) so
-  the script never needs editing for a different dataset or output folder.
+- `reconstruct_measured_cuda.py` — FDK/SIRT reconstruction of a raw scanner
+  dataset. Data location is read from `SCAN_DATA_DIR` / `SCAN_OUT_DIR` (env
+  vars) so the script never needs editing for a different dataset or output
+  folder.
 - `plan_trajectory.py` — continuous trajectory planning (coverage / bundle /
   VCL / all-three composite). `PLAN_OBJECTIVE` selects the objective,
   `PLAN_FDK_PATH` / `PLAN_OUT_DIR` / `PLAN_N_RADON` the input volume, output
@@ -84,34 +89,9 @@ back any reported paper value.
 
 ## What's not here
 
-All `.rek` reconstruction volumes and raw `.raw` EZRT projections (reference,
+All `.rek` reconstruction volumes and raw `.raw` projections (reference,
 circular/uniform/bundle/all3 arms at every stage of tuning) are not
 redistributed in this repository; see the top-level README's "Data" section.
 `REPRODUCIBILITY.md` gives the test-bench identity, calibration and
 registration procedure, and the controlled access route for the excluded raw
 projections and calibration files.
-
-## Pinterguss follow-up experiment (2026-08)
-
-`pinterguss/` repeats the camera protocol on a second real object (a THD
-aluminium casting, 1095-view circular reference scan). Protocol deltas vs.
-the camera run — everything else identical (+-30 deg band, z=2000 lattice,
-tau=0.07, seed 0, per-k random init):
-
-- **Prior = stride-9 pseudo-prescan** (every 9th circular projection, 122
-  views, FDK) — there is no physical Pinterguss prescan; this keeps the
-  "planning never sees the reference" separation.
-- **Corrected bundle quadrature**: `plan_trajectory.py` now builds
-  `BundleAbsorptionConfig(..., n_samples=512, clip_to_volume=True)`; the
-  camera-era exports used the legacy full-segment@32 rule (see
-  `experiments/bundle_quadrature/`).
-- The runs also pick up the complete-basis VCL geometry-VJP correction and
-  the Adam evaluated-iterate fix (both post-camera, see `docs/`): the
-  Pinterguss acquisitions are the first measured evidence for the corrected
-  implementation.
-- Exported for measurement: `planned_trajectory_pinterguss_{bundle,all3}_z2000/`
-  (k=50..400 each), packaged as
-  `pinterguss/planned_trajectories_pinterguss_2026_08_19.zip`.
-- The circular scan truncates the mounting base at the low-z field-of-view
-  edge (see `pinterguss/output_pinterguss_circular_fdk/truncation_projections.png`);
-  the casting proper is fully covered and 94% of the ROI weight lands on it.

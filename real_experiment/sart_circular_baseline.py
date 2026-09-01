@@ -8,7 +8,7 @@ tuned ASD-POCS protocol (see the protocol block below), and score against the
 
 The scoring reference is the QUANTITATIVE 1200-view FDK reconstruction
 (diffct-mlx >= 2.1.0 physical path, mu in 1/mm; built by
-reconstruct_ezrt_cuda.py into output_circular1200_fdk_quant/) -- the user's
+reconstruct_measured_cuda.py into output_circular1200_fdk_quant/) -- the user's
 explicit decision (2026-07-15): the SART-1200 volume carries too much
 iteration noise / too many artefacts to serve as ground-truth proxy.
 Because the SART arms converge to attenuation-per-voxel units (mu *
@@ -26,7 +26,7 @@ geometry-dependent factor, see fdk_scale_check.py).
 
 Everything heavy is reused:
   - loading / geometry / -log normalisation / .rek export:
-      ``reconstruct_ezrt_cuda`` (unchanged, same 4x detector binning -> 768^3)
+      ``reconstruct_measured_cuda`` (unchanged, same 4x detector binning -> 768^3)
   - SART parameters: mirror ``differentiable_coverage.eval.reco``
     (the paper's reconstruction pipeline), executed through the same
     ``diffct_mlx`` operators as the reference reconstruction
@@ -36,7 +36,7 @@ Both the SART volumes and the FDK reference are round-tripped through the
 same .rek writer/reader so the voxel-order convention is identical on both
 sides of every metric.
 
-Env overrides: EZRT_DATA_DIR (default circular_1200), BASELINE_REFERENCE_REK,
+Env overrides: SCAN_DATA_DIR (default circular_1200), BASELINE_REFERENCE_REK,
 BASELINE_OUT_DIR.
 """
 from __future__ import annotations
@@ -53,18 +53,18 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(HERE.parent / "Differentiable-Coverage"))
 
-import reconstruct_ezrt_cuda as rec                        # noqa: E402
+import reconstruct_measured_cuda as rec                    # noqa: E402
 import diffct_mlx as dct                                   # noqa: E402
 from diffct_mlx.backend import active as _b                # noqa: E402
-from EZRT_Helpers.rek2py import rek2py                     # noqa: E402
+from scanner_io.rek2py import rek2py                       # noqa: E402
 from differentiable_coverage.eval import metrics as M      # noqa: E402
 
 xp = _b.xp
 
 OUT_ROOT = Path(os.environ.get("BASELINE_OUT_DIR", str(HERE / "reference_reconstructions" / "baseline_circular_sart")))
 # Default reference: quantitative 1200-view FDK (user's decision, see
-# docstring). Build it with reconstruct_ezrt_cuda.py if missing:
-#   EZRT_DATA_DIR=.../circular_1200 EZRT_OUT_DIR=.../output_circular1200_fdk_quant
+# docstring). Build it with reconstruct_measured_cuda.py if missing:
+#   SCAN_DATA_DIR=.../circular_1200 SCAN_OUT_DIR=.../output_circular1200_fdk_quant
 REFERENCE_REK = Path(os.environ.get(
     "BASELINE_REFERENCE_REK",
     str(HERE / "reference_reconstructions" / "output_circular1200_fdk_quant" / "reconstruction_FDK.rek"),
@@ -102,7 +102,7 @@ def sart_reconstruct(n_views_target: int) -> tuple[Path, int]:
         print(f"[k={n_views_target}] reusing existing {rek_path}")
         return rek_path, n_views_target
 
-    sino_raw, geom_raw, meta = rec.load_ezrt_dataset(
+    sino_raw, geom_raw, meta = rec.load_measured_dataset(
         rec.DATA_DIR, rec.DETECTOR_BIN, view_stride=1200 // n_views_target
     )
     n_views, det_u_count, det_v_count = sino_raw.shape

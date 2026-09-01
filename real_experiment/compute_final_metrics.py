@@ -2,7 +2,7 @@ import sys
 sys.path.insert(0, ".")
 sys.path.insert(0, "../Differentiable-Coverage")
 import numpy as np
-from EZRT_Helpers.rek2py import rek2py
+from scanner_io.rek2py import rek2py
 from differentiable_coverage.eval import metrics as M
 
 _, ref = rek2py("reference_reconstructions/output_circular1200_fdk_quant/reconstruction_FDK.rek", switch_order=True)

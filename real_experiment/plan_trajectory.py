@@ -6,7 +6,7 @@ operator's envelope limit).
 
 Object model: the FDK reconstruction at ``FDK_PATH``.  Scan geometry
 (FOD/FDD/isocentre): re-derived from a handful of real views of circular_1200 by
-reusing ``reconstruct_ezrt_cuda.load_ezrt_dataset``/``build_geometry`` unchanged.
+reusing ``reconstruct_measured_cuda.load_measured_dataset``/``build_geometry`` unchanged.
 
 For each target view count k in {50,100,200,300,400}: k (theta, phi) source
 positions are drawn at random from the band, then ALL k positions
@@ -47,8 +47,8 @@ entirely through the forward-projection step, not the backprojection step --
 a real (verified non-zero, monotone in k) but structurally partial gradient,
 not the fully analytic one Apple-Metal hardware would give.
 
-Per-view source/detector geometry is built via ``EzrtHeader`` (so units/sign
-conventions match ``reconstruct_ezrt_cuda.build_geometry`` exactly -- metres,
+Per-view source/detector geometry is built via ``ScanHeader`` (so units/sign
+conventions match ``reconstruct_measured_cuda.build_geometry`` exactly -- metres,
 negated orientation vectors) and written as one consolidated
 ``trajectory_headers.txt`` per view count, with every view's fields listed
 one after another, rather than one binary .raw file per view.
@@ -75,11 +75,11 @@ import mlx.core as mx
 mx.set_default_device(mx.cpu)
 
 HERE = Path(__file__).resolve().parent
-sys.path.insert(0, str(HERE))  # for reconstruct_ezrt_cuda.py and EZRT_Helpers
+sys.path.insert(0, str(HERE))  # for reconstruct_measured_cuda.py and scanner_io
 
-import reconstruct_ezrt_cuda as rec                              # noqa: E402
-from EZRT_Helpers.rek2py import rek2py                            # noqa: E402
-from EZRT_Helpers.ezrt_header import EzrtHeader                   # noqa: E402
+import reconstruct_measured_cuda as rec                           # noqa: E402
+from scanner_io.rek2py import rek2py                               # noqa: E402
+from scanner_io.header import ScanHeader                           # noqa: E402
 from differentiable_coverage import (                             # noqa: E402
     TwoAxisGantry, ScoreConfig, sample_unit_sphere, saturated_coverage, adam_ascent,
 )
@@ -94,10 +94,10 @@ from differentiable_coverage.vcl_diff import (                    # noqa: E402
 # --------------------------------------------------------------------------- #
 # Configuration
 # --------------------------------------------------------------------------- #
-# PLAN_FDK_PATH / PLAN_OUT_DIR / EZRT_DATA_DIR (the last one read by
-# reconstruct_ezrt_cuda itself) let this script be re-pointed at a different
-# scan/reconstruction without editing the file -- same convention reconstruct_ezrt_cuda.py
-# already uses for its own EZRT_DATA_DIR/EZRT_OUT_DIR.
+# PLAN_FDK_PATH / PLAN_OUT_DIR / SCAN_DATA_DIR (the last one read by
+# reconstruct_measured_cuda itself) let this script be re-pointed at a different
+# scan/reconstruction without editing the file -- same convention reconstruct_measured_cuda.py
+# already uses for its own SCAN_DATA_DIR/SCAN_OUT_DIR.
 FDK_PATH = Path(os.environ.get(
     "PLAN_FDK_PATH",
     "/home/schneider/DiffCT_CUDA_Development/TestReconstructions/output/reconstruction_FDK.rek",
@@ -138,11 +138,11 @@ LAMBDA_INFO = 1.0              # I_vcl is already bounded in [0,1] like C_geo --
 
 
 # --------------------------------------------------------------------------- #
-# Real scan geometry (reuses reconstruct_ezrt_cuda.py verbatim)
+# Real scan geometry (reuses reconstruct_measured_cuda.py verbatim)
 # --------------------------------------------------------------------------- #
 def real_scan_geometry():
     """FOD / FDD from a sparse sample of real circular_1200 views."""
-    _, geom_raw, _ = rec.load_ezrt_dataset(rec.DATA_DIR, detector_bin=32, view_stride=100)
+    _, geom_raw, _ = rec.load_measured_dataset(rec.DATA_DIR, detector_bin=32, view_stride=100)
     src, det_c, _, _, iso = rec.build_geometry(geom_raw)
     fod = float(np.mean(np.linalg.norm(src, axis=1)))
     fdd = float(np.mean(np.linalg.norm(det_c - src, axis=1)))
@@ -229,9 +229,9 @@ def plot_overview(results, out_path: Path):
 
 
 # --------------------------------------------------------------------------- #
-# EZRT export
+# Trajectory header export
 # --------------------------------------------------------------------------- #
-def export_ezrt(n_views, theta, phi, sources, det_center, det_u, det_v):
+def export_trajectory_headers(n_views, theta, phi, sources, det_center, det_u, det_v):
     view_dir = OUT_DIR / f"N{n_views:04d}"
     view_dir.mkdir(parents=True, exist_ok=True)
 
@@ -247,8 +247,8 @@ def export_ezrt(n_views, theta, phi, sources, det_center, det_u, det_v):
     rows = []
     blocks = []
     for i in range(n_views):
-        h = EzrtHeader()  # image_width=image_height=0, number_of_images=1 -> pure geometry header
-        # Dataset-specific AGV convention (see reconstruct_ezrt_cuda.build_geometry):
+        h = ScanHeader()  # image_width=image_height=0, number_of_images=1 -> pure geometry header
+        # Dataset-specific AGV convention (see reconstruct_measured_cuda.build_geometry):
         # positions stored in METRES, orientation vectors stored NEGATED.
         h.agv_source_position = tuple((src_np[i] / 1000.0).tolist())
         h.agv_detector_center_position = tuple((det_c_np[i] / 1000.0).tolist())
@@ -304,7 +304,7 @@ def main():
     # (31% value / 88 deg gradient error on the camera prior, lambda_bundle
     # ~1.7x too weak); clip@512 is the recommendation of that study for
     # future planning (clip@256 marginally missed the 5 deg gradient
-    # tolerance on real-recon data). First used for the Pinterguss plans.
+    # tolerance on real-recon data).
     bundle_cfg = BundleAbsorptionConfig(
         voxel_spacing=voxel_mm, n_samples=512, clip_to_volume=True
     )
@@ -349,7 +349,7 @@ def main():
         return gantry(mx.stack([theta, phi], axis=-1))
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    print(f"\n=== per-k random init + continuous optimisation, EZRT export {VIEW_COUNTS} ===")
+    print(f"\n=== per-k random init + continuous optimisation, trajectory-header export {VIEW_COUNTS} ===")
     results = []
     for n_views in VIEW_COUNTS:
         theta0 = mx.random.uniform(shape=(n_views,)) * (2.0 * math.pi)
@@ -391,7 +391,7 @@ def main():
 
         print(f"  N={n_views:4d}: objective random-init={init_cov:.4f}  ->  optimised={final_cov:.4f}"
               f"   ({vcl_note}mean tau_bar={tau_bar_final:.4f} [{bundle_tag}])")
-        export_ezrt(n_views, theta, phi, sources, det_center, det_u, det_v)
+        export_trajectory_headers(n_views, theta, phi, sources, det_center, det_u, det_v)
         results.append((n_views, theta, phi))
 
     plot_overview(results, OUT_DIR / "trajectory_overview.png")

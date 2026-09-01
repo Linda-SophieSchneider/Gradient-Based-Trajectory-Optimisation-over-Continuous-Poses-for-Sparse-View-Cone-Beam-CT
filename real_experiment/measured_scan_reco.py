@@ -1,7 +1,7 @@
 """Validate + reconstruct a measured planned-trajectory scan.
 
 Pipeline for each newly acquired scan of a planned trajectory:
-  1. load the EZRT dataset (4x binning) with its per-view AGV geometry
+  1. load the raw scanner dataset (4x binning) with its per-view AGV geometry
   2. match the measured source positions against a planned trajectory CSV
      (nearest-neighbour after mean-removal -> executed-series check)
   3. projection-consistency check against the prescan FDK prior
@@ -12,7 +12,7 @@ Pipeline for each newly acquired scan of a planned trajectory:
      sart_circular_baseline.py (incl. per-trajectory FOV support mask)
 
 Env:
-  EZRT_DATA_DIR       measured scan directory (required)
+  SCAN_DATA_DIR       measured scan directory (required)
   MEAS_OUT_DIR        output directory (default measured_<basename of data dir>)
   MEAS_PLANNED_CSV    planned trajectory_coords.csv to compare against (optional)
   MEAS_SKIP_CHECKS=1  reconstruct only
@@ -30,14 +30,14 @@ import numpy as np
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 
-import reconstruct_ezrt_cuda as rec                       # noqa: E402
+import reconstruct_measured_cuda as rec                   # noqa: E402
 import diffct_mlx as dct                                  # noqa: E402
 from diffct_mlx.backend import active as _b               # noqa: E402
 from diffct_mlx.reconstruction_algorithms.cases import (  # noqa: E402
     _build_sensitivity_support_mask,
     _build_leap_style_circular_fov_mask,
 )
-from EZRT_Helpers.rek2py import rek2py                    # noqa: E402
+from scanner_io.rek2py import rek2py                      # noqa: E402
 from sart_circular_baseline import (                      # noqa: E402
     ASD_OUTER, ASD_REG_ITERS, ASD_ALPHA, ASD_BETA_RED, SART_RELAX,
 )
@@ -51,7 +51,7 @@ PRESCAN_FDK = HERE / "reference_reconstructions" / "output_prescan" / "reconstru
 
 
 def main() -> None:
-    sino_raw, geom_raw, meta = rec.load_ezrt_dataset(rec.DATA_DIR, rec.DETECTOR_BIN, 1)
+    sino_raw, geom_raw, meta = rec.load_measured_dataset(rec.DATA_DIR, rec.DETECTOR_BIN, 1)
     n_views, det_u, det_v = sino_raw.shape
     du, dv = meta["du"], meta["dv"]
     src, det_c, det_u_v, det_v_v, iso = rec.build_geometry(geom_raw)

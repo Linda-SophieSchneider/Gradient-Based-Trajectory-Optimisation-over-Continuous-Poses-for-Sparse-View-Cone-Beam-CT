@@ -28,7 +28,7 @@ import matplotlib.pyplot as plt
 from skimage.metrics import structural_similarity as _ssim, peak_signal_noise_ratio as _psnr
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from EZRT_Helpers.rek2py import rek2py  # noqa: E402
+from scanner_io.rek2py import rek2py  # noqa: E402
 
 HERE = Path(__file__).resolve().parent
 PAPER_FIG = HERE.parent / "Differentiable-Coverage" / "paper" / "figures"
